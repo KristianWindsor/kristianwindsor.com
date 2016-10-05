@@ -1,0 +1,40 @@
+body {
+  font-size: 20px;
+}
+#hi {
+  text-align: center;
+  font-size: 40px;
+  padding: 20% 0 20% 0;
+}
+.section {
+  padding: 10% 0 10% 0;
+}
+.section:nth-child(even) {
+  background-color: gray;
+}
+.left {
+  display: inline-block;
+  width: 39%;
+  padding-left: 10%;
+}
+.right {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  color: blue;
+}
+#bye {
+}
+.footer {
+  display: inline-block;
+  width: 49%;
+}
+.footer-title {
+  text-align: center;
+}
+.links {
+  text-align: center;
+}
+.links a {
+  color: blue;
+}
