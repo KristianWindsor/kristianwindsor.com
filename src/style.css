@@ -17,10 +17,13 @@ body {
   background-color: #F5F5F5;
 }
 .section-title {
+  font-size: 44px;
+  font-weight: 800;
+  color: #5a5959;
 }
 .section-content {
 }
-.section-content img {
+.section-content img, .section-content iframe {
   width: 22vw;
   padding: 0 5.3vw 0 5.3vw;
 }
