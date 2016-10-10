@@ -11,20 +11,18 @@ body {
 }
 .section {
   padding: 5% 0 5% 0;
+  text-align: center;
 }
 .section:nth-child(even) {
   background-color: #F5F5F5;
 }
-.left {
-  display: inline-block;
-  width: 39%;
-  padding-left: 10%;
+.section-title {
 }
-.right {
-  display: inline-block;
-  width: 49%;
-  text-align: center;
-  color: #00aeef;
+.section-content {
+}
+.section-content img {
+  width: 22vw;
+  padding: 0 5.3vw 0 5.3vw;
 }
 #bye {
   padding: 16.5vh 0 16.5vh 0;
