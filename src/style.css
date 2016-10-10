@@ -1,16 +1,18 @@
 body {
   font-size: 20px;
+  font-family: Lato,Helvetica,Arial,sans-serif;
+  color: #5a5959;
 }
 #hi {
   text-align: center;
   font-size: 40px;
-  padding: 20% 0 20% 0;
+  padding: 33vh 0 33vh 0;
 }
 .section {
-  padding: 10% 0 10% 0;
+  padding: 16.5vh 0 16.5vh 0;
 }
 .section:nth-child(even) {
-  background-color: gray;
+  background-color: #F5F5F5;
 }
 .left {
   display: inline-block;
@@ -21,9 +23,10 @@ body {
   display: inline-block;
   width: 49%;
   text-align: center;
-  color: blue;
+  color: #00aeef;
 }
 #bye {
+  padding: 33vh 0 33vh 0;
 }
 .footer {
   display: inline-block;
@@ -36,5 +39,7 @@ body {
   text-align: center;
 }
 .links a {
-  color: blue;
+  padding: 0 10px 0 10px;
+  color: #00aeef;
+  text-decoration: none;
 }
