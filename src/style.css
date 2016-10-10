@@ -2,6 +2,7 @@ body {
   font-size: 20px;
   font-family: Lato,Helvetica,Arial,sans-serif;
   color: #5a5959;
+  margin: 0;
 }
 #hi {
   text-align: center;
@@ -9,7 +10,7 @@ body {
   padding: 33vh 0 33vh 0;
 }
 .section {
-  padding: 16.5vh 0 16.5vh 0;
+  padding: 5% 0 5% 0;
 }
 .section:nth-child(even) {
   background-color: #F5F5F5;
@@ -26,7 +27,9 @@ body {
   color: #00aeef;
 }
 #bye {
-  padding: 33vh 0 33vh 0;
+  padding: 16.5vh 0 16.5vh 0;
+  background-color: #333333;
+  font-size: 16px;
 }
 .footer {
   display: inline-block;
@@ -34,12 +37,17 @@ body {
 }
 .footer-title {
   text-align: center;
+  color: #858585;
 }
 .links {
   text-align: center;
 }
 .links a {
   padding: 0 10px 0 10px;
-  color: #00aeef;
+  color: #cccccc;
   text-decoration: none;
+}
+.links a:hover {
+  color: #ffffff;
+  border-bottom: 1px solid;
 }
