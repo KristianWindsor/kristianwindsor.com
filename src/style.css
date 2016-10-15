@@ -1,6 +1,6 @@
 body {
   font-size: 20px;
-  font-family: Lato,Helvetica,Arial,sans-serif;
+  font-family: Helvetica,Arial,sans-serif;
   color: #5a5959;
   margin: 0;
 }
@@ -18,7 +18,6 @@ body {
 }
 .section-title {
   font-size: 44px;
-  font-weight: 800;
   color: #5a5959;
 }
 .section-content {
@@ -26,6 +25,26 @@ body {
 .section-content img, .section-content iframe {
   width: 28vw;
   padding: 0 2.3vw 0 2.3vw;
+}
+#contact {
+  width: 50vw;
+  margin: 0 auto;
+  text-align: left;
+}
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0 35px;
+  font-size: 18px;
+  outline: 0;
+  border: 1px #fff solid;
+  background-color: #fff;
+}
+#contact input:hover, #contact textarea:hover {
+  border: 1px #B3B3B3 solid;
+}
+#contact input:focus, #contact textarea:focus {
+  border: 1px #5a5959 solid;
 }
 #bye {
   padding: 16.5vh 0 16.5vh 0;
