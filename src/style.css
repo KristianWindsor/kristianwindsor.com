@@ -4,6 +4,9 @@ body {
   color: #5a5959;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 #hi {
   text-align: center;
   font-size: 40px;
@@ -17,8 +20,14 @@ body {
   background-color: #F5F5F5;
 }
 .section-title {
+  margin-bottom: 20px;
+}
+.section-title a {
   font-size: 44px;
   color: #5a5959;
+}
+.section-title a:hover {
+  color: #00AFF0;
 }
 .section-content {
 }
@@ -65,7 +74,6 @@ body {
 .links a {
   padding: 0 10px 0 10px;
   color: #cccccc;
-  text-decoration: none;
 }
 .links a:hover {
   color: #ffffff;
