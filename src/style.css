@@ -35,6 +35,9 @@ a {
   width: 28vw;
   padding: 0 2.3vw 0 2.3vw;
 }
+#photo-of-me {
+  width: 56vw;
+}
 #contact {
   width: 50vw;
   margin: 0 auto;
