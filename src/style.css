@@ -60,13 +60,13 @@ a {
   border: 1px #5a5959 solid;
 }
 #bye {
-  padding: 16.5vh 0 16.5vh 0;
+  padding: 16.5vh 9vw;
   background-color: #333333;
   font-size: 16px;
 }
 .footer {
   display: inline-block;
-  width: 49%;
+  width: 32.5%;
 }
 .footer-title {
   text-align: center;
@@ -94,6 +94,10 @@ a {
 @media (max-width: 740px) {
   .item {
     width: 89vw;
+  }
+  .footer {
+    width: 100%;
+    padding: 2vh 0;
   }
 }
 @media (max-width: 415px) {
