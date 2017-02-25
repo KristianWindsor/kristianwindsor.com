@@ -82,3 +82,22 @@ a {
   color: #ffffff;
   border-bottom: 1px solid;
 }
+@media (max-width: 1050px) {
+  .item {
+    width: 42vw;
+  }
+  #photo-of-me {
+    width: 91vw;
+  }
+}
+@media (max-width: 740px) {
+  .item {
+    width: 91vw;
+  }
+}
+@media (max-width: 415px) {
+  .item, #photo-of-me {
+    width: 100%;
+    padding: 0;
+  }
+}
