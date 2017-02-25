@@ -31,7 +31,7 @@ a {
 }
 .section-content {
 }
-.section-content img, .section-content iframe {
+.item {
   width: 28vw;
   padding: 0 2.3vw 0 2.3vw;
 }
