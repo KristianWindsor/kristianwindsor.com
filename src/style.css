@@ -10,17 +10,17 @@ a {
 #hi {
   text-align: center;
   font-size: 40px;
-  padding: 33vh 0 33vh 0;
+  padding: 34vh 0;
 }
 .section {
-  padding: 5% 0 5% 0;
+  padding: 2vw;
   text-align: center;
 }
 .section:nth-child(even) {
   background-color: #F5F5F5;
 }
 .section-title {
-  margin-bottom: 20px;
+  padding: 0 2vw;
 }
 .section-title a {
   font-size: 44px;
@@ -32,11 +32,12 @@ a {
 .section-content {
 }
 .item {
-  width: 28vw;
-  padding: 0 2.3vw 0 2.3vw;
+  width: 27vw;
+  padding: 2vw;
 }
 #photo-of-me {
   width: 56vw;
+  padding: 2vw;
 }
 #contact {
   width: 50vw;
@@ -87,17 +88,27 @@ a {
     width: 42vw;
   }
   #photo-of-me {
-    width: 91vw;
+    width: 89vw;
   }
 }
 @media (max-width: 740px) {
   .item {
-    width: 91vw;
+    width: 89vw;
   }
 }
 @media (max-width: 415px) {
-  .item, #photo-of-me {
+  .section {
+    padding: 0;
+  }
+  .section-title {
+    padding: 4vh;
+  }
+  .item {
     width: 100%;
     padding: 0;
+  }
+  #photo-of-me {
+    width: 100%;
+    padding: 2vh 0;
   }
 }
