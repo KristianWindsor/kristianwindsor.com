@@ -60,7 +60,7 @@ a {
   border: 1px #5a5959 solid;
 }
 #bye {
-  padding: 16.5vh 9vw;
+  padding: 14vh 9vw;
   background-color: #333333;
   font-size: 16px;
 }
@@ -98,6 +98,16 @@ a {
   .footer {
     width: 100%;
     padding: 2vh 0;
+  }
+  .section-title a {
+    font-size: 36px;
+  }
+  #hi {
+    font-size: 36px;
+    padding: 28vh 4vh;
+  }
+  #bye {
+    padding: 14vh 0;
   }
 }
 @media (max-width: 415px) {
