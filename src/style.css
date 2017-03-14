@@ -118,7 +118,10 @@ a {
     padding: 0;
   }
   .section-title {
-    padding: 4vh;
+    padding: 5vh;
+  }
+  .section-content {
+    padding-bottom: 15px;
   }
   .item {
     width: 100%;
