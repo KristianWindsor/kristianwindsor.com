@@ -111,6 +111,9 @@ a {
   }
 }
 @media (max-width: 415px) {
+  #hi {
+    padding-top: 18vh;
+  }
   .section {
     padding: 0;
   }
