@@ -26,7 +26,7 @@ a {
   font-size: 44px;
   color: #5a5959;
 }
-.section-title a:hover {
+.section-title a:not(.no-link):hover {
   color: #00AFF0;
 }
 .section-content {
