@@ -7,6 +7,10 @@ body {
 a {
   text-decoration: none;
 }
+img {
+  width: 100%;
+  display: block;
+}
 #hi {
   text-align: center;
   font-size: 40px;
@@ -31,11 +35,36 @@ a {
 }
 .section-content {
 }
-.item {
+.project {
+  display: inline-block;
   width: 27vw;
-  padding: 2vw;
+  margin: 2vw;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.project .text {
+  padding: 20px 24px;
+}
+.project .title {
+  color: #5a5959;
+  font-weight: 600;
+  font-size: 26px;
+  width: 100%;
+  margin: 10px 0;
+}
+.project .description {
+  font-size: 16px;
+}
+.project .description a {
+  color: #00AFF0;
+}
+.project iframe {
+  display: block;
+  width: 100%;
 }
 #photo-of-me {
+  display: inline;
   width: 56vw;
   padding: 2vw;
 }
@@ -84,7 +113,7 @@ a {
   border-bottom: 1px solid;
 }
 @media (max-width: 1050px) {
-  .item {
+  .project {
     width: 42vw;
   }
   #photo-of-me {
@@ -92,7 +121,7 @@ a {
   }
 }
 @media (max-width: 740px) {
-  .item {
+  .project {
     width: 89vw;
   }
   .footer {
@@ -123,9 +152,10 @@ a {
   .section-content {
     padding-bottom: 15px;
   }
-  .item {
+  .project {
     width: 100%;
     padding: 0;
+    margin: 2vw 0;
   }
   #photo-of-me {
     width: 100%;
