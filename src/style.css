@@ -17,7 +17,7 @@ img {
   padding: 34vh 0;
 }
 .section {
-  padding: 2vw;
+  padding: 3vw 2vw;
   text-align: center;
 }
 .section:nth-child(even) {
@@ -25,6 +25,7 @@ img {
 }
 .section-title {
   padding: 0 2vw;
+  margin-bottom: 1vw;
 }
 .section-title a {
   font-size: 44px;
@@ -37,6 +38,7 @@ img {
 }
 .project {
   display: inline-block;
+  vertical-align:top;
   width: 27vw;
   margin: 2vw;
   text-align: left;
@@ -48,7 +50,6 @@ img {
 }
 .project .title {
   color: #5a5959;
-  font-weight: 600;
   font-size: 26px;
   width: 100%;
   margin: 10px 0;
@@ -126,6 +127,9 @@ img {
     width: 100%;
     padding: 2vh 0;
   }
+  .section-title {
+    padding: 5vh 3vw;
+  }
   .section-title a {
     font-size: 36px;
   }
@@ -145,7 +149,7 @@ img {
     padding: 0;
   }
   .section-title {
-    padding: 5vh;
+    padding: 8vh 3vw;
   }
   .section-content {
     padding-bottom: 15px;
