@@ -54,10 +54,21 @@ img {
   width: 100%;
   margin: 10px 0;
 }
+.project .url {
+  font-size: 16px;
+  font-style: italic;
+  width: 100%;
+  margin: 0;
+  color: #999;
+}
 .project .description {
   font-size: 16px;
+  margin-top: 5px;
 }
 .project .description a {
+  color: #5a5959;
+}
+.project a:hover {
   color: #00AFF0;
 }
 .project iframe {
