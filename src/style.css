@@ -11,11 +11,13 @@ img {
   width: 100%;
   display: block;
 }
+
 #hi {
   text-align: center;
   font-size: 40px;
   padding: 34vh 0;
 }
+
 .section {
   padding: 3vw 2vw;
   text-align: center;
@@ -34,8 +36,7 @@ img {
 .section-title a:not(.no-link):hover {
   color: #00AFF0;
 }
-.section-content {
-}
+
 .project {
   display: inline-block;
   vertical-align:top;
@@ -75,29 +76,46 @@ img {
   display: block;
   width: 100%;
 }
+
 #photo-of-me {
   width: 56vw;
 }
+
 #contact {
   width: 50vw;
   margin: 0 auto;
   text-align: left;
 }
-#contact input, #contact textarea {
+.wrapper {
+  margin: 0 24px;
+}
+.input {
   width: 100%;
   padding: 20px;
   margin: 10px 0 35px;
   font-size: 18px;
   outline: 0;
-  border: 1px #fff solid;
-  background-color: #fff;
-}
-#contact input:hover, #contact textarea:hover {
   border: 1px #B3B3B3 solid;
+  background-color: #fff;
+  box-sizing: border-box;
 }
-#contact input:focus, #contact textarea:focus {
+.input:hover, .input:focus {
   border: 1px #5a5959 solid;
 }
+#send {
+  margin-top: 0;
+}
+.half {
+  width: 50%;
+  float: left;
+}
+.left {
+  margin-right: 17.5px;
+}
+.right {
+  margin-left: 17.5px;
+}
+
 #bye {
   padding: 14vh 9vw;
   background-color: #333333;
@@ -122,11 +140,12 @@ img {
   color: #ffffff;
   border-bottom: 1px solid;
 }
+
 @media (max-width: 1050px) {
   .project {
     width: 42vw;
   }
-  #photo-of-me {
+  #photo-of-me, #contact {
     width: 89vw;
   }
 }
@@ -170,8 +189,14 @@ img {
     padding: 0;
     margin: 2vw 0;
   }
-  #photo-of-me {
+  #photo-of-me, #contact {
     width: 100%;
     padding: 2vh 0;
+  }
+  .half {
+    width: 100%;
+  }
+  .left, .right {
+    margin: 0;
   }
 }
