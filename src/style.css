@@ -82,17 +82,34 @@ img {
 }
 
 #contact {
-  width: 50vw;
-  margin: 0 auto;
+  margin: 2vw;
+}
+.contact {
+  display: inline-block;
+  vertical-align: top;
+  width: 28vw;
+}
+.contact:nth-child(1) {
   text-align: left;
 }
-.wrapper {
-  margin: 0 24px;
+.contact-link {
+  display: block;
+  color: #5a5959;
+  cursor: pointer;
+}
+.gap {
+  margin-bottom: 35px;
+}
+.contact-link:hover {
+  color: #00AFF0;
+}
+.contact-info {
+  margin: 0 0 3px;
 }
 .input {
   width: 100%;
-  padding: 20px;
-  margin: 10px 0 35px;
+  padding: 10px;
+  margin: 5px 0 10px;
   font-size: 18px;
   outline: 0;
   border: 1px #B3B3B3 solid;
@@ -102,18 +119,20 @@ img {
 .input:hover, .input:focus {
   border: 1px #5a5959 solid;
 }
+*::-webkit-input-placeholder {
+    color: #bbb;
+}
+*:-moz-placeholder {
+    color: #bbb;
+}
+*::-moz-placeholder {
+    color: #bbb;
+}
+*:-ms-input-placeholder {
+    color: #bbb;
+}
 #send {
   margin-top: 0;
-}
-.half {
-  width: 50%;
-  float: left;
-}
-.left {
-  margin-right: 17.5px;
-}
-.right {
-  margin-left: 17.5px;
 }
 
 #bye {
@@ -145,11 +164,17 @@ img {
   .project {
     width: 42vw;
   }
-  #photo-of-me, #contact {
+  #photo-of-me {
     width: 89vw;
   }
+  .contact:nth-child(1) {
+    width: 59.333vw;
+  }
+  .contact:nth-child(2) {
+    width: 29.666vw;
+  }
 }
-@media (max-width: 740px) {
+@media (max-width: 750px) {
   .project {
     width: 89vw;
   }
@@ -162,6 +187,17 @@ img {
   }
   .section-title a {
     font-size: 36px;
+  }
+  #contact {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contact:nth-child(1) {
+    width: 89vw;
+  }
+  .contact:nth-child(2) {
+    width: 89vw;
+    margin-bottom: 3vw;
   }
   #hi {
     font-size: 36px;
@@ -189,7 +225,7 @@ img {
     padding: 0;
     margin: 2vw 0;
   }
-  #photo-of-me, #contact {
+  #photo-of-me {
     width: 100%;
     padding: 2vh 0;
   }
