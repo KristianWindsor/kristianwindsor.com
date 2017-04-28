@@ -168,20 +168,20 @@ img {
   padding: 14vh 9vw;
   background-color: #333333;
   font-size: 16px;
+  text-align: center;
+}
+#bye .icon {
+  font-size: 48px;
 }
 .footer {
   display: inline-block;
-  width: 32.5%;
-}
-.footer-title {
-  text-align: center;
-  color: #858585;
+  padding: 3%;
 }
 .links {
   text-align: center;
 }
 .links a {
-  padding: 0 10px 0 10px;
+  padding: 0 5px;
   color: #cccccc;
 }
 .links a:hover {
@@ -208,7 +208,7 @@ img {
   }
   .footer {
     width: 100%;
-    padding: 2vh 0;
+    padding: 4vh 0;
   }
   .section-title {
     padding: 5vh 3vw;
