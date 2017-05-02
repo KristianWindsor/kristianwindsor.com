@@ -25,11 +25,11 @@ img {
 #hi {
   text-align: center;
   font-size: 40px;
-  padding: 34vh 0;
+  padding: 20vh 0;
 }
 
 .section {
-  padding: 3vw 2vw;
+  padding: 3vw 10vw;
   text-align: center;
 }
 .section:nth-child(even) {
@@ -39,12 +39,9 @@ img {
   padding: 0 2vw;
   margin-bottom: 1vw;
 }
-.section-title a {
+.section-title p {
   font-size: 44px;
   color: #5a5959;
-}
-.section-title a:not(.no-link):hover {
-  color: #00AFF0;
 }
 
 .project {
@@ -88,7 +85,24 @@ img {
 }
 
 #photo-of-me {
-  width: 56vw;
+  width: 20%;
+}
+#about {
+  width: 60%;
+  padding: 2%;
+}
+#about .text {
+  margin: 0;
+  padding: 10px;
+}
+#about a {
+  color: #5a5959;
+  border-bottom: 1px solid #5a5959;
+  cursor: pointer;
+}
+#about a:hover {
+  border-bottom: 0;
+  color: #00AFF0;
 }
 
 #contact {

@@ -11,3 +11,16 @@ $("#send").click(function(){
 	    }
 	});
 });
+$("#portfolio-shortcut").click(function(){
+	$('html, body').animate({
+		scrollTop: $("#portfolio-section").offset().top
+	}, 800);
+});
+$("#contact-shortcut").click(function(){
+	$('html, body').animate({
+		scrollTop: $("#contact-section").offset().top
+	}, 1000,
+	function() {
+		$("#name").focus();
+	});
+});
