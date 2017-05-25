@@ -119,13 +119,21 @@
 			</div>
 			<div class="section-content" id="contact">
 				<form class="contact">
-						Name<br>
-						<input type="input" id="name" class="input" placeholder="Bruce Wayne" />
-						Email<br>
-						<input type="input" id="email" class="input" placeholder="batman321@hotmail.com" />
-						Message<br>
-						<textarea id="message" rows="8" class="input" placeholder="Hey! I just wanted to..."></textarea>
-						<input type="button" value="Send" id="send" class="input"/>
+						<span id="name-label" class="contact-label">Name</span><br>
+						<input type="input" id="name" class="input textbox" placeholder="Bruce Wayne" />
+
+						<span id="email-label" class="contact-label">Email</span><br>
+						<input type="input" id="email" class="input textbox" placeholder="batman321@hotmail.com" />
+
+						<span id="message-label" class="contact-label">Message</span><br>
+						<textarea id="message" rows="8" class="input textbox" placeholder="Hey! I just wanted to..."></textarea>
+
+						<input type="button" value="Send" id="send" class="input button"/>
+
+						<span id="no-email">You didn't put an email address. Send anyways?</span>
+						<span id="bad-email">Your email address doesn't look right. Send anyways?</span>
+						<input type="button" value="No" id="send-no" class="input button yesno"/>
+						<input type="button" value="Yes" id="send-yes" class="input button yesno"/>
 				</form><!--
 				--><div class="contact">
 					<div class="container">
