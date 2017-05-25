@@ -248,10 +248,10 @@ img {
   width: 48%;
 }
 #send-no {
-  float: left;
+  float: right;
 }
 #send-yes {
-  float: right;
+  float: left;
 }
 .icon {
   display: inline-block;
