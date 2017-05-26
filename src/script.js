@@ -15,11 +15,11 @@ $("#send").click(function(){
 		resetColorsTimer = 7;
 	} else if (isBlank(email)) {
 		$("#send").hide();
-		$("#no-email").fadeIn(200);
+		$("#no-email").fadeIn(200).css("display","block");;
 		$(".yesno").fadeIn(200);
 	} else if(!isValidEmailAddress(email)) {
 		$("#send").hide();
-		$("#bad-email").fadeIn(200);
+		$("#bad-email").fadeIn(200).css("display","block");
 		$(".yesno").fadeIn(200);
 	} else {
 		sendMessage(name, email, message);
