@@ -7,12 +7,12 @@ $("#send").click(function(){
 		$(".contact-label").css("color", "#f00000");
 		$(".textbox").css("border-color", "#f00000");
 		$("#name").focus();
-		resetContactColors(7000);
+		resetColorsTimer = 7;
 	} else if (isBlank(message)) {
 		$("#message-label").css("color", "#f00000");
 		$("#message").css("border-color", "#f00000");
 		$("#message").focus();
-		resetContactColors(7000);
+		resetColorsTimer = 7;
 	} else if (isBlank(email)) {
 		$("#send").hide();
 		$("#no-email").fadeIn(200);
@@ -40,7 +40,7 @@ $("#send-no").click(function(){
 
 // user types in contact form
 $(".textbox").keypress(function() {
-	resetContactColors(0);
+	resetContactColors();
 });
 
 // test to see if string is blank
@@ -55,12 +55,24 @@ function isValidEmailAddress (emailAddress) {
 };
 
 // remove red color from contact form
-function resetContactColors (wait) {
-	setTimeout( function() {
-		$(".contact-label").css("color", "#5a5959");
-		$(".textbox").css("border-color", "#bbb");
-	  }, wait);
+function resetContactColors () {
+	$(".contact-label").css("color", "#5a5959");
+	$(".textbox").css("border-color", "#bbb");
 }
+
+//  make sure the contact form behaves correctly if the send button is spammed
+var resetColorsTimer = -1;
+function handleRedColors(){
+	if (resetColorsTimer == 0) {
+		resetContactColors();
+	} else {
+		resetColorsTimer--;
+	}
+	setTimeout( function() {
+		handleRedColors();
+	}, 1000);
+}
+handleRedColors();
 
 // hide yes/no buttons and show send button
 function hideYesNo() {
