@@ -1,3 +1,7 @@
+# Kristian Windsor
+
+[kristianwindsor.com](http://kristianwindsor.com/)
+
 ## Project Summary
 
 This is my personal portfolio. The purpose of this website is to show off my skills as a fullstack web designer and developer.
@@ -21,5 +25,5 @@ This is my personal portfolio. The purpose of this website is to show off my ski
 ## To Do List
 
 * View and edit sent message
-* Trigger hover event on touch start for mobile
-* Work/experience section with resume
+* Trigger hover event on touch start for mobile (for portfolio)
+* Add work/experience section with resume
