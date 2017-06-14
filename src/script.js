@@ -113,3 +113,13 @@ $("#contact-shortcut").click(function(){
 		$("#name").focus();
 	});
 });
+
+// resize photo
+$(window).on('resize', function(){
+      var win = $(this);
+      if (win.width() > 1310) {
+      	$("#photo-of-me").width($("#about").innerHeight());
+      } else {
+      	$("#photo-of-me").width(210);
+      }
+});
