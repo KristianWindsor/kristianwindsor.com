@@ -40,6 +40,7 @@ img {
   padding: 20vh 0;
   text-align: center;
   font-size: 40px;
+  background-color: #fff;
 }
 
 .section {
@@ -371,9 +372,15 @@ img {
   }
 }
 @media (max-width: 415px) {
+  body {
+    background-color: #F5F5F5; 
+  }
   #hi {
     padding-top: 18vh;
     font-size: 28px;
+  }
+  .section {
+    background-color: #F5F5F5;
   }
   .section, #about-section {
     padding: 0;
