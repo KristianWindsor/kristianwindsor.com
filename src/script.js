@@ -115,11 +115,14 @@ $("#contact-shortcut").click(function(){
 });
 
 // resize photo
-$(window).on('resize', function(){
-      var win = $(this);
-      if (win.width() > 1310) {
+function resizePhoto() {
+      if ($(window).width() > 1310) {
       	$("#photo-of-me").width($("#about").innerHeight());
       } else {
       	$("#photo-of-me").width(210);
       }
+}
+$(window).load( resizePhoto() );
+$(window).on('resize', function(){
+	resizePhoto();
 });
