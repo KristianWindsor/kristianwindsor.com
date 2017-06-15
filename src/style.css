@@ -44,7 +44,7 @@ img {
 }
 
 .section {
-  padding: 2vw 10vw;
+  padding: 2vw;
   text-align: center;
 }
 .section:nth-child(even) {
@@ -307,15 +307,11 @@ img {
   .section-title {
     margin: 0;
   }
-  .project {
-    width: 43%;
-  }
   #about-section {
     padding: 2vw;
   }
-  #about {
-    width: 57%;
-    padding: 4%;
+  .project {
+    width: 40%;
   }
   .contact {
     width: 49.5%;
@@ -326,8 +322,12 @@ img {
   #hi {
     font-size: 36px;
   }
-  .project {
+  #about {
     width: 100%;
+    margin: 0;
+  }
+  .project {
+    width: 66%;
     margin: 0;
   }
   .project:nth-child(1) {
@@ -338,9 +338,6 @@ img {
   }
   #photo-of-me2 {
     display: inline;
-  }
-  #about {
-    width: 100%;
   }
   .footer {
     width: 100%;
@@ -364,6 +361,10 @@ img {
   }
 }
 @media (max-width: 490px) {
+  .project {
+    width: 100%;
+    margin: 0;
+  }
   #contact {
     margin: 0 0 3vw;
   }
@@ -392,21 +393,10 @@ img {
     font-size: 36px;
   }
   .section-content {
+    padding: 4%;
     padding-bottom: 15px;
-  }
-  .project {
-    width: 100%;
-    padding: 0;
-    margin: 0;
   }
   #photo-of-me2 {
     width: 50%;
-  }
-  #about {
-    width: 100%;
-    margin: 0;
-  }
-  #contact {
-    padding: 4%;
   }
 }
