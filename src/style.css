@@ -37,7 +37,7 @@ img {
 
 
 #hi {
-  padding: 20vh 0;
+  padding: 25vh 0;
   text-align: center;
   font-size: 40px;
   background-color: #fff;
@@ -377,7 +377,7 @@ img {
     background-color: #F5F5F5; 
   }
   #hi {
-    padding-top: 18vh;
+    padding: 20vh 0;
     font-size: 28px;
   }
   .section {
