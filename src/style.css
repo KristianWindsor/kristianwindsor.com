@@ -92,9 +92,12 @@ img {
 }
 #photo-of-me2 {
   display: none;
-  width: 40%;
+  width: 32%;
   float: left;
-  padding: 15px 4% 0;
+  margin: 15px 4% 0;
+}
+#about-section img {
+  border-radius: 4px;
 }
 #about {
   width: 60%;
