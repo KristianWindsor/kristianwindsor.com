@@ -36,8 +36,18 @@ img {
 }
 
 
+#logo {
+  text-align: center;
+  padding-top: 2vh;
+  background-color: #fff;
+}
+#logo>img {
+  display: inline;
+  width: 65px;
+}
+
 #hi {
-  padding: 25vh 0;
+  padding: 21vh 0;
   text-align: center;
   font-size: 40px;
   background-color: #fff;
@@ -47,7 +57,7 @@ img {
   padding: 2vw;
   text-align: center;
 }
-.section:nth-child(even) {
+.section:nth-child(odd) {
   background-color: #F5F5F5;
 }
 .section-title {
