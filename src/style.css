@@ -195,6 +195,78 @@ img {
 }
 
 
+.work {
+  position: relative;
+  margin: 2%;
+}
+.work>div {
+  display: inline-block;
+}
+.work-dates {
+  width: 195px;
+  text-align: right;
+}
+.work-dates2 {
+  display: none;
+}
+.work-icon {
+  margin: 0 20px;
+}
+.icon-container {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #61cae9;
+  z-index: 101;
+}
+.work-icon i {
+  margin: 0;
+  color: #fff;
+  z-index: 101;
+}
+.icon-container:after {
+  position: absolute;
+  content: '';
+  height: 120%;
+  margin-left: -1px;
+  border: 1px solid #61cae9;
+}
+.work:last-child .icon-container:after {
+  height: 90%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, #F5F5F5, #61cae9 25%) 1 100%;
+  -moz-border-image: -moz-linear-gradient(bottom, #F5F5F5, #61cae9 25%) 1 100%;
+  -o-border-image: -o-linear-gradient(bottom, #F5F5F5, #61cae9 25%) 1 100%;
+  border-image: linear-gradient(to top, #F5F5F5, #61cae9 25%) 1 100%;
+}
+.work:not(:last-child) .icon-container:after {
+  height: 120%;
+}
+.work .project {
+  width: 33%;
+  margin: 0;
+  padding: 2%;
+}
+.work img {
+  width: 65px;
+  float: right;
+}
+.employer-name {
+  display: inline-block;
+  margin: 0;
+  font-size: 30px;
+}
+.job-title {
+  margin: 0 0 15px;
+  font-size: 22px;
+  color: #7f7f7f;
+}
+.job-desc {
+  margin: 0;
+  font-size: 16px;
+  color: #7f7f7f;
+}
+
+
 .contact {
   display: inline-block;
   vertical-align: top;
@@ -316,6 +388,13 @@ img {
   color: #fff;
 }
 
+
+/* Responsive Magic */
+@media (max-width: 1440px) {
+  .work .project {
+    width: 42%;
+  }
+}
 @media (max-width: 1050px) {
   .section-title {
     margin: 0;
@@ -325,6 +404,13 @@ img {
   }
   .project {
     width: 40%;
+  }
+  .work .project {
+    width: 63%;
+    padding: 4%;
+  }
+  .work-dates {
+    width: 15%;
   }
   .contact {
     width: 49.5%;
@@ -343,7 +429,10 @@ img {
     width: 66%;
     margin: 0;
   }
-  .project:nth-child(1) {
+  .work {
+    margin: 0;
+  }
+  .project:nth-child(1), .work:nth-child(1) {
     margin-bottom: 4vh;
   }
   #photo-of-me {
@@ -351,6 +440,18 @@ img {
   }
   #photo-of-me2 {
     display: inline;
+  }
+  .work .project {
+    width: 69%;
+  }
+  .work .work-icon, .work .work-dates {
+    display: none;
+  }
+  .work-dates2 {
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 18px;
+    color: #7f7f7f;
   }
   .footer {
     width: 100%;
@@ -373,10 +474,22 @@ img {
     padding: 14vh 0;
   }
 }
+@media (max-width: 550px) {
+  .project {
+    width: 80%;
+    margin: 0;
+  }
+  .work .project {
+    width: 83%;
+  }
+}
 @media (max-width: 490px) {
   .project {
     width: 100%;
     margin: 0;
+  }
+  .work .project {
+    width: 100%;
   }
   #contact {
     margin: 0 0 3vw;
