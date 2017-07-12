@@ -36,18 +36,31 @@ img {
 }
 
 
-#logo {
-  text-align: center;
+#nav {
+  height: 65px;
   padding-top: 2vh;
+  text-align: center;
   background-color: #fff;
 }
-#logo>img {
+#nav a {
+  display: inline-block;
+  height: 65px;
+  margin: 0 15px;
+  line-height: normal;
+  vertical-align: middle;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#logo1 {
   display: inline;
   width: 65px;
 }
+#logo2 {
+  display: none;
+}
 
 #hi {
-  padding: 21vh 0;
+  padding: 28vh 0;
   text-align: center;
   font-size: 40px;
   background-color: #fff;
@@ -475,6 +488,21 @@ img {
   }
 }
 @media (max-width: 550px) {
+  #nav {
+    height: auto;
+  }
+  #logo1 {
+    display: none;
+  }
+  #logo2 {
+    display: block;
+    width: 65px;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+  }
+  #nav a {
+    margin: 0 9px;
+  }
   .project {
     width: 80%;
     margin: 0;
@@ -506,6 +534,10 @@ img {
     padding: 20vh 0;
     font-size: 28px;
   }
+  #nav a {
+    height: 32px;
+    font-size: 12px;
+  }
   .section {
     background-color: #F5F5F5;
   }
@@ -524,5 +556,11 @@ img {
   }
   #photo-of-me2 {
     width: 50%;
+  }
+}
+@media (max-width: 340px) {
+  #nav a {
+    margin: 0 5px;
+    font-size: 10px;
   }
 }

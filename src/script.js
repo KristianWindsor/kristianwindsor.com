@@ -1,3 +1,56 @@
+// nav
+$("#hamburger").click(function(){
+	$("#nav-a").slideToggle(100);
+});
+$(window).on('resize', function(){
+	if ($(window).width() > 415) {
+		$("#nav-a").show();
+	}
+});
+
+// scroll to about
+$(".about-shortcut").click(function(){
+	$('html, body').animate({
+		scrollTop: $("#about-section").offset().top
+	}, 650);
+});
+// scroll to portfolio (slow)
+$(".portfolio-shortcut").click(function(){
+	$('html, body').animate({
+		scrollTop: $("#portfolio-section").offset().top
+	}, 850);
+});
+// scroll to portfolio (fast)
+$(".portfolio-shortcut-fast").click(function(){
+	$('html, body').animate({
+		scrollTop: $("#portfolio-section").offset().top
+	}, 550);
+});
+// scroll to experience
+$(".experience-shortcut").click(function(){
+	$('html, body').animate({
+		scrollTop: $("#experience-section").offset().top
+	}, 1000);
+});
+// scroll to contact (slow)
+$(".contact-shortcut").click(function(){
+	$('html, body').animate({
+		scrollTop: $("#contact-section").offset().top
+	}, 1300,
+	function() {
+		$("#name").focus();
+	});
+});
+// scroll to contact (fast)
+$(".contact-shortcut-fast").click(function(){
+	$('html, body').animate({
+		scrollTop: $("#contact-section").offset().top
+	}, 1100,
+	function() {
+		$("#name").focus();
+	});
+});
+
 // send button
 $("#send").click(function(){
 	var name = $("#name").val();
@@ -96,23 +149,6 @@ function sendMessage (n,e,m) {
 	    }
 	});
 }
-
-// scroll to portfolio
-$("#portfolio-shortcut").click(function(){
-	$('html, body').animate({
-		scrollTop: $("#portfolio-section").offset().top
-	}, 800);
-});
-
-// scroll to contact
-$("#contact-shortcut").click(function(){
-	$('html, body').animate({
-		scrollTop: $("#contact-section").offset().top
-	}, 1000,
-	function() {
-		$("#name").focus();
-	});
-});
 
 // resize photo
 function resizePhoto() {
