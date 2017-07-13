@@ -13,17 +13,7 @@ This is my personal portfolio. The purpose of this website is to show off my ski
 * Javascript
 * Jquery
 
-## Supported Browsers
-
-* IE 8+
-* Firefox
-* Chrome
-* Safari
-* Opera
-* Mobile Safari
-
 ## To Do List
 
 * View and edit sent message
-* Trigger hover event on touch start for mobile (for portfolio)
-* Add work/experience section with resume
+* Add Resume
