@@ -20,6 +20,61 @@ function scrollTo(section, speed) {
 		scrollTop: $(section).offset().top - extra
 	}, speed);
 }
+var flag = false;
+// about section
+$("#nav-about").bind('touchend mousedown', function(){
+  if (!flag) {
+    flag = true;
+    setTimeout(function(){ flag = false; }, 310);
+    scrollTo("#about-section",650)
+  }
+  return false
+});
+// portfolio section
+$("#nav-portfolio").bind('touchend mousedown', function(){
+  if (!flag) {
+    flag = true;
+    setTimeout(function(){ flag = false; }, 310);
+    scrollTo("#portfolio-section",850)
+  }
+  return false
+});
+// experience section
+$("#nav-experience").bind('touchend mousedown', function(){
+  if (!flag) {
+    flag = true;
+    setTimeout(function(){ flag = false; }, 310);
+    scrollTo("#experience-section",1000)
+  }
+  return false
+});
+// contact section
+$("#nav-contact").bind('touchend mousedown', function(){
+  if (!flag) {
+    flag = true;
+    setTimeout(function(){ flag = false; }, 310);
+    scrollTo("#contact-section",1300)
+  }
+  return false
+});
+// portfolio section
+$("#nav-portfolio-2").bind('touchstart mousedown', function(){
+  if (!flag) {
+    flag = true;
+    setTimeout(function(){ flag = false; }, 310);
+    scrollTo("#portfolio-section",550)
+  }
+  return false
+});
+// contact section
+$("#nav-contact-2").bind('touchstart mousedown', function(){
+  if (!flag) {
+    flag = true;
+    setTimeout(function(){ flag = false; }, 310);
+    scrollTo("#contact-section",950)
+  }
+  return false
+});
 
 // send button
 $("#send").click(function(){
