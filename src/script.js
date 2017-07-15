@@ -22,7 +22,7 @@ function scrollTo(section, speed) {
 }
 var flag = false;
 // about section
-$("#nav-about").bind('touchend mousedown', function(){
+$("#nav-about").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
     setTimeout(function(){ flag = false; }, 310);
@@ -31,7 +31,7 @@ $("#nav-about").bind('touchend mousedown', function(){
   return false
 });
 // portfolio section
-$("#nav-portfolio").bind('touchend mousedown', function(){
+$("#nav-portfolio").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
     setTimeout(function(){ flag = false; }, 310);
@@ -40,7 +40,7 @@ $("#nav-portfolio").bind('touchend mousedown', function(){
   return false
 });
 // experience section
-$("#nav-experience").bind('touchend mousedown', function(){
+$("#nav-experience").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
     setTimeout(function(){ flag = false; }, 310);
@@ -49,7 +49,7 @@ $("#nav-experience").bind('touchend mousedown', function(){
   return false
 });
 // contact section
-$("#nav-contact").bind('touchend mousedown', function(){
+$("#nav-contact").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
     setTimeout(function(){ flag = false; }, 310);
@@ -58,7 +58,7 @@ $("#nav-contact").bind('touchend mousedown', function(){
   return false
 });
 // portfolio section
-$("#nav-portfolio-2").bind('touchstart mousedown', function(){
+$("#nav-portfolio-2").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
     setTimeout(function(){ flag = false; }, 310);
@@ -67,7 +67,7 @@ $("#nav-portfolio-2").bind('touchstart mousedown', function(){
   return false
 });
 // contact section
-$("#nav-contact-2").bind('touchstart mousedown', function(){
+$("#nav-contact-2").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
     setTimeout(function(){ flag = false; }, 310);
