@@ -17,7 +17,7 @@ a {
   -o-transition: color 0.1s ease-in-out;
   transition: color 0.1s ease-in-out;
 }
-a:hover {
+a:hover, .a-hovering {
   color: #00AFF0;
 }
 img {
@@ -141,7 +141,7 @@ img {
   -o-transition: border-color 0.1s ease;
   transition: border-color 0.1s ease;
 }
-#about a:hover {
+#about a:hover, #about .a-hovering {
   border-bottom: 1px solid #fff;
 }
 
@@ -400,7 +400,7 @@ img {
   padding: 0 5px;
   color: #cccccc;
 }
-.links a:hover {
+.links a:hover, .links .a-hovering {
   color: #fff;
 }
 

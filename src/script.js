@@ -90,6 +90,13 @@ $('.hoverable').on('touchstart', function () {
 	setTimeout(function(){ flag2 = false; }, 100);
  });
 
+// force hover event on mobile for a tags
+$('a').bind('touchstart', function(){
+    $(this).addClass('a-hovering');
+}).bind('touchend', function(){
+    $('a').removeClass('a-hovering');
+});
+
 // send button
 $("#send").click(function(){
 	var name = $("#name").val();
