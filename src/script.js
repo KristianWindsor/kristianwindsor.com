@@ -76,6 +76,16 @@ $("#nav-contact-2").bind('touch mouseup', function(){
   return false
 });
 
+
+// force hover event on mobile for portfolio
+ $("body > *").not("#portfolio-section").on('touchstart', function () {
+    $('.hoverable').removeClass("hovering");
+ });
+$('.hoverable').on('touchstart', function () {
+    $('.hoverable').removeClass("hovering");
+    $(this).addClass("hovering");
+ });
+
 // send button
 $("#send").click(function(){
 	var name = $("#name").val();
