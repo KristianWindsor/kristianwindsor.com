@@ -205,7 +205,7 @@ img {
 .website-link>.icon-export {
   margin-right: 8px;
 }
-.project:hover .website-info, .project.hovering .website-info {
+.project:hover .website-info, .image-container.hovering .website-info {
   visibility: visible;
   opacity: 1;
 }
