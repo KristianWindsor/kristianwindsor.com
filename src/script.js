@@ -208,3 +208,44 @@ $(window).load( resizePhoto() );
 $(window).on('resize', function(){
 	resizePhoto();
 });
+
+// google analytics
+$("#nav a").click(function() {
+	ga('send', 'event', 'Link', 'Scroll', $(this).context.text);
+});
+$("#about-section a").click(function() {
+	var type = "External";
+	var label = "Portfolio";
+	if ($(this).context.href == "") {
+		type = "Scroll";
+		if ($(this).context.id == "nav-contact-2") {
+			label = "Contact";
+		}
+	}
+	ga('send', 'event', 'Link', type, cleanUpGA($(this)) + ' - About');
+});
+$("#portfolio-section a").click(function() {
+	ga('send', 'event', 'Link', 'External', cleanUpGA($(this)));
+});
+$("#experience-section a").click(function() {
+	ga('send', 'event', 'Link', 'External', cleanUpGA($(this)));
+});
+$("#contact-section a").click(function() {
+	var type = "Action";
+	if(cleanUpGA($(this)) == "Google Maps") {
+		type = "External";
+	}
+	ga('send', 'event', 'Link', type, cleanUpGA($(this)), +' - Contact');
+});
+$("#bye a").click(function() {
+	var type = "External";
+	if(cleanUpGA($(this)) == "Mail" || cleanUpGA($(this)) == "Phone") {
+		type = "Action";
+	}
+	ga('send', 'event', 'Link', type, cleanUpGA($(this)));
+});
+function cleanUpGA(input) {
+	var href = input.context.href;
+	var filtered = href.replace("https://www.flickr.com/photos/116918023@N02/","Flickr").replace("http://momclothing.site/","MOM Clothing").replace("http://www.apasswordgenerator.website/","A Password Generator").replace("https://github.com/Windso/apasswordgenerator.website","Github: A Password Generator").replace("http://difficultbib.com/","Difficult Bib").replace("https://github.com/Windso/difficultbib.com","Github: Difficult Bib").replace("https://wp.pinger.com/","Pinger").replace("mailto:kristianwindso@gmail.com","Mail").replace("tel:14086834007","Phone").replace("https://www.google.com/maps/place/Cupertino,+CA/","Google Maps").replace("https://github.com/Windso","Github").replace("https://www.linkedin.com/in/kristian-windsor-80947b119/","LinkedIn").replace("https://www.youtube.com/channel/UCZ4fDjpML5yp6QQcdMkyoXg","YouTube").replace("https://www.instagram.com/wind.so/?hl=en","Instagram").replace("http://kristianwindsor.tumblr.com/","Tumblr");
+	return filtered;
+}
