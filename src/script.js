@@ -188,10 +188,15 @@ function sendMessage (n,e,m) {
 	    type: 'post',
 	    data: { "name": n, "email" : e, "message" : m },
 	    success: function() {
+	    	if ($("#name").val().length > 1) {
+	    		var firstName = $("#name").val().split(' ')[0];
+		    	$("#firstName").html(" " + firstName);
+		    }
 	    	$("#submitted").show();
 	    	$("#name").val("");
 	    	$("#email").val("");
 	    	$("#message").val("");
+	    	scrollTo("#submitted",450);
 	    }
 	});
 }
