@@ -135,14 +135,9 @@ img {
 }
 #about a, #submitted a {
   border-bottom: 1px solid #5a5959;
-  -webkit-transition: border-color 0.1s ease;
-  -moz-transition: border-color 0.1s ease;
-  -ms-transition: border-color 0.1s ease;
-  -o-transition: border-color 0.1s ease;
-  transition: border-color 0.1s ease;
 }
 #about a:hover, #about .a-hovering, #submitted a:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 0;
 }
 
 
@@ -385,13 +380,11 @@ img {
 }
 #submitted {
   display: none;
+  margin-top: -15px;
 }
 #submitted p {
   padding: 0;
-  font-size: 22px;
-}
-#submitted a {
-  border-bottom: 1px solid #5a5959;
+  font-size: 20px;
 }
 .big {
   font-size: 44px;
@@ -448,6 +441,9 @@ img {
   .contact {
     width: 49.5%;
     margin: 0;
+  }
+  #submitted {
+    text-align: left;
   }
 }
 @media (max-width: 750px) {
@@ -581,6 +577,9 @@ img {
   }
   .work-dates2 {
     font-size: 16px;
+  }
+  .big {
+    font-size: 36px;
   }
 }
 @media (max-width: 340px) {
