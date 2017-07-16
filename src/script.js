@@ -79,7 +79,7 @@ $("#nav-contact-2").bind('touch mouseup', function(){
 
 // force hover event on mobile for portfolio
 var flag2 = false;
- $("body > *").not(".image-container *").on('touchstart', function () {
+ $("body > *").not(".image-container > *").on('touchstart', function () {
 	if (!flag2) {
 	    $('.hoverable').removeClass("hovering");
 	}
@@ -87,14 +87,14 @@ var flag2 = false;
 $('.hoverable').on('touchstart', function () {
 	flag2 = true;
 	$(this).addClass("hovering");
-	setTimeout(function(){ flag2 = false; }, 100);
+	setTimeout(function(){ flag2 = false; }, 310);
  });
 
 // force hover event on mobile for a tags
-$('a').bind('touchstart', function(){
+$('a').bind('touchmove', function(){
     $(this).addClass('a-hovering');
 }).bind('touchend', function(){
-    $('a').removeClass('a-hovering');
+    $(this).removeClass('a-hovering');
 });
 
 // send button
