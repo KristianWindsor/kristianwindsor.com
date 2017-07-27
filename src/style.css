@@ -69,7 +69,7 @@ img {
   background-color: #fff;
 }
 #scroll {
-  padding-left: 14vh;
+  padding-left: 13vh;
   font-size: 28px;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -293,7 +293,7 @@ img {
   color: #7f7f7f;
 }
 #linkedIn {
-  margin: 50px 0 0;
+  margin: 2% 0 0;
 }
 
 
@@ -497,6 +497,9 @@ img {
     font-size: 18px;
     color: #7f7f7f;
   }
+  #linkedIn {
+    margin-top: 4vh;
+  }
   #contact {
     display: flex;
     flex-direction: column-reverse;
@@ -601,24 +604,24 @@ img {
 }
 @-webkit-keyframes backandforth {
   0%{
-    padding-left: 11vh;
+    padding-left: 13vh;
   }
   50%{
-    padding-left: 22vh;
+    padding-left: 24vh;
   }
   100%{
-    padding-left: 11vh;
+    padding-left: 13vh;
   }
 }
 @keyframes backandforth {
   0%{
-    padding-left: 11vh;
+    padding-left: 13vh;
   }
   50%{
-    padding-left: 22vh;
+    padding-left: 24vh;
   }
   100%{
-    padding-left: 11vh;
+    padding-left: 13vh;
   }
 }
 
