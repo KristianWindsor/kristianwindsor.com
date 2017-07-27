@@ -68,6 +68,22 @@ img {
   font-size: 40px;
   background-color: #fff;
 }
+#scroll {
+  padding-left: 14vh;
+  font-size: 28px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-animation: backandforth 2s ease-in-out 0s;
+  -webkit-animation-iteration-count:infinite;
+  animation: backandforth 2s ease-in-out 0s;
+  animation-iteration-count:infinite;
+}
+#scroll a {
+  padding: 5.5vh;
+}
 
 .section {
   padding: 2vw;
@@ -588,3 +604,26 @@ img {
     font-size: 10px;
   }
 }
+@-webkit-keyframes backandforth {
+  0%{
+    padding-left: 11vh;
+  }
+  50%{
+    padding-left: 22vh;
+  }
+  100%{
+    padding-left: 11vh;
+  }
+}
+@keyframes backandforth {
+  0%{
+    padding-left: 11vh;
+  }
+  50%{
+    padding-left: 22vh;
+  }
+  100%{
+    padding-left: 11vh;
+  }
+}
+
