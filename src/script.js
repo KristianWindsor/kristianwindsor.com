@@ -251,11 +251,7 @@ $("#submitted a").click(function() {
 	ga('send', 'event', 'Click Link', 'External', 'Cute Pic -Contact');
 });
 $("#bye a").click(function() {
-	var type = "External";
-	if(cleanUpGA($(this)) == "Mail" || cleanUpGA($(this)) == "Phone") {
-		type = "Action";
-	}
-	ga('send', 'event', 'Click Link', type, cleanUpGA($(this)) + " -Footer");
+	ga('send', 'event', 'Click Link', "External", cleanUpGA($(this)) + " -Footer");
 });
 function cleanUpGA(input) {
 	var href = input.context.href;

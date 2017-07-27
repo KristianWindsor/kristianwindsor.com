@@ -419,11 +419,7 @@ img {
   text-align: center;
 }
 #bye .icon {
-  font-size: 48px;
-}
-.footer {
-  display: inline-block;
-  padding: 3%;
+  font-size: 28px;
 }
 .links a {
   padding: 0 5px;
@@ -500,10 +496,6 @@ img {
     margin: 5px 0;
     font-size: 18px;
     color: #7f7f7f;
-  }
-  .footer {
-    width: 100%;
-    padding: 4vh 0;
   }
   #contact {
     display: flex;
