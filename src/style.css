@@ -149,10 +149,10 @@ img {
   margin: 0;
   padding: 10px;
 }
-#about a, #submitted a {
+#about a, #submitted a, #linkedIn a {
   border-bottom: 1px solid #5a5959;
 }
-#about a:hover, #about .a-hovering, #submitted a:hover {
+#about a:hover, #about .a-hovering, #submitted a:hover, #linkedIn a:hover {
   border-bottom: 0;
 }
 
@@ -258,14 +258,14 @@ img {
   margin-left: -1px;
   border: 1px solid #61cae9;
 }
-.work:last-child .icon-container:after {
+.icon-container.fade:after {
   height: 90%;
   -webkit-border-image: -webkit-linear-gradient(bottom, #F5F5F5, #61cae9 25%) 1 100%;
   -moz-border-image: -moz-linear-gradient(bottom, #F5F5F5, #61cae9 25%) 1 100%;
   -o-border-image: -o-linear-gradient(bottom, #F5F5F5, #61cae9 25%) 1 100%;
   border-image: linear-gradient(to top, #F5F5F5, #61cae9 25%) 1 100%;
 }
-.work:not(:last-child) .icon-container:after {
+.icon-container:not(.fade):after {
   height: 120%;
 }
 .work .project {
@@ -291,6 +291,9 @@ img {
   margin: 0;
   font-size: 16px;
   color: #7f7f7f;
+}
+#linkedIn {
+  margin: 50px 0 0;
 }
 
 
