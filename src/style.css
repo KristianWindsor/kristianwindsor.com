@@ -76,10 +76,11 @@ img {
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-  -webkit-animation: backandforth 2s ease-in-out 0s;
+  -webkit-animation: backandforth 2s ease-in-out 5s;
   -webkit-animation-iteration-count:infinite;
-  animation: backandforth 2s ease-in-out 0s;
+  animation: backandforth 2s ease-in-out 5s;
   animation-iteration-count:infinite;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 #scroll a {
   padding: 5.5vh;
@@ -591,6 +592,9 @@ img {
   }
   .work-dates2 {
     font-size: 16px;
+  }
+  #linkedIn {
+    text-align: left;
   }
   .big {
     font-size: 36px;
