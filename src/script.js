@@ -67,7 +67,7 @@ $("#nav-contact-2").bind('touch mouseup', function(){
 });
 
 // scroll hint click
-$("#scroll").bind('touch mouseup', function(){
+$("#scroll-touch").bind('touch mouseup', function(){
   scrollTo("#about-section",750);
   ga('send', 'event', 'Click Link', 'Scroll', 'Scroll Hint -Intro');
 });

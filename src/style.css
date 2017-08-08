@@ -82,7 +82,7 @@ img {
   animation-iteration-count:infinite;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
-#scroll a {
+#scroll-touch {
   padding: 5.5vh;
 }
 
