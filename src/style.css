@@ -414,13 +414,12 @@ img {
 }
 
 #bye {
-  padding: 14vh 9vw;
+  padding: 12vh 0;
   background-color: #333333;
-  font-size: 16px;
   text-align: center;
 }
 #bye .icon {
-  font-size: 28px;
+  font-size: 38px;
 }
 .links a {
   padding: 0 5px;
@@ -514,8 +513,8 @@ img {
     margin: 0 auto;
     margin-bottom: 4vh;
   }
-  #bye {
-    padding: 14vh 0;
+  #bye .icon {
+    font-size: 28px;
   }
 }
 @media (max-width: 550px) {
