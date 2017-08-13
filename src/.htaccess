@@ -1,0 +1,7 @@
+<Files index.html>
+	Header append Link "</font/quicksand.woff2>; rel=preload; as=style"
+	Header append Link "</font/quicksand.woff>; rel=preload; as=style"
+	Header append Link "</font/quicksand.tiff>; rel=preload; as=style"
+	Header append Link "</style.css>; rel=preload; as=style"
+	Header append Link "</img/logo.png>; rel=preload; as=image"
+</Files>
