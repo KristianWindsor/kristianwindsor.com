@@ -187,7 +187,7 @@ function hideYesNo() {
 // send message
 function sendMessage (n,e,m) {
 	$.ajax({
-	    url: 'send-message.php',
+	    url: 'script/send-message.php',
 	    type: 'post',
 	    data: { "name": n, "email" : e, "message" : m },
 	    success: function() {
@@ -213,8 +213,7 @@ function resizePhoto() {
       	$("#photo-of-me").width(210);
       }
 }
-$(window).load( resizePhoto() );
-$(window).on('resize', function(){
+$(window).on('load resize', function(){
 	resizePhoto();
 });
 
@@ -254,7 +253,9 @@ $("#bye a").click(function() {
 	ga('send', 'event', 'Click Link', "External", cleanUpGA($(this)) + " -Footer");
 });
 function cleanUpGA(input) {
+	console.log(input);
 	var href = input.context.href;
+	console.log(href);
 	var filtered = href.replace("https://www.flickr.com/photos/116918023@N02/","Flickr").replace("http://www.apasswordgenerator.website/","A Password Generator").replace("https://github.com/Windso/apasswordgenerator.website","Github: A Password Generator").replace("http://difficultbib.com/","Difficult Bib").replace("https://github.com/Windso/difficultbib.com","Github: Difficult Bib").replace("https://wp.pinger.com/","Pinger").replace("mailto:kristianwindso@gmail.com","Mail").replace("tel:1-408-683-4007","Phone").replace("https://www.google.com/maps/place/Cupertino,+CA/","Google Maps").replace("https://github.com/Windso","Github").replace("https://www.linkedin.com/in/kristian-windsor-80947b119/","LinkedIn").replace("https://www.youtube.com/channel/UCZ4fDjpML5yp6QQcdMkyoXg","YouTube").replace("https://www.instagram.com/wind.so/?hl=en","Instagram").replace("http://kristianwindsor.tumblr.com/","Tumblr");
 	return filtered;
 }
@@ -266,7 +267,3 @@ $("#contact input, #contact textarea").click(function() {
 	label = label.charAt(0).toUpperCase() + label.slice(1);
 	ga('send', 'event', 'Form Interaction', "Focus", label);
 });
-
-// Google Analytics Page Speed
-_gaq.push(['_setSiteSpeedSampleRate', 100]);
-_gaq.push(['_trackPageview']);
