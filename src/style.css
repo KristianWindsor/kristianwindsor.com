@@ -134,6 +134,7 @@ img {
 }
 .text {
   padding: 20px 24px;
+  line-height: 1.5;
 }
 .project .title {
   color: #5a5959;
@@ -157,7 +158,7 @@ img {
 }
 #about {
   width: 60%;
-  padding: 2%;
+  padding: 1.5%;
 }
 #about .text {
   margin: 0;
