@@ -1,0 +1,51 @@
+#photo-of-me {
+  width: 18%;
+  border-radius: 4px;
+}
+#photo-of-me2 {
+  display: none;
+  width: 32%;
+  float: left;
+  margin: 15px 4% 0;
+}
+#about-section img {
+  border-radius: 4px;
+}
+#about {
+  width: 60%;
+  padding: 1.5%;
+}
+#about .text {
+  margin: 0;
+  padding: 10px;
+}
+#about a, #submitted a, #linkedIn a {
+  border-bottom: 1px solid #5a5959;
+}
+#about a:hover, #about .a-hovering, #submitted a:hover, #linkedIn a:hover {
+  border-bottom: 0;
+}
+
+
+@media (max-width: 1050px) {
+  #about-section {
+    padding: 2vw;
+  }
+}
+@media (max-width: 750px) {
+  #about {
+    width: 100%;
+    margin: 0;
+  }
+  #photo-of-me {
+    display: none;
+  }
+  #photo-of-me2 {
+    display: inline;
+  }
+}
+@media (max-width: 415px) {
+  #photo-of-me2 {
+    width: 48%;
+  }
+}

@@ -1,0 +1,20 @@
+#bye {
+  padding: 12vh 0;
+  background-color: #333333;
+  text-align: center;
+}
+#bye .icon {
+  font-size: 38px;
+}
+.links a {
+  padding: 0 5px;
+  color: #cccccc;
+}
+.links a:hover, .links .a-hovering {
+  color: #fff;
+}
+@media (max-width: 750px) {
+  #bye .icon {
+    font-size: 28px;
+  }
+}
