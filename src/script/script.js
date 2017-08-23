@@ -208,9 +208,9 @@ function sendMessage (n,e,m) {
 // resize photo
 function resizePhoto() {
       if ($(window).width() > 1310) {
-      	$("#photo-of-me").width($("#about").innerHeight());
+      	$("#profile-photo").width($("#about").innerHeight());
       } else {
-      	$("#photo-of-me").width(210);
+      	$("#profile-photo").width(210);
       }
 }
 $(window).on('load resize', function(){

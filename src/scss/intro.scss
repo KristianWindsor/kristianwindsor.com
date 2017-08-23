@@ -1,16 +1,18 @@
+@import "var.scss";
+
 #nav {
   position: absolute;
   width: 100%;
   height: 65px;
   padding-top: 2vh;
   text-align: center;
-  background-color: #fff;
+  background-color: $white;
+  box-sizing: initial;
 }
 #nav a {
   display: inline-block;
-  height: 65px;
-  margin: 0 15px;
-  line-height: normal;
+  height: 20px;
+  margin: 0 15px 45px;
   vertical-align: middle;
   font-size: 16px;
   text-transform: uppercase;
@@ -28,7 +30,7 @@
   padding-top: 37vh;
   text-align: center;
   font-size: 40px;
-  background-color: #fff;
+  background-color: $white;
 }
 #scroll {
   padding-left: 13vh;
@@ -46,45 +48,6 @@
 }
 #scroll-touch {
   padding: 5.5vh;
-}
-
-
-@media (max-width: 750px) {
-  #hi {
-    font-size: 36px;
-  }
-}
-@media (max-width: 550px) {
-  #nav {
-    height: auto;
-  }
-  #logo1 {
-    display: none;
-  }
-  #logo2 {
-    display: block;
-    width: 65px;
-    margin: 0 auto;
-    margin-bottom: 2vh;
-  }
-  #nav a {
-    margin: 0 9px;
-  }
-}
-@media (max-width: 415px) {
-  #hi {
-    font-size: 28px;
-  }
-  #nav a {
-    height: 32px;
-    font-size: 12px;
-  }
-}
-@media (max-width: 340px) {
-  #nav a {
-    margin: 0 5px;
-    font-size: 10px;
-  }
 }
 
 

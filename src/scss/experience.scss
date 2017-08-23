@@ -1,6 +1,8 @@
+@import "var.scss";
+
 .work {
   position: relative;
-  margin: 2%;
+  margin: 2% 0;
 }
 .work>div {
   display: inline-block;
@@ -19,12 +21,12 @@
   display: inline-block;
   padding: 10px;
   border-radius: 30px;
-  background-color: #61cae9;
+  background-color: $brandBlue;
   z-index: 101;
 }
 .work-icon i {
   margin: 0;
-  color: #fff;
+  color: $white;
   z-index: 101;
 }
 .icon-container:after {
@@ -32,7 +34,7 @@
   content: '';
   height: 120%;
   margin-left: -1px;
-  border: 1px solid #61cae9;
+  border: 1px solid $brandBlue;
 }
 .icon-container.fade:after {
   height: 90%;
@@ -48,6 +50,7 @@
   width: 33%;
   margin: 0;
   padding: 2%;
+  color: $greyText;
 }
 .work img {
   width: 65px;
@@ -57,72 +60,16 @@
   display: inline-block;
   margin: 0;
   font-size: 30px;
+  color: $blackText;
 }
 .job-title {
   margin: 0 0 15px;
   font-size: 22px;
-  color: #7f7f7f;
 }
 .job-desc {
   margin: 0;
   font-size: 16px;
-  color: #7f7f7f;
 }
 #linkedIn {
   margin: 2% 0 0;
-}
-@media (max-width: 1440px) {
-  .work .project {
-    width: 42%;
-  }
-}
-@media (max-width: 1050px) {
-  .work .project {
-    width: 63%;
-    padding: 4%;
-  }
-  .work-dates {
-    width: 15%;
-  }
-}
-@media (max-width: 750px) {
-  .work .project {
-    width: 73%;
-  }
-  .work .work-icon, .work .work-dates {
-    display: none;
-  }
-  .work-dates2 {
-    display: inline-block;
-    margin: 5px 0;
-    font-size: 18px;
-    color: #7f7f7f;
-  }
-}
-@media (max-width: 550px) {
-  .work {
-    margin: 0;
-  }
-  .project:nth-child(1), .work:nth-child(1) {
-    margin-bottom: 4vh;
-  }
-  .work .project {
-    width: 83%;
-  }
-}
-@media (max-width: 490px) {
-  .work .project {
-    width: 100%;
-  }
-}
-@media (max-width: 415px) {
-  .employer-name, .project .title {
-    font-size: 28px;
-  }
-  .work-dates2 {
-    font-size: 16px;
-  }
-  #linkedIn {
-    text-align: left;
-  }
 }

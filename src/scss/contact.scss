@@ -1,3 +1,5 @@
+@import "var.scss";
+
 .contact {
   display: inline-block;
   vertical-align: top;
@@ -18,7 +20,7 @@
   margin-bottom: 20px;
 }
 .contact-link:hover {
-  color: #00AFF0;
+  color: $blueText;
 }
 .input {
   width: 100%;
@@ -26,23 +28,23 @@
   margin: 5px 0 10px;
   font-size: 18px;
   outline: 0;
-  border: 1px #bbb solid;
+  border: 1px $contactFormGrey solid;
   border-radius: 4px;
-  background-color: #fff;
-  color: #5a5959;
+  background-color: $white;
+  color: $blackText;
   font-family: 'Quicksand', sans-serif;
 }
 *::-webkit-input-placeholder {
-  color: #bbb;
+  color: $contactFormGrey;
 }
 *:-moz-placeholder {
-  color: #bbb;
+  color: $contactFormGrey;
 }
 *::-moz-placeholder {
-  color: #bbb;
+  color: $contactFormGrey;
 }
 *:-ms-input-placeholder {
-  color: #bbb;
+  color: $contactFormGrey;
 }
 .button {
   margin-bottom: 2px;
@@ -101,6 +103,7 @@
 #submitted {
   display: none;
   margin-top: -15px;
+  padding: 0 4%;
 }
 #submitted p {
   padding: 0;
@@ -110,46 +113,5 @@
   font-size: 44px;
 }
 .green {
-  color: #00f000;
-}
-
-@media (max-width: 1050px) {
-  .contact {
-    width: 49.5%;
-    margin: 0;
-  }
-  #submitted {
-    text-align: left;
-  }
-}
-@media (max-width: 750px) {
-  #linkedIn {
-    margin-top: 4vh;
-  }
-  #contact {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .contact:nth-child(1) {
-    width: 70%;
-    margin: 0 auto;
-  }
-  .contact:nth-child(2) {
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 4vh;
-  }
-}
-@media (max-width: 490px) {
-  #contact {
-    margin: 0 0 3vw;
-  }
-  .contact:nth-child(1) {
-    width: 100%;
-  }
-}
-@media (max-width: 415px) {
-  .big {
-    font-size: 36px;
-  }
+  color: $successGreen;
 }

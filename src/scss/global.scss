@@ -1,8 +1,4 @@
-$white: "#fff";
-$grey: "";
-$black: "";
-$blue: "";
-
+@import "var.scss";
 
 @font-face {
   font-family: 'Quicksand';
@@ -21,7 +17,7 @@ body {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
-  color: #5a5959;
+  color: $blackText;
 }
 *{
   box-sizing:border-box;
@@ -29,7 +25,7 @@ body {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #5a5959;
+  color: $blackText;
   -webkit-transition: color 0.1s ease-in-out;
   -moz-transition: color 0.1s ease-in-out;
   -ms-transition: color 0.1s ease-in-out;
@@ -37,11 +33,10 @@ a {
   transition: color 0.1s ease-in-out;
 }
 a:hover, .a-hovering {
-  color: #00AFF0;
+  color: $blueText;
 }
 img {
-  display: block;
-  width: 100%;
+  border-radius: 4px;
 }
 @font-face {
   font-family: 'fontello';
@@ -59,16 +54,11 @@ img {
   text-align: center;
 }
 .section:nth-child(odd) {
-  background-color: #F5F5F5;
-}
-.section-title {
-  padding: 0 2vw;
-  margin-bottom: 1vw;
-  overflow: auto;
+  background-color: $greyBackground;
 }
 .section-title p {
   font-size: 44px;
-  color: #5a5959;
+  color: $blackText;
   margin: 20px 0;
   padding: 1vw 0;
 }
@@ -80,72 +70,24 @@ img {
 .project {
   display: inline-block;
   vertical-align:top;
-  width: 27vw;
   margin: 2vw;
   text-align: left;
-  background-color: #fff;
+  background-color: $white;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
   border-radius: 4px;
 }
 .text {
-  padding: 20px 24px;
+  margin: 0;
+  padding: 10px;
   line-height: 1.5;
 }
-.project .title {
-  color: #5a5959;
+.title {
+  color: $blackText;
   font-size: 30px;
   width: 100%;
-  margin: 10px 0;
+  margin: 15px;
 }
 
-@media (max-width: 1050px) {
-  .section-title {
-    margin: 0;
-  }
-  .project {
-    width: 40%;
-  }
-}
-@media (max-width: 750px) {
-  .project {
-    width: 70%;
-    margin: 0;
-  } 
-}
-
-@media (max-width: 550px) {
-  .project {
-    width: 80%;
-    margin: 0;
-  }
-}
-@media (max-width: 490px) {
-  .project {
-    width: 100%;
-    margin: 0;
-  }
-  .work .project {
-    width: 100%;
-  }
-}
-@media (max-width: 415px) {
-  body {
-    background-color: #F5F5F5; 
-  }
-  .section {
-    background-color: #F5F5F5;
-  }
-  .section, #about-section {
-    padding: 0;
-  }
-  .section-title {
-    padding: 1% 3vw;
-  }
-  .section-title p {
-    font-size: 36px;
-  }
-  .section-content {
-    padding: 4%;
-    padding-bottom: 15px;
-  }
+.mobile-padding {
+  margin-bottom: 4vh;
 }
