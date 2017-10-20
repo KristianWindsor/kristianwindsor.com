@@ -81,9 +81,11 @@ var flag2 = false;
 	}
  });
 $('.hoverable').on('touchstart', function () {
-	flag2 = true;
-	$(this).addClass("hovering");
-	setTimeout(function(){ flag2 = false; }, 310);
+	if (!$(".hoverable").hasClass("hovering")) {
+		flag2 = true;
+		$(this).addClass("hovering");
+		setTimeout(function(){ flag2 = false; }, 310);
+	}
  });
 
 // force hover event on mobile for a tags
@@ -91,6 +93,13 @@ $('a').bind('touchmove', function(){
     $(this).addClass('a-hovering');
 }).bind('touchend', function(){
     $(this).removeClass('a-hovering');
+});
+
+// prevent hover and tap events to happen at the same time
+$('.website-link').on("click", function (e) {
+	if (flag2) {
+        e.preventDefault();
+    }
 });
 
 // send button
@@ -253,8 +262,7 @@ $("#bye a").click(function() {
 	ga('send', 'event', 'Click Link', "External", cleanUpGA($(this)) + " -Footer");
 });
 function cleanUpGA(input) {
-	console.log(input);
-	var href = input.context.href;
+	var href = input.[0].href;
 	console.log(href);
 	var filtered = href.replace("https://www.flickr.com/photos/116918023@N02/","Flickr").replace("http://www.apasswordgenerator.website/","A Password Generator").replace("https://github.com/Windso/apasswordgenerator.website","Github: A Password Generator").replace("http://difficultbib.com/","Difficult Bib").replace("https://github.com/Windso/difficultbib.com","Github: Difficult Bib").replace("https://wp.pinger.com/","Pinger").replace("mailto:kristianwindso@gmail.com","Mail").replace("tel:1-408-683-4007","Phone").replace("https://www.google.com/maps/place/Cupertino,+CA/","Google Maps").replace("https://github.com/Windso","Github").replace("https://www.linkedin.com/in/kristian-windsor-80947b119/","LinkedIn").replace("https://www.youtube.com/channel/UCZ4fDjpML5yp6QQcdMkyoXg","YouTube").replace("https://www.instagram.com/wind.so/?hl=en","Instagram").replace("http://kristianwindsor.tumblr.com/","Tumblr");
 	return filtered;
