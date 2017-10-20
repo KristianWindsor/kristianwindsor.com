@@ -15,6 +15,12 @@ body {
 * {
   box-sizing: border-box;
 }
+*::selection {
+  background: #97e7ff;
+}
+*::-moz-selection {
+  background: #97e7ff;
+}
 
 a {
   text-decoration: none;
