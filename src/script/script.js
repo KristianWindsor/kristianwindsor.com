@@ -262,7 +262,7 @@ $("#bye a").click(function() {
 	ga('send', 'event', 'Click Link', "External", cleanUpGA($(this)) + " -Footer");
 });
 function cleanUpGA(input) {
-	var href = input.[0].href;
+	var href = input[0].href;
 	console.log(href);
 	var filtered = href.replace("https://www.flickr.com/photos/116918023@N02/","Flickr").replace("http://www.apasswordgenerator.website/","A Password Generator").replace("https://github.com/Windso/apasswordgenerator.website","Github: A Password Generator").replace("http://difficultbib.com/","Difficult Bib").replace("https://github.com/Windso/difficultbib.com","Github: Difficult Bib").replace("https://wp.pinger.com/","Pinger").replace("mailto:kristianwindso@gmail.com","Mail").replace("tel:1-408-683-4007","Phone").replace("https://www.google.com/maps/place/Cupertino,+CA/","Google Maps").replace("https://github.com/Windso","Github").replace("https://www.linkedin.com/in/kristian-windsor-80947b119/","LinkedIn").replace("https://www.youtube.com/channel/UCZ4fDjpML5yp6QQcdMkyoXg","YouTube").replace("https://www.instagram.com/wind.so/?hl=en","Instagram").replace("http://kristianwindsor.tumblr.com/","Tumblr");
 	return filtered;
@@ -270,7 +270,7 @@ function cleanUpGA(input) {
 
 // Google Analytics: Contact Form
 $("#contact input, #contact textarea").click(function() {
-	var label = $(this).context.id;
+	var label = $(this)[0].id;
 	label = label.replace("send-no","Cancel").replace("send-yes","Confirm Send");
 	label = label.charAt(0).toUpperCase() + label.slice(1);
 	ga('send', 'event', 'Form Interaction', "Focus", label);
