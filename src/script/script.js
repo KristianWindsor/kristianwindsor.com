@@ -113,13 +113,23 @@ $("#send").click(function(){
 		$(".textbox").css("border-color", "#f00000");
 		$("#name").focus();
 		resetColorsTimer = 7;
-		event = "Empty Name";
+		event = "Empty Name, Email, Message";
 	} else if (isBlank(message)) {
 		$("#message-label").css("color", "#f00000");
 		$("#message").css("border-color", "#f00000");
 		$("#message").focus();
 		resetColorsTimer = 7;
 		event = "Empty Message";
+	} else if (isBlank(name) && isBlank(email)) {
+		$("#send").hide();
+		$("#no-name-no-email").fadeIn(200).css("display","block");;
+		$(".yesno").fadeIn(200);
+		event = "Empty Name, Email";
+	} else if (isBlank(name)) {
+		$("#send").hide();
+		$("#no-name").fadeIn(200).css("display","block");;
+		$(".yesno").fadeIn(200);
+		event = "Empty Name";
 	} else if (isBlank(email)) {
 		$("#send").hide();
 		$("#no-email").fadeIn(200).css("display","block");;
@@ -145,7 +155,6 @@ $("#send-yes").click(function(){
 
 // [send] no button
 $("#send-no").click(function(){
-	$("#email").focus();
 	hideYesNo();
 });
 
@@ -188,6 +197,8 @@ handleRedColors();
 // hide yes/no buttons and show send button
 function hideYesNo() {
 	$(".yesno").hide();
+	$("#no-name-no-email").hide();
+	$("#no-name").hide();
 	$("#no-email").hide();
 	$("#bad-email").hide();
 	$("#send").fadeIn(200);

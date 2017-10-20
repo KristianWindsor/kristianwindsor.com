@@ -450,7 +450,7 @@ img {
   margin-top: 2px;
 }
 
-#no-email, #bad-email {
+#no-name-no-email, #no-name, #no-email, #bad-email {
   display: none;
 }
 
@@ -460,11 +460,11 @@ img {
 }
 
 #send-no {
-  float: right;
+  float: left;
 }
 
 #send-yes {
-  float: left;
+  float: right;
 }
 
 .icon {
