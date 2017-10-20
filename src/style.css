@@ -505,7 +505,7 @@ img {
 }
 
 #bye {
-  padding: 12vh 0;
+  padding: 7vh 0;
   background-color: #333;
   text-align: center;
 }
@@ -623,6 +623,9 @@ img {
 
   #nav a {
     margin: 0 9px;
+  }
+  #bye {
+    padding: 5vh 0;
   }
 }
 @media (max-width: 490px) {
