@@ -15,7 +15,7 @@ var flag = false;
 $("#nav-about").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
-    setTimeout(function(){ flag = false; }, 310);
+    setTimeout(function(){ flag = false; }, 200);
     scrollTo("#about-section",650)
   }
   return false
@@ -24,7 +24,7 @@ $("#nav-about").bind('touch mouseup', function(){
 $("#nav-portfolio").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
-    setTimeout(function(){ flag = false; }, 310);
+    setTimeout(function(){ flag = false; }, 200);
     scrollTo("#portfolio-section",850)
   }
   return false
@@ -33,7 +33,7 @@ $("#nav-portfolio").bind('touch mouseup', function(){
 $("#nav-experience").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
-    setTimeout(function(){ flag = false; }, 310);
+    setTimeout(function(){ flag = false; }, 200);
     scrollTo("#experience-section",1000)
   }
   return false
@@ -42,7 +42,7 @@ $("#nav-experience").bind('touch mouseup', function(){
 $("#nav-contact").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
-    setTimeout(function(){ flag = false; }, 310);
+    setTimeout(function(){ flag = false; }, 200);
     scrollTo("#contact-section",1300)
   }
   return false
@@ -51,7 +51,7 @@ $("#nav-contact").bind('touch mouseup', function(){
 $("#nav-portfolio-2").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
-    setTimeout(function(){ flag = false; }, 310);
+    setTimeout(function(){ flag = false; }, 200);
     scrollTo("#portfolio-section",550)
   }
   return false
@@ -60,7 +60,7 @@ $("#nav-portfolio-2").bind('touch mouseup', function(){
 $("#nav-contact-2").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
-    setTimeout(function(){ flag = false; }, 310);
+    setTimeout(function(){ flag = false; }, 200);
     scrollTo("#contact-section",950)
   }
   return false
@@ -84,7 +84,7 @@ $('.hoverable').on('touchstart', function () {
 	if (!$(".hoverable").hasClass("hovering")) {
 		flag2 = true;
 		$(this).addClass("hovering");
-		setTimeout(function(){ flag2 = false; }, 310);
+		setTimeout(function(){ flag2 = false; }, 200);
 	}
  });
 
