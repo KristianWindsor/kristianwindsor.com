@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>
-			Blog by Kristian Windsor
+			<?php echo $articleTitle; ?>
 		</title>
 		<link rel="stylesheet" href="../blogfiles/blog.css">
 		<link rel="stylesheet" href="../../style.css">
@@ -15,8 +15,11 @@
 		<link rel="shortcut icon" href="../icon/favicon.ico">
 		<meta name="msapplication-config" content="../icon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
-		<meta name="description" content="Blog by Kristian Windsor.">
+		<meta name="description" content="Blog post by Kristian Windsor.">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	</head>
 	<body id="body">
+		<div id="breadcrumb">
+			<a href="https://kristianwindsor.com/">Kristian Windsor</a> --> <a href="https://kristianwindsor.com/blog/">Blog</a> --> <a href=<?php echo '"https://kristianwindsor.com/blog/'.$articleUrl.'"'; ?>>Why You Should Start a Blog</a>
+		</div>
 		<div id="blog-post">

@@ -1,6 +1,14 @@
 body {
   background-color: #F5F5F5;
 }
+
+#breadcrumb {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding: 0 50px;
+  font-size: 16px;
+}
 #blog {
 
 }
@@ -48,7 +56,7 @@ footer {
 
 #body {
   background-color: #F5F5F5;
-  padding: 60px 0 120px;
+  padding: 15px 0 120px;
 }
 #blog-post {
   max-width: 750px;
@@ -101,6 +109,10 @@ footer {
 @media (max-width: 430px) {
   #body {
     padding: 0;
+  }
+  #breadcrumb {
+    margin: 0;
+    padding: 4%;
   }
   #title, .article-heading {
     text-align: left;

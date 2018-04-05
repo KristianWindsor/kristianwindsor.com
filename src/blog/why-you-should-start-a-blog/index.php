@@ -1,5 +1,7 @@
 <?php
-	include '../blogfiles/header.html';
+	$articleTitle = "Why You Should Start a Blog";
+	$articleUrl = "why-you-should-start-a-blog";
+	include '../blogfiles/header.php';
 ?>
 <article id="article">
 	<header class="article-heading">
@@ -33,5 +35,5 @@
 	</section>
 </article>
 <?php
-	include '../blogfiles/footer.html';
+	include '../blogfiles/footer.php';
 ?>
