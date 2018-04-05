@@ -59,7 +59,7 @@ footer {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-#article p {
+.article-body p {
   max-width: 650px;
   margin: 40px 0;
   font-size: 20px;
@@ -81,8 +81,9 @@ footer {
 }
 
 .article-info {
-  font-size: 16px;
   margin: 0;
+  font-size: 14px;
+  color: #7a7a7a;
 }
 
 .image {
@@ -106,15 +107,16 @@ footer {
   }
   #blog-post {
     width: 100%;
-    padding: 4%;
+    padding: 15px 4%;
   }
   .article-title{
+    margin: 15px 0;
     font-size: 34px;
   }
   .image {
     margin: 30px 0 0;
   }
-  #article p {
+  .article-body p {
     font-size: 18px;
   }
   #article .bold-text {
