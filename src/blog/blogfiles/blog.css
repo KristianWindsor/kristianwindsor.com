@@ -65,6 +65,12 @@ footer {
   font-size: 20px;
   line-height: 1.58;
 }
+.article-body a {
+  border-bottom: 1px solid #5a5959;
+}
+.article-body a:hover {
+  border-bottom: 0;
+}
 .bold-text {
   font-size: 27px;
   font-weight: 600;
