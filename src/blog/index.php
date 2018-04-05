@@ -19,6 +19,9 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	</head>
 	<body id="blog">
+		<div id="breadcrumb">
+			<a href="https://kristianwindsor.com/">Kristian Windsor</a> --> <a href="https://kristianwindsor.com/blog/">Blog</a>
+		</div>
 		<div id="title">
 			<h1>
 				Blog by Kristian Windsor

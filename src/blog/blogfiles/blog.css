@@ -2,15 +2,19 @@ body {
   background-color: #F5F5F5;
 }
 
+#blog {
+  padding-top: 15px;
+}
 #breadcrumb {
   max-width: 750px;
   margin: 0 auto;
   margin-bottom: 60px;
   padding: 0 50px;
   font-size: 16px;
+  text-transform: uppercase;
 }
-#blog {
-
+#blog #breadcrumb {
+  margin: 0 auto;
 }
 
 #title {
@@ -73,12 +77,6 @@ footer {
   font-size: 20px;
   line-height: 1.58;
 }
-.article-body a {
-  border-bottom: 1px solid #5a5959;
-}
-.article-body a:hover {
-  border-bottom: 0;
-}
 .bold-text {
   font-size: 27px;
   font-weight: 600;
@@ -113,6 +111,7 @@ footer {
   #breadcrumb {
     margin: 0;
     padding: 4%;
+    font-size: 14px;
   }
   #title, .article-heading {
     text-align: left;
@@ -125,16 +124,17 @@ footer {
   }
   #blog-post {
     width: 100%;
-    padding: 15px 4%;
+    padding: 4%;
   }
   .article-title{
-    margin: 15px 0;
+    margin: 0 0 4%;
     font-size: 34px;
   }
   .image {
-    margin: 30px 0 0;
+    margin: 12% 0 0;
   }
   .article-body p {
+    margin: 12% 0;
     font-size: 18px;
   }
   #article .bold-text {

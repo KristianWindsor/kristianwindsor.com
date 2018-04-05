@@ -23,7 +23,7 @@
 		</p>
 		<p>
 			<span class="bold-text">You're advertising yourself.</span><br>
-			While you sleep, your blog is still up and easily accessible to anyone. You might catch the attention of a potential employer, or a coding buddy. Any way it goes, having a blog can lead to many professional opportunities.
+			While you sleep, your blog is still up and easily accessible to anyone. You might catch the attention of a potential employer, or find a coding buddy. Any way it goes, having a blog can lead to many professional opportunities.
 		</p>
 		<p>
 			<span class="bold-text">You get to show off your skills and expertise.</span><br>
