@@ -30,7 +30,10 @@
 			In order to give your name credibility, you need to show your work and talk about it. For example, instead of just listing PHP as one of your languages, you can talk about your experiences with PHP and the challenges you've overcame. You can talk about what you did and the reasoning behind each decision. 
 		</p>
 		<p>
-			All things considered, I would recommend starting your own blog.
+			If you're not a web developer or just don't want to design your own blog, there are tons of free blogging sites like <a href="https://www.blogger.com/">Blogger</a>.
+		</p>
+		<p>
+			If you do want to develop your own blog, you'll need a domain and a host. Personally I recommend <a href="https://www.namecheap.com/">Namecheap</a>. How you go about creating your blog is all up to you, depending on what languages you know and what languages you want to learn.
 		</p>
 	</section>
 </article>

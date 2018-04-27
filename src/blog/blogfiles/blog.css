@@ -82,6 +82,12 @@ footer {
   font-weight: 600;
   color: #444;
 }
+.article-body a {
+  border-bottom: 1px solid #5a5959;
+}
+.article-body a:hover {
+  border-bottom: 0;
+}
 
 .article-heading {
   max-width: 650px;
