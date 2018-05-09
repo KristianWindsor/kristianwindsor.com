@@ -17,9 +17,11 @@ body {
 }
 *::selection {
   background: #97e7ff;
+  color: #fff;
 }
 *::-moz-selection {
   background: #97e7ff;
+  color: #fff;
 }
 
 a {
