@@ -37,10 +37,10 @@
 					Read about me trying super hard to justify the creation of this blog.
 				</p>
 			</a>
-			<a href="designing-an-original-password-generator" class="post-preview">
-				<img src="designing-an-original-password-generator/a-password-generator.png" />
+			<a href="designing-a-password-generator" class="post-preview">
+				<img src="designing-a-password-generator/a-password-generator.png" />
 				<h3>
-					Designing an Original Password Generator
+					Designing A Password Generator
 				</h3>
 				<p>
 					I spent so many hours on this thing.

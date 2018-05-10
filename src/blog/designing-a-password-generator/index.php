@@ -1,12 +1,12 @@
 <?php
-	$articleTitle = "Designing an Original Password Generator";
-	$articleUrl = "designing-an-original-password-generator";
+	$articleTitle = "Designing A Password Generator";
+	$articleUrl = "designing-a-password-generator";
 	include '../blogfiles/header.php';
 ?>
 <article id="article">
 	<header class="article-heading">
 		<h1 class="article-title">
-			Designing an Original Password Generator
+			Designing A Password Generator
 		</h1>
 		<p class="article-info">
 			By Kristian Windsor on May 8th, 2018
