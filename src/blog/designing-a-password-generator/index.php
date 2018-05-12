@@ -22,21 +22,21 @@
 				Getting the idea
 			</p>
 			<p>
-				I wanted to create a project that would test my javascript skills and that would be fun to work on. Creating a password generator is a common beginner’s programming project, but this challenged me to create a password generator that was different and better than all others.
+				I wanted to create a project that would be fun to work on and put my javascript skills to the test. Creating a password generator is a common beginner’s programming project, but this challenged me to create a password generator that was different and better than all others.
 			</p>
 			<p>
 				I was inspired by this XKCD comic:
 				<img src="https://imgs.xkcd.com/comics/password_strength.png" />
 			</p>
 			<p>
-				We learn from this that full-sentence-based passwords are easier to remember. Here’s a password generator that does just that: <a href="https://eth0za.github.io/password-generator" target="_blank">eth0za.github.io/password-generator</a>
+				From this comic we learn that sentence-based passwords are easier to remember and are more secure. I came across this password generator that does just that: <a href="https://eth0za.github.io/password-generator" target="_blank">eth0za.github.io/password-generator</a>.
 			</p>
 			<p>
-				So to start off, we have some sentence-based passwords:
+				It generated these sentence-based passwords:
 			</p>
 			<ul>
 				<li>
-					correct-horse-battery-staple
+					Wherever-office-pocket-committee
 				</li>
 				<li>
 					Pincushion-science-without-civilization
@@ -84,6 +84,9 @@
 					Correct-horse-battery-staple
 				</li>
 				<li>
+					Wherever-office-pocket-committee
+				</li>
+				<li>
 					Pincushion-science-without-civilization
 				</li>
 				<li>
@@ -108,13 +111,19 @@
 			<p>
 				I would describe the trend as a transition from a complete sentence to a random combination of characters. This is how I designed my password generator to function. I created a slider (HTML input range) that deteriorates sentence-based passwords, allowing the user to choose any "recipe" for the password with a single UI control.
 			</p>
+			<img src="a-password-generator-examples.png" />
+			<p class="caption">
+				My website is capable of reproducing all of the different "recipes" of passwords: Sentence-based passwords, pronouncable passwords, alpha-numeric passwords, and random character passwords.
 		</div>
 		<div class="paragraph">
 			<p class="bold-text">
 				How the script functions
 			</p>
 			<p>
-				The script functions by creating a sentence in the format "verb-adjective-adjective-adjective-noun-number", and is broken down into 11 "steps"; in each of which some characters are replaced. Each character is replaced twice from steps 0-10, chosen at random. So each of the 32 character positions in a 32-character password will hold 3 different characters depending on which step you are on (which is determined by the user-controlled slider). Here is a brief description of the passwords it generates:
+				The script functions by creating a sentence in the format "verb-adjective-adjective-adjective-noun-number", and is broken down into 11 "steps"; in each of which some characters are replaced. Each character is replaced twice from steps 0-10, chosen at random. 
+			</p>
+			<p>
+				For example, in a 32-character password, each of the 32 character positions will hold 3 different characters depending on which step you are on (which is determined by the user-controlled slider). Here is a brief description of the passwords it generates:
 			</p>
 			<ul>
 				<li>
@@ -135,37 +144,37 @@
 			</p>
 			<ul>
 				<li>
-					10. provide-used-known-tough-potato9
+					Step 10: Accuse-visual-dirty-huge-dinner0
 				</li>
 				<li>
-					9. provide-used-known-toogh-potato9
+					Step 9: Accosa-visoal-dirty-huga-dinnar0
 				</li>
 				<li>
-					8. provade-esed-known-toogh-putatu9
+					Step 8: Ackoza-visoal-derty-huga-denmar0
 				</li>
 				<li>
-					7. gf0wape-esed-kmowm-m0onb-futatu9
+					Step 7: Askoza-vivoil-dergy-dola-denmar0
 				</li>
 				<li>
-					6. gf0wapaceqidbvmowmmm0onb-futavu9
+					Step 6: Yskoza5nivoil8deggubdolaydepmar0
 				</li>
 				<li>
-					5. gf0wapaceqiUbvmUKmmm0onbDfuLYvuM
+					Step 5: Yskoza5nEvoiA8EeggubdolayKepmaL6
 				</li>
 				<li>
-					4. af0wapaweqiUbv9UKmmm9bqbDfuLY3uM
+					Step 4: YskozafjEvo9j83egwubdolayxepmaL6
 				</li>
 				<li>
-					3. a@0wap1weviUbu9UKmmm9bqdD!uLY3uM
+					Step 3: YskozafjElo9j83etwubdola2xe84aLw
 				</li>
 				<li>
-					2. a@0wap1wdvijbu9UKmym9bqdn!u@w3uM
+					Step 2: Vs0od$fj8lo9j83etwubdola2xo84aLw
 				</li>
 				<li>
-					1. a@9w/c1wdv!jbu9UK}ym9bqdn!u@w39b
+					Step 1: V&0{d$fj8li9j83etwubd@na2xo84/{w
 				</li>
 				<li>
-					0. a@9z/c1wdv!j\u97b}yb9bqdn!/@w39b
+					Step 0: V&0{d$fj8li9j-3,tw;%e@nk2xo84/{w
 				</li>
 			</ul>
 			<p>
@@ -187,57 +196,94 @@
 			</p>
 			<ul>
 				<li>
-					32 chars: Provide-used-known-tough-potato9
+					32 chars: Accuse-visual-dirty-huge-dinner0
 				</li>
 				<li>
-					31 chars: Provide-used-known-tough-901410
+					31 chars: Accuse-visual-dirty-huge-012234
 				</li>
 				<li>
-					25 chars: Provide-used-known-tough8
+					30 chars: Accuse-visual-dirty-huge-01223
 				</li>
 				<li>
-					24 chars: Provide-used-known-10298
+					29 chars: Accuse-visual-dirty-huge-0122
 				</li>
 				<li>
-					19 chars: Provide-used-known2
+					28 chars: Accuse-visual-dirty-huge-012
 				</li>
 				<li>
-					18 chars: Provide-used-52032
+					27 chars: Accuse-visual-dirty-huge-01
 				</li>
 				<li>
-					13 chars: Provide-used0
+					26 chars: Accuse-visual-dirty-huge-0
 				</li>
 				<li>
-					12 chars: Provide-2530
+					25 chars: Accuse-visual-dirty-huge3
 				</li>
 				<li>
-					8 chars: Provide3
+					24 chars: Accuse-visual-dirty-8293
 				</li>
 				<li>
-					3 chars: Pr9
-				</li>
-			</ul>
-			<p>
-				But of course, it only generates full-sentence, 32-character passwords if the length is set to 32 characters. The script will generate a sentence that fits the length inputted by the user:
-			</p>
-			<ul>
-				<li>
-					32 chars: Provide-used-known-tough-potato9
+					23 chars: Accuse-visual-dirty-829
 				</li>
 				<li>
-					28 chars: Propose-slow-annual-content1
+					22 chars: Accuse-visual-dirty-82
 				</li>
 				<li>
-					18 chars: Throw-wild-scared0
+					21 chars: Accuse-visual-dirty-8
 				</li>
 				<li>
-					12 chars: Buy-anxious5
+					20 chars: Accuse-visual-dirty7
 				</li>
 				<li>
-					8 chars: Approve3
+					19 chars: Accuse-visual-01417
 				</li>
 				<li>
-					4 chars: Eat1
+					18 chars: Accuse-visual-0141
+				</li>
+				<li>
+					17 chars: Accuse-visual-014
+				</li>
+				<li>
+					16 chars: Accuse-visual-01
+				</li>
+				<li>
+					15 chars: Accuse-visual-0
+				</li>
+				<li>
+					14 chars: Accuse-visual1
+				</li>
+				<li>
+					13 chars: Accuse-415241
+				</li>
+				<li>
+					12 chars: Accuse-41524
+				</li>
+				<li>
+					11 chars: Accuse-4152
+				</li>
+				<li>
+					10 chars: Accuse-415
+				</li>
+				<li>
+					09 chars: Accuse-41
+				</li>
+				<li>
+					08 chars: Accuse-4
+				</li>
+				<li>
+					07 chars: Accuse3
+				</li>
+				<li>
+					06 chars: Accus0
+				</li>
+				<li>
+					05 chars: Accu0
+				</li>
+				<li>
+					04 chars: Acc0
+				</li>
+				<li>
+					03 chars: Ac0
 				</li>
 			</ul>
 		</div>
@@ -246,7 +292,7 @@
 				Designing the UI
 			</p>
 			<p>
-				I decided to change the order of elements between mobile and desktop for the best usability across platforms.
+				I decided to change the position of elements between mobile and desktop devices for the best user experience across platforms.
 			</p>
 			<p>
 				On a laptop or desktop, the placement of elements is determined by the logical flow of events:
@@ -264,17 +310,36 @@
 			</ul>
 			<img src="desktop-ux.png" />
 			<p>
-				However, accessbility is more important on mobile devices. Here is an image of thumb-zone mapping:
+				This also follows the traditional direction of reading: left-to-right and top-to-bottom.
+			<p>
+				However, accessbility is a higher priority on mobile devices. Here is an image of thumb-zone mapping that shows the accessibility of content on mobile devcies:
 				<img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/496f7bc0-4c6c-4159-b731-ec3adcf91105/thumb-zone-mapping-opt.png" />
 				<span class="caption">
 					If you are interested in learning more about mobile UX, this image is from <a href="https://www.smashingmagazine.com/2016/09/the-thumb-zone-designing-for-mobile-users/" target="_blank">The Thumb Zone: Designing For Mobile Users</a>.
 				</span>
 			</p>
 			<p>
-				The user will likely click the generate button multiple times, but will only select and copy the password one time. To account for this, the generate button and slider controls are placed below the passwords. 
-				<span class="image-wrap">
-					<img src="mobile-ux.png" class="small" />
-				</span>
+				To provide the best user experience, elements that are heavily interacted with should be most accessible, while lesser-used elements should be less accessible. 
+			</p>
+			<p>
+				On mobile, the placement of elements is determined by the frequency of the element being used (anchored to the bottom):
+			</p>
+			<ul>
+				<li>
+					1. Generate button
+				</li>
+				<li>
+					2. Slider controls
+				</li>
+				<li>
+					3. Passwords
+				</li>
+			</ul>
+			<span class="image-wrap">
+				<img src="mobile-ux.png" class="small" />
+			</span>
+			<p class="caption">
+				All elements are within the green-natural region, so the user doesn't have to scroll or extend their thumb to use the app. 
 			</p>
 		</div>
 		<div class="paragraph">
@@ -282,7 +347,13 @@
 				Conclusion
 			</p>
 			<p>
-				My password generator is the first ever to use 2 sliders as the only UI controls, and the first ever to create both sentence-based passwords and random-character-based passwords.
+				My password generator has all of the functionality of other password generators, while having less controls and a better user experience. 
+			</p>
+			<p>
+				It is the first ever password generator to use 2 sliders as the only UI controls, and the first ever to create both sentence-based passwords and random-character-based passwords.
+			</p>
+			<p>
+				Working on this project got me thinking outside the box as I reimagined the way users interact with the app. I had fun while gaining valuable experience with javascript and UX.
 			</p>
 			<p>
 				You can view all the code for this project on Github: <a href="https://github.com/Windso/apasswordgenerator.website" target="_blank">github.com/Windso/apasswordgenerator.website</a>
