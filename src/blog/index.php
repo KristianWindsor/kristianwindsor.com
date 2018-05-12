@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>
-			Blog by Kristian Windsor
+			Kristian Windsor's Blog
 		</title>
 		<link rel="stylesheet" href="blogfiles/blog.css">
 		<link rel="stylesheet" href="../style.css">
@@ -20,11 +20,11 @@
 	</head>
 	<body id="blog">
 		<div id="breadcrumb">
-			<a href="https://kristianwindsor.com/">Kristian Windsor</a> --> <a href="https://kristianwindsor.com/blog/">Blog</a>
+			<a href="../">Kristian Windsor</a> --> <a href="../blog/">Blog</a>
 		</div>
 		<div id="title">
 			<h1>
-				Blog by Kristian Windsor
+				Kristian Windsor's Blog
 			</h1>
 		</div>
 		<div id="content">
