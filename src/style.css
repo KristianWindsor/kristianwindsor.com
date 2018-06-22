@@ -259,8 +259,8 @@ img {
   position: relative;
   display: inline-block;
   width: 100%;
-  margin: 16px 0;
-  padding: 16px;
+  margin: 2.5% 0;
+  padding: 5%;
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   background-color: #fff;
@@ -665,6 +665,11 @@ img {
 
   #profile-photo-mobile {
     width: 48%;
+  }
+
+  .website-link {
+    padding: 5%;
+    margin: 2.5% 0;
   }
 
   .employer-name, .title {
