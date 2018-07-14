@@ -309,13 +309,14 @@ img {
   display: inline-block;
   padding: 10px;
   border-radius: 30px;
-  background-color: #61cae9;
+  background-color: #F5F5F5;
   z-index: 101;
 }
 
 .work-icon i {
   margin: 0;
-  color: #fff;
+  font-size: 45px;
+  color: #61cae9;
   z-index: 101;
 }
 
@@ -532,6 +533,11 @@ img {
   color: #fff;
 }
 
+@media (max-width: 2000px) {
+  .icon-container.fade:after {
+    height: 82%;
+  }
+}
 @media (max-width: 1440px) {
   .website-link {
     margin: 2.5% 0;
@@ -539,6 +545,9 @@ img {
   }
   .work .project {
     width: 42%;
+  }
+  .icon-container.fade:after {
+    height: 75%;
   }
 }
 @media (max-width: 1050px) {
@@ -553,6 +562,10 @@ img {
 
   .work-dates {
     width: 15%;
+  }
+  
+  .icon-container.fade:after {
+    height: 66%;
   }
 
   .contact {
@@ -631,6 +644,10 @@ img {
     width: 65px;
     margin: 0 auto;
     margin-bottom: 1.5vh;
+  }
+
+  .icon-container.fade:after {
+    height: 60%;
   }
 
   #nav a {
