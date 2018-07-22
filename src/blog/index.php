@@ -34,7 +34,7 @@
 					Why You Should Start a Blog
 				</h3>
 				<p>
-					Read about me trying super hard to justify the creation of this blog.
+					Why I started this blog.
 				</p>
 			</a>
 			<a href="designing-a-password-generator" class="post-preview">
@@ -44,6 +44,15 @@
 				</h3>
 				<p>
 					I spent so many hours on this thing.
+				</p>
+			</a>
+			<a href="stock-trading-bot-design" class="post-preview">
+				<img src="stock-trading-bot-design/moneybot.png" />
+				<h3>
+					Stock Trading Bot Design
+				</h3>
+				<p>
+					This bot manages 100% of my money.
 				</p>
 			</a>
 		</div>
