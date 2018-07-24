@@ -1,6 +1,8 @@
 FROM php:7.0-apache
 
-RUN apt-get update && apt-get install -y
+RUN apt-get update && apt-get install -y \
+	python3.4 \
+	python3-pip
 RUN a2enmod headers
 
 COPY ./src /var/www/html/
