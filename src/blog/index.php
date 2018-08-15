@@ -46,15 +46,6 @@
 					I spent so many hours on this thing.
 				</p>
 			</a>
-			<a href="stock-trading-bot-design" class="post-preview">
-				<img src="stock-trading-bot-design/moneybot.png" />
-				<h3>
-					Stock Trading Bot Design
-				</h3>
-				<p>
-					This bot manages 100% of my money.
-				</p>
-			</a>
 		</div>
 	</body>
 	<script type="text/javascript" src="../script/jquery.js"></script>
