@@ -1,12 +1,12 @@
 <?php
-	$articleTitle = "Why You Should Start a Blog";
-	$articleUrl = "why-you-should-start-a-blog";
+	$articleTitle = "Reasons to Start a Blog";
+	$articleUrl = "reasons-to-start-a-blog";
 	include '../blogfiles/header.php';
 ?>
 <article id="article">
 	<header class="article-heading">
 		<h1 class="article-title">
-			Why You Should Start a Blog
+			Reasons to Start a Blog
 		</h1>
 		<p class="article-info">
 			By Kristian Windsor on March 18th, 2018

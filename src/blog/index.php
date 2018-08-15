@@ -32,21 +32,21 @@
 				<img src="designing-a-password-generator/a-password-generator.png" />
 				<div class="right">
 					<h3>
-						Designing A Password Generator
+						Designing a Password Generator
 					</h3>
 					<p>
 						The UX in this app will knock your socks off!
 					</p>
 				</div>
 			</a>
-			<a href="why-you-should-start-a-blog" class="post-preview">
-				<img src="why-you-should-start-a-blog/laptop.jpg" />
+			<a href="reasons-to-start-a-blog" class="post-preview">
+				<img src="reasons-to-start-a-blog/laptop.jpg" />
 				<div class="right">
 					<h3>
-						Why You Should Start a Blog
+						Reasons to Start a Blog
 					</h3>
 					<p>
-						3 reasons why YOU should start a blog TODAY
+						Read why YOU should start a blog TODAY
 					</p>
 				</div>
 			</a>
