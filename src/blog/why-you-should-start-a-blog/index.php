@@ -48,7 +48,7 @@
 				If you're seeking to work in web development, this is a great opportunity to gain experience. You can use your choice of languages and tools to build your own blogging platform that also doubles as a portfolio piece.
 			</p>
 			<p>
-				An easier method of creating a blog is to use <a href="https://www.tumblr.com/" target="_blank">Tumblr</a>. Tumblr is a great platform for hosting blogs with text, images, and video. You have full control over the CSS of the page and it can easily be hosted on a custom domain name for $10/year. You can register a domain with <a href="https://www.namecheap.com/" target="_blank">Namecheap</a> and connect it to your tumblr blog using <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9247/2208/how-do-i-use-my-domain-with-my-tumblr-account" target="_blank">this guide</a>
+				An easier method of creating a blog is to use <a href="https://www.tumblr.com/" target="_blank">Tumblr</a>. Tumblr is a great platform for hosting blogs with text, images, and video. You have full control over the CSS of the page and it can easily be hosted on a custom domain name for $10/year. You can register a domain with <a href="https://www.namecheap.com/" target="_blank">Namecheap</a> and connect it to your tumblr blog using <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/9247/2208/how-do-i-use-my-domain-with-my-tumblr-account" target="_blank">this guide</a>.
 			</p>
 		</div>
 	</section>
