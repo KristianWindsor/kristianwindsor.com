@@ -9,7 +9,6 @@ body {
   max-width: 750px;
   margin: 0 auto;
   margin-bottom: 60px;
-  padding: 0 50px;
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -26,32 +25,49 @@ body {
 }
 
 #content {
-  width: 92%;
-  margin: 0 4% 13%;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .post-preview {
   display: inline-block;
-  width: 33%;
-  padding: 32px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+
+  -webkit-transition: color 0.15s ease-in-out;
+  -moz-transition: color 0.15s ease-in-out;
+  -ms-transition: color 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  -moz-transition: background-color 0.15s ease-in-out;
+  -ms-transition: background-color 0.15s ease-in-out;
+  -o-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
 }
 a.post-preview:hover {
-  color: #5a5959;
+  color: #fff;
+  background-color: #97e7ff;
 }
 .post-preview img {
-  width: 100%;
-  margin-bottom: 25px;
+  max-width: 33%;
+  margin-right: 32px;
+  float: left;
+}
+.post-preview .right {
+  display: inline-block;
+  float: left;
 }
 .post-preview h3 {
-  margin: 9px 0 0;
-  font-size: 26px;
+  font-size: 25px;
+  margin: 0 0 14px;
 }
 .post-preview p {
-  margin: 2px 0 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 footer {
@@ -147,6 +163,22 @@ td {
   text-align: right;
 }
 
+
+@media (max-width: 700px) {
+  .post-preview img {
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+  .post-preview h3 {
+    margin: 14px 0;
+  }
+}
+@media (max-width: 620px) {
+  .post-preview img {
+    max-width: 66%;
+  }
+}
 @media (max-width: 430px) {
   #body {
     padding: 0;
@@ -164,6 +196,9 @@ td {
   }
   .post-preview {
     width: 100%;
+  }
+  .post-preview img {
+    max-width: 100%;
   }
   #blog-post {
     width: 100%;

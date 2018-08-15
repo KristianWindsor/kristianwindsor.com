@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>
-			Kristian Windsor's Blog
+			Blog posts by Kristian
 		</title>
 		<link rel="stylesheet" href="blogfiles/blog.css">
 		<link rel="stylesheet" href="../style.css">
@@ -24,27 +24,31 @@
 		</div>
 		<div id="title">
 			<h1>
-				Kristian Windsor's Blog
+				Blog posts by Kristian
 			</h1>
 		</div>
 		<div id="content">
-			<a href="why-you-should-start-a-blog" class="post-preview">
-				<img src="why-you-should-start-a-blog/laptop.jpg" />
-				<h3>
-					Why You Should Start a Blog
-				</h3>
-				<p>
-					Why I started this blog.
-				</p>
-			</a>
 			<a href="designing-a-password-generator" class="post-preview">
 				<img src="designing-a-password-generator/a-password-generator.png" />
-				<h3>
-					Designing A Password Generator
-				</h3>
-				<p>
-					I spent so many hours on this thing.
-				</p>
+				<div class="right">
+					<h3>
+						Designing A Password Generator
+					</h3>
+					<p>
+						The UX in this app will knock your socks off!
+					</p>
+				</div>
+			</a>
+			<a href="why-you-should-start-a-blog" class="post-preview">
+				<img src="why-you-should-start-a-blog/laptop.jpg" />
+				<div class="right">
+					<h3>
+						Why You Should Start a Blog
+					</h3>
+					<p>
+						3 reasons why YOU should start a blog TODAY
+					</p>
+				</div>
 			</a>
 		</div>
 	</body>
