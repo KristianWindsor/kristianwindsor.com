@@ -29,10 +29,7 @@
 				<img src="https://imgs.xkcd.com/comics/password_strength.png" />
 			</p>
 			<p>
-				From this comic we learn that sentence-based passwords are easier to remember and are more secure. I came across this password generator that does just that: <a href="https://eth0za.github.io/password-generator" target="_blank">eth0za.github.io/password-generator</a>.
-			</p>
-			<p>
-				It generated these sentence-based passwords:
+				From the comic, I got that sentence-based passwords are easier to remember and are more secure. I came across <a href="https://eth0za.github.io/password-generator" target="_blank">this password generator</a> on Github that does just that. It generated these two sentence-based passwords:
 			</p>
 			<ul>
 				<li>
@@ -289,7 +286,7 @@
 		</div>
 		<div class="paragraph">
 			<p class="bold-text">
-				Designing the UI
+				User Experience (UX)
 			</p>
 			<p>
 				I decided to change the position of elements between mobile and desktop devices for the best user experience across platforms.
@@ -308,18 +305,19 @@
 					3. Review or copy the password.
 				</li>
 			</ul>
+			<p>
+				The three elements are positioned following the traditional direction of reading: left-to-right and top-to-bottom.
+			</p>
 			<img src="desktop-ux.png" />
 			<p>
-				This also follows the traditional direction of reading: left-to-right and top-to-bottom.
-			<p>
-				However, accessbility is a higher priority on mobile devices. Here is an image of thumb-zone mapping that shows the accessibility of content on mobile devcies:
+				However, accessbility is a higher priority on mobile devices. Here is an image of thumb-zone mapping that shows the accessibility of content on mobile devices:
 				<img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/496f7bc0-4c6c-4159-b731-ec3adcf91105/thumb-zone-mapping-opt.png" />
 				<span class="caption">
 					If you are interested in learning more about mobile UX, this image is from <a href="https://www.smashingmagazine.com/2016/09/the-thumb-zone-designing-for-mobile-users/" target="_blank">The Thumb Zone: Designing For Mobile Users</a>.
 				</span>
 			</p>
 			<p>
-				To provide the best user experience, elements that are heavily interacted with should be most accessible, while lesser-used elements should be less accessible. 
+				In order to provide the best user experience, high-frequency-interaction elements should be the most accessible, while low-frequency-interaction elements should be the least accessible. 
 			</p>
 			<p>
 				On mobile, the placement of elements is determined by the frequency of the element being used (anchored to the bottom):
@@ -338,8 +336,8 @@
 			<span class="image-wrap">
 				<img src="mobile-ux.png" class="small" />
 			</span>
-			<p class="caption">
-				All elements are within the green-natural region, so the user doesn't have to scroll or extend their thumb to use the app. 
+			<p>
+				In this image, all elements are within the green-natural region, so the user doesn't have to scroll or extend their thumb to use the app. 
 			</p>
 		</div>
 		<div class="paragraph">
@@ -347,10 +345,10 @@
 				Conclusion
 			</p>
 			<p>
-				My password generator has all of the functionality of other password generators, while having less controls and a better user experience. 
+				My password generator has all of the functionality of other password generators but provides a better user experience. 
 			</p>
 			<p>
-				It is the first ever password generator to use 2 sliders as the only UI controls, and the first ever to create both sentence-based passwords and random-character-based passwords.
+				It is the first password generator to use 2 sliders as the only UI controls, and the first to create both sentence-based passwords and random-character-based passwords.
 			</p>
 			<p>
 				Working on this project got me thinking outside the box as I reimagined the way users interact with the app. I had fun while gaining valuable experience with javascript and UX.
