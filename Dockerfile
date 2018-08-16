@@ -1,4 +1,7 @@
 FROM php:7.0-apache
-RUN docker-php-ext-install pdo pdo_mysql
+
+RUN apt-get update && apt-get install -y
+RUN a2enmod headers
+
 COPY ./src /var/www/html/
 RUN chown -R www-data:www-data /var/www/html/
