@@ -1,19 +1,14 @@
 # Kristian Windsor
 
-[kristianwindsor.com](http://kristianwindsor.com/)
+![kristian windsor logo](src/img/logo.png)
 
-## Project Summary
+## About
 
-This is my personal portfolio. The purpose of this website is to show off my skills as a fullstack web designer and developer.
+This project serves three purposes:
 
-## Technology Stack
+* A Portfolio: to showcase my projects.
+* A Blog: to document and share what I've learned.
+* A Landing Page: to make me easy to contact.
 
-* HTML
-* CSS
-* Javascript
-* Jquery
-
-## To Do List
-
-* View and edit sent message
-* Add Resume
+### Visit the website 
+This project is live at [kristianwindsor.com](https://kristianwindsor.com/).
