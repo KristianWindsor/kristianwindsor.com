@@ -6,7 +6,7 @@
 <article id="article">
 	<header class="article-heading">
 		<h1 class="article-title">
-			Designing A Password Generator
+			Designing a Password Generator
 		</h1>
 		<p class="article-info">
 			By Kristian Windsor on May 8th, 2018
