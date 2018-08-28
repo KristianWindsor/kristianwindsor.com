@@ -15,7 +15,7 @@
 	<img src="a-password-generator.png" class="image" />
 	<section class="article-body">
 		<p>
-			You can view this finished project live at <a href="http://apassgen.site/" target="_blank">apassgen.site</a> or <a href="https://www.apasswordgenerator.website/" target="_blank">apasswordgenerator.website</a>.
+			You can view this finished project live at <a href="https://passgen.site/" target="_blank">passgen.site</a>.
 		</p>
 		<div class="paragraph">
 			<p class="bold-text">
@@ -354,7 +354,7 @@
 				Working on this project got me thinking outside the box as I reimagined the way users interact with the app. I had fun while gaining valuable experience with javascript and UX.
 			</p>
 			<p>
-				You can view all the code for this project on Github: <a href="https://github.com/Windso/apasswordgenerator.website" target="_blank">github.com/Windso/apasswordgenerator.website</a>
+				You can view all the code for this project on Github: <a href="https://github.com/Windso/passgen.site" target="_blank">github.com/Windso/passgen.site</a>
 			</p>
 			<p>
 				Thanks for reading!
