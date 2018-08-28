@@ -1,5 +1,5 @@
 <?php
-	$articleTitle = "Designing A Password Generator";
+	$articleTitle = "Designing a Password Generator";
 	$articleUrl = "designing-a-password-generator";
 	include '../blogfiles/header.php';
 ?>
