@@ -278,7 +278,8 @@ a:hover, .a-hovering {
 
 .work {
   position: relative;
-  margin: 2% 0;
+  margin: 2vw 0;
+  padding-top: 8px;
 }
 
 .work > div {
@@ -286,51 +287,11 @@ a:hover, .a-hovering {
 }
 
 .work-dates {
-  width: 195px;
-  text-align: right;
-}
-
-.work-dates2 {
-  display: none;
-}
-
-.work-icon {
-  margin: 0 20px;
-}
-
-.icon-container {
-  display: inline-block;
-  padding: 10px;
-  border-radius: 30px;
-  background-color: #F5F5F5;
-  z-index: 101;
-}
-
-.work-icon i {
-  margin: 0;
-  font-size: 45px;
-  color: #61cae9;
-  z-index: 101;
-}
-
-.icon-container:after {
-  position: absolute;
-  content: '';
-  height: 120%;
-  margin-left: -1px;
-  border: 1px solid #61cae9;
-}
-
-.icon-container.fade:after {
-  height: 90%;
-  -webkit-border-image: -webkit-linear-gradient(bottom, #F5F5F5, #61cae9 25%) 1 100%;
-  -moz-border-image: -moz-linear-gradient(bottom, #F5F5F5, #61cae9 25%) 1 100%;
-  -o-border-image: -o-linear-gradient(bottom, #F5F5F5, #61cae9 25%) 1 100%;
-  border-image: linear-gradient(to top, #F5F5F5, #61cae9 25%) 1 100%;
-}
-
-.icon-container:not(.fade):after {
-  height: 120%;
+  width: 33%;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  text-align: left;
 }
 
 .work .project {
@@ -526,6 +487,11 @@ a:hover, .a-hovering {
   color: #fff;
 }
 
+@media (min-width: 1700px) {
+  .work .project {
+    padding: 32px;
+  }
+}
 @media (max-width: 2000px) {
   .icon-container.fade:after {
     height: 82%;
@@ -536,7 +502,7 @@ a:hover, .a-hovering {
     margin: 2.5% 0;
     padding: 5%;
   }
-  .work .project {
+  .work .project, .work-dates {
     width: 42%;
   }
   .icon-container.fade:after {
@@ -554,7 +520,7 @@ a:hover, .a-hovering {
   }
 
   .work-dates {
-    width: 15%;
+    width: 63%;
   }
 
   .icon-container.fade:after {
@@ -594,16 +560,6 @@ a:hover, .a-hovering {
 
   #profile-photo-mobile {
     display: inline;
-  }
-
-  .work .work-icon, .work .work-dates {
-    display: none;
-  }
-
-  .work-dates2 {
-    display: inline-block;
-    margin: 5px 0;
-    font-size: 18px;
   }
 
   #contact {
@@ -688,10 +644,6 @@ a:hover, .a-hovering {
 
   .employer-name, .title {
     font-size: 28px;
-  }
-
-  .work-dates2 {
-    font-size: 16px;
   }
 
   #linkedIn {
