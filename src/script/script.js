@@ -66,12 +66,6 @@ $("#nav-contact-2").bind('touch mouseup', function(){
   return false
 });
 
-// scroll hint click
-$("#scroll-touch").bind('touch mouseup', function(){
-  scrollTo("#about-section",750);
-  ga('send', 'event', 'Click Link', 'Scroll', 'Scroll Hint -Intro');
-});
-
 
 // force hover event on mobile for portfolio
 var flag2 = false;
