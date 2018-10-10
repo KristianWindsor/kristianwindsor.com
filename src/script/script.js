@@ -16,7 +16,7 @@ $("#nav-about").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
     setTimeout(function(){ flag = false; }, 200);
-    scrollTo("#about-section",650)
+    scrollTo(".about.section",1000)
   }
   return false
 });
@@ -25,7 +25,7 @@ $("#nav-portfolio").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
     setTimeout(function(){ flag = false; }, 200);
-    scrollTo("#portfolio-section",850)
+    scrollTo(".portfolio.section",650)
   }
   return false
 });
@@ -34,7 +34,7 @@ $("#nav-experience").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
     setTimeout(function(){ flag = false; }, 200);
-    scrollTo("#experience-section",1000)
+    scrollTo(".experience.section",900)
   }
   return false
 });
@@ -43,29 +43,10 @@ $("#nav-contact").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
     setTimeout(function(){ flag = false; }, 200);
-    scrollTo("#contact-section",1300)
+    scrollTo(".contact.section",1100)
   }
   return false
 });
-// portfolio section
-$("#nav-portfolio-2").bind('touch mouseup', function(){
-  if (!flag) {
-    flag = true;
-    setTimeout(function(){ flag = false; }, 200);
-    scrollTo("#portfolio-section",550)
-  }
-  return false
-});
-// contact section
-$("#nav-contact-2").bind('touch mouseup', function(){
-  if (!flag) {
-    flag = true;
-    setTimeout(function(){ flag = false; }, 200);
-    scrollTo("#contact-section",950)
-  }
-  return false
-});
-
 
 // force hover event on mobile for portfolio
 var flag2 = false;
@@ -218,65 +199,3 @@ function sendMessage (n,e,m) {
 	    }
 	});
 }
-
-// resize photo
-function resizePhoto() {
-      if ($(window).width() > 1310) {
-      	$("#profile-photo").width($("#about").innerHeight());
-      } else {
-      	$("#profile-photo").width(210);
-      }
-}
-$(window).on('load resize', function(){
-	resizePhoto();
-});
-
-// Google Analytics: Click Link
-$("#nav a").click(function() {
-	ga('send', 'event', 'Click Link', 'Scroll', $(this).context.text + ' -Nav');
-});
-$("#about-section a").click(function() {
-	var action = "External";
-	var label = cleanUpGA($(this)) + " -About";
-	if ($(this).context.href == "") {
-		action = "Scroll";
-		var label = "Portfolio -About";
-		if ($(this).context.id == "nav-contact-2") {
-			label = "Contact -About";
-		}
-	}
-	ga('send', 'event', 'Click Link', action, label);
-});
-$("#portfolio-section a").click(function() {
-	ga('send', 'event', 'Click Link', 'External', cleanUpGA($(this)) + " -Portfolio");
-});
-$("#experience-section a").click(function() {
-	ga('send', 'event', 'Click Link', 'External', cleanUpGA($(this)) + " -Experience");
-});
-$("#contact-section a").click(function() {
-	var type = "Action";
-	if(cleanUpGA($(this)) == "Google Maps") {
-		type = "External";
-	}
-	ga('send', 'event', 'Click Link', type, cleanUpGA($(this)), +' -Contact');
-});
-$("#submitted a").click(function() {
-	ga('send', 'event', 'Click Link', 'External', 'Cute Pic -Contact');
-});
-$("#bye a").click(function() {
-	ga('send', 'event', 'Click Link', "External", cleanUpGA($(this)) + " -Footer");
-});
-function cleanUpGA(input) {
-	var href = input[0].href;
-	console.log(href);
-	var filtered = href.replace("https://www.flickr.com/photos/116918023@N02/","Flickr").replace("http://www.apasswordgenerator.website/","A Password Generator").replace("https://github.com/Windso/apasswordgenerator.website","Github: A Password Generator").replace("http://difficultbib.com/","Difficult Bib").replace("https://github.com/Windso/difficultbib.com","Github: Difficult Bib").replace("https://wp.pinger.com/","Pinger").replace("mailto:kristianwindso@gmail.com","Mail").replace("tel:1-408-683-4007","Phone").replace("https://www.google.com/maps/place/Cupertino,+CA/","Google Maps").replace("https://github.com/Windso","Github").replace("https://www.linkedin.com/in/kristian-windsor-80947b119/","LinkedIn").replace("https://www.youtube.com/channel/UCZ4fDjpML5yp6QQcdMkyoXg","YouTube").replace("https://www.instagram.com/wind.so/?hl=en","Instagram").replace("http://kristianwindsor.tumblr.com/","Tumblr");
-	return filtered;
-}
-
-// Google Analytics: Contact Form
-$("#contact input, #contact textarea").click(function() {
-	var label = $(this)[0].id;
-	label = label.replace("send-no","Cancel").replace("send-yes","Confirm Send");
-	label = label.charAt(0).toUpperCase() + label.slice(1);
-	ga('send', 'event', 'Form Interaction', "Focus", label);
-});
