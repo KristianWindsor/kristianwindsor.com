@@ -1,4 +1,6 @@
-<Files index.html>
-	Header append Link "</style.css>; rel=preload; as=style"
-	Header append Link "</img/logo.png>; rel=preload; as=image"
-</Files>
+<IfModule mod_headers.c>
+	<Files index.html>
+		Header append Link "</style.css>; rel=preload; as=style"
+		Header append Link "</img/logo.png>; rel=preload; as=image"
+	</Files>
+</IfModule>
