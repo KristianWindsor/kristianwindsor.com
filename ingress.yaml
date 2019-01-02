@@ -1,0 +1,25 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: kristianwindsor-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
+    certmanager.k8s.io/cluster-issuer: letsencrypt
+    kubernetes.io/tls-acme: "true"
+    certmanager.k8s.io/acme-challenge-type: dns01
+    certmanager.k8s.io/acme-dns01-provider: route53
+spec:
+  rules:
+  - host: kristianwindsor.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: kristianwindsor
+          servicePort: 80
+  tls:
+  - hosts:
+    - kristianwindsor.com
+    secretName: kristianwindsor-cert

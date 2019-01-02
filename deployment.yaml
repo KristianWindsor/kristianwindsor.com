@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: kristianwindsor
+  labels:
+    app: kristianwindsor
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: kristianwindsor
+    spec:
+      containers:
+        - name: kristianwindsor
+          image: kristianwindsor/kristianwindsor.com
+          ports:
+            - containerPort: 80
