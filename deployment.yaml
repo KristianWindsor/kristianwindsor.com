@@ -16,3 +16,9 @@ spec:
           image: kristianwindsor/kristianwindsor.com
           ports:
             - containerPort: 80
+          env:
+          - name: GMAIL_LOGIN
+            valueFrom:
+              secretKeyRef:
+                name: gmail-login
+                key: password
