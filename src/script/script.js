@@ -38,6 +38,15 @@ $("#nav-experience").bind('touch mouseup', function(){
   }
   return false
 });
+// skills section
+$("#nav-skills").bind('touch mouseup', function(){
+  if (!flag) {
+    flag = true;
+    setTimeout(function(){ flag = false; }, 200);
+    scrollTo(".skills.section",950)
+  }
+  return false
+});
 // contact section
 $("#nav-contact").bind('touch mouseup', function(){
   if (!flag) {

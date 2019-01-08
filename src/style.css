@@ -198,6 +198,17 @@ a:hover, .a-hovering {
     padding: 18px;
 }
 
+.skills .left {
+    width: 23.61%;
+    padding: 18px;
+}
+.skills .right {
+    width: 76.39%;
+}
+.skills .project {
+    padding: 18px;
+}
+
 .about .project {
     padding: 18px;
 }
@@ -224,6 +235,11 @@ a:hover, .a-hovering {
     width: 23.61%;
     margin: 0 18px 9px 0;
     float: left;
+}
+@media (max-width: 500px) {
+	.image.partial {
+	    width: 38.2%;
+	}
 }
 
 .container-container {
