@@ -1,11 +1,4 @@
 @font-face {
-	font-family: 'Quicksand';
-	font-style: normal;
-	font-weight: 400;
-	src: url("font/quicksand.eot");
-	src: local("Quicksand Regular"), local("Quicksand-Regular"), url("font/quicksand.eot?#iefix") format("embedded-opentype"), url("font/quicksand.woff2") format("woff2"), url("font/quicksand.woff") format("woff"), url("font/quicksand.ttf") format("truetype"), url("font/quicksand.svg#Quicksand") format("svg");
-}
-@font-face {
     font-family: 'fontello';
     src: url("font/fontello.eot?29715915");
     src: url("font/fontello.eot?29715915#iefix") format("embedded-opentype"), url("font/fontello.woff?29715915") format("woff"), url("font/fontello.ttf?29715915") format("truetype"), url("font/fontello.svg?29715915#fontello") format("svg");
@@ -15,7 +8,7 @@
 
 body {
 	margin: 0;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Assistant', sans-serif;
 	font-size: 18px;
 	color: #5a5959;
     background-color: #F5F5F5;
@@ -340,7 +333,7 @@ a:hover, .a-hovering {
 	border-radius: 4px;
 	background-color: #fff;
 	color: #5a5959;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Assistant', sans-serif;
 }
 
 *::-webkit-input-placeholder {
