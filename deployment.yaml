@@ -22,3 +22,6 @@ spec:
               secretKeyRef:
                 name: gmail-login
                 key: password
+          resources:
+            requests:
+              cpu: 20m
