@@ -28,6 +28,17 @@
 			</h1>
 		</div>
 		<div id="content">
+			<a href="citethis.net" class="post-preview">
+				<img src="../img/citethis.png" />
+				<div class="right">
+					<h3>
+						CiteThis.net
+					</h3>
+					<p>
+						Take that, Chegg.
+					</p>
+				</div>
+			</a>
 			<a href="designing-a-password-generator" class="post-preview">
 				<img src="designing-a-password-generator/a-password-generator.png" />
 				<div class="right">

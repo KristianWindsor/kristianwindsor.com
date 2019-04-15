@@ -112,11 +112,16 @@ footer {
   font-weight: 600;
   color: #444;
 }
+.small-bold-text, p.small-bold-text {
+  margin: 0 0 9px;
+  font-weight: 600;
+  color: #555;
+}
 .article-body a {
   border-bottom: 1px solid #5a5959;
 }
 .article-body a:hover {
-  border-bottom: 0;
+  border-bottom: 1px solid #00AFF0;
 }
 .article-body img {
   max-width: 100%;
@@ -157,10 +162,23 @@ footer {
 li {
   padding: 5px 0;
 }
-td {
-  border: 0.5px solid #ccc;
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
-.quantity, .pricePaid, .priceNow, .totalGainD, .totalGainP {
+@media (max-width: 600px) {
+  table {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+}
+td {
+  padding: 4px;
+  border: 1px solid #ccc;
+}
+.data-right, .quantity, .pricePaid, .priceNow, .totalGainD, .totalGainP {
   text-align: right;
 }
 
