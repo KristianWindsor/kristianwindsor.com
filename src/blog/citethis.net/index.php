@@ -1,6 +1,9 @@
 <?php
 	$articleTitle = "CiteThis.net";
+	$articleDescription = "Making a citation generator.";
 	$articleUrl = "citethis.net";
+	$imageUrl = "citethis.png";
+	$datePublished = "2019-04-14";
 	include '../blogfiles/header.php';
 ?>
 <article id="article">
@@ -12,11 +15,13 @@
 			By Kristian Windsor on April 14, 2019
 		</p>
 	</header>
-	<img src="citethis.png" class="image" />
 	<section class="article-body">
-		<p>
-			You can view this finished project live at <a href="https://citethis.net/" target="_blank">citethis.net</a>.
-		</p>
+		<div class="paragraph">
+			<img src="<?php echo $imageUrl ?>" class="image" />
+			<p>
+				You can view this finished project live at <a href="https://citethis.net/" target="_blank">citethis.net</a>.
+			</p>
+		</div>
 		<div class="paragraph">
 			<p class="bold-text">
 				Cite What?

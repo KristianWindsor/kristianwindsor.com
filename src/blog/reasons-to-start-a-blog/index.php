@@ -1,6 +1,9 @@
 <?php
 	$articleTitle = "Reasons to Start a Blog";
+	$articleDescription = "1. Because you're reading this right now.";
 	$articleUrl = "reasons-to-start-a-blog";
+	$imageUrl = "laptop.jpg";
+	$datePublished = "2018-03-18";
 	include '../blogfiles/header.php';
 ?>
 <article id="article">
@@ -12,7 +15,7 @@
 			By Kristian Windsor on March 18th, 2018
 		</p>
 	</header>
-	<img src="laptop.jpg" class="image" />
+	<img src="<?php echo $imageUrl; ?>" class="image" />
 	<section class="article-body">
 		<p>
 			This post is mostly targeted towards software developers, but still applies to everyone from dog walkers to graphic designers.

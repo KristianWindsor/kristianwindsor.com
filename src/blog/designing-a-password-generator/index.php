@@ -1,6 +1,9 @@
 <?php
 	$articleTitle = "Designing a Password Generator";
+	$articleDescription = "A super minimal password generator made with JavaScript.";
 	$articleUrl = "designing-a-password-generator";
+	$imageUrl = "a-password-generator.png";
+	$datePublished = "2018-05-08";
 	include '../blogfiles/header.php';
 ?>
 <article id="article">
@@ -12,7 +15,7 @@
 			By Kristian Windsor on May 8th, 2018
 		</p>
 	</header>
-	<img src="a-password-generator.png" class="image" />
+	<img src="<?php echo $imageUrl; ?>" class="image" />
 	<section class="article-body">
 		<p>
 			You can view this finished project live at <a href="https://passgen.site/" target="_blank">passgen.site</a>.
