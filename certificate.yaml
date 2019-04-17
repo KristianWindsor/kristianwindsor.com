@@ -13,6 +13,7 @@ spec:
   acme:
     config:
     - dns01:
+        provider: route53
         ingressClass: nginx
       domains:
       - kristianwindsor.com
