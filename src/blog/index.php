@@ -51,17 +51,6 @@
 					</p>
 				</div>
 			</a>
-			<a href="reasons-to-start-a-blog" class="post-preview">
-				<img src="reasons-to-start-a-blog/laptop.jpg" />
-				<div>
-					<h3>
-						Reasons to Start a Blog
-					</h3>
-					<p>
-						Read why YOU should start a blog TODAY
-					</p>
-				</div>
-			</a>
 		</div>
 	</body>
 	<script type="text/javascript" src="../script/jquery.js"></script>
