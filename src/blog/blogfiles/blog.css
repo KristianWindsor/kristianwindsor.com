@@ -59,12 +59,6 @@ a.post-preview:hover {
   margin-right: 32px;
   float: left;
 }
-.post-preview .right {
-  display: inline-block;
-  float: left;
-  padding-left: 0;
-  padding-right: 0;
-}
 .post-preview h3 {
   font-size: 25px;
   margin: 0 0 14px;
@@ -193,9 +187,9 @@ td {
   text-align: right;
 }
 
-
 @media (max-width: 700px) {
   .post-preview img {
+    max-width: 66%;
     display: block;
     margin: 0 auto;
     float: none;
@@ -206,7 +200,6 @@ td {
 }
 @media (max-width: 620px) {
   .post-preview img {
-    max-width: 66%;
   }
 }
 @media (max-width: 430px) {

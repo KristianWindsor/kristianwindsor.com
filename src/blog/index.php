@@ -31,7 +31,7 @@
 		<div id="content">
 			<a href="citethis.net" class="post-preview">
 				<img src="../img/citethis.png" />
-				<div class="right">
+				<div class="post-preview-right">
 					<h3>
 						CiteThis.net
 					</h3>
@@ -42,7 +42,7 @@
 			</a>
 			<a href="designing-a-password-generator" class="post-preview">
 				<img src="designing-a-password-generator/a-password-generator.png" />
-				<div class="right">
+				<div class="post-preview-right">
 					<h3>
 						Designing a Password Generator
 					</h3>
@@ -53,7 +53,7 @@
 			</a>
 			<a href="reasons-to-start-a-blog" class="post-preview">
 				<img src="reasons-to-start-a-blog/laptop.jpg" />
-				<div class="right">
+				<div>
 					<h3>
 						Reasons to Start a Blog
 					</h3>
