@@ -12,6 +12,11 @@
     <priority>0.90</priority>
   </url>
   <url>
+    <loc>https://kristianwindsor.com/blog/running-a-clothing-brand-lessons-learned/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://kristianwindsor.com/blog/designing-a-password-generator/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
