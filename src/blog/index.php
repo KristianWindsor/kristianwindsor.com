@@ -31,7 +31,7 @@
 		<div id="content">
 			<a href="citethis.net" class="post-preview">
 				<img src="../img/citethis.png" />
-				<div class="post-preview-right">
+				<div>
 					<h3>
 						CiteThis.net
 					</h3>
@@ -42,12 +42,23 @@
 			</a>
 			<a href="designing-a-password-generator" class="post-preview">
 				<img src="designing-a-password-generator/a-password-generator.png" />
-				<div class="post-preview-right">
+				<div>
 					<h3>
 						Designing a Password Generator
 					</h3>
 					<p>
 						The UX in this app will knock your socks off!
+					</p>
+				</div>
+			</a>
+			<a href="running-a-clothing-brand-lessons-learned" class="post-preview">
+				<img src="running-a-clothing-brand-lessons-learned/mom-card.jpg" />
+				<div>
+					<h3>
+						Running a Clothing Brand: Lessons Learned
+					</h3>
+					<p>
+						Spoilers: don't run a clothing brand.
 					</p>
 				</div>
 			</a>
