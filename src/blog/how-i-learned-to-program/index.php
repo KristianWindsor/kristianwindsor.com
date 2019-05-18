@@ -194,7 +194,7 @@
 			<ul class="normal">
 				<li>
 					<p>
-						PHP/HTML/CSS - creating a basic multipage website. Kristianwindsor.com is <a href="https://github.com/KristianWindsor/kristianwindsor.com/blob/master/src/blog/how-i-learned-to-program/index.php#L197" target="_blank">open source</a>, completely responsive, and it's super lightweight. This page you're on now, with all 6 images, weighs less than 100KB.
+						PHP/HTML/CSS - creating a basic multipage website. Kristianwindsor.com is <a href="https://github.com/KristianWindsor/kristianwindsor.com/blob/master/src/blog/how-i-learned-to-program/index.php#L197" target="_blank">open source</a>, completely responsive, and it's super lightweight. This page you're on now, with all 6 images, weighs just 400KB.
 					</p>
 				</li>
 				<li>
@@ -210,7 +210,7 @@
 			</ul>
 			<img src="citethis.png" />
 			<p class="caption">
-				Cite This is a web app for students to generate citations for sources (website, book, journal article, etc.) in the chosen format (MLA, APA, Chicago, etc.).
+				Cite This is a web app for students to generate citations for sources in the chosen format.
 			</p>
 		</div>
 		<div class="paragraph">
