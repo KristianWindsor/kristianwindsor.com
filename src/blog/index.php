@@ -29,8 +29,19 @@
 			</h1>
 		</div>
 		<div id="content">
+			<a href="how-i-learned-to-program" class="post-preview">
+				<img src="how-i-learned-to-program/teamblock.png" />
+				<div>
+					<h3>
+						How I Learned to Program
+					</h3>
+					<p>
+						Once upon a time...
+					</p>
+				</div>
+			</a>
 			<a href="citethis.net" class="post-preview">
-				<img src="../img/citethis.png" />
+				<img src="citethis.net/citethis.png" />
 				<div>
 					<h3>
 						CiteThis.net
