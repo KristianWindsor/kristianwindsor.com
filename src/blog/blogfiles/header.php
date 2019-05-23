@@ -32,7 +32,7 @@
 		<meta name="msapplication-config" content="../../icon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 	</head>
-	<body id="body">
+	<body id="body" class="blog">
 		<div id="breadcrumb">
 			<a href="/">Kristian Windsor</a> --> <a href="../">Blog</a> --> <a href=<?php echo '"../'.$articleUrl.'"'.'>'.$articleTitle?></a>
 		</div>

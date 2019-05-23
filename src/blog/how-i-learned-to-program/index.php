@@ -17,9 +17,9 @@
 	</header>
 	<section class="article-body">
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Drag and Drop Programming
-			</p>
+			</h2>
 			<p>
 				When I was 13 years old I was introduced to a program called GameMaker Studio, a drag-and-drop programming engine. My friend showed me a simple game he made using it, and I had to try it out. 
 			</p>
@@ -35,9 +35,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				The National STEM Video Game Challenge
-			</p>
+			</h2>
 			<p>
 				The challenge is a competition for middle schoolers and high schoolers to create a video game, and I decided to make one for the challenge using my new GameMaker skills.
 			</p>
@@ -53,9 +53,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Windows Applications (C#)
-			</p>
+			</h2>
 			<p>
 				I wanted a taste of real programming, so I torrented Visual Studio on the new laptop I had won and started learning C#.
 			</p>
@@ -90,9 +90,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Web Apps (Javascript, jQuery)
-			</p>
+			</h2>
 			<p>
 				I felt like a baller, having made computer games and programs. I wanted to show them to my friends at school, but there was one problem: I couldn't because they had an .exe extension.
 			</p>
@@ -136,9 +136,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Web Apps with a Backend (PHP, MySQL)
-			</p>
+			</h2>
 			<p>
 				My sophomore year of high school, I learned PHP and MySQL with the help and influence of my brother, who was interning at Facebook at the time. 
 			</p>
@@ -168,9 +168,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Internship at Pinger
-			</p>
+			</h2>
 			<p>
 				I landed an internship a few months out of high school through people that I knew. My responsibilities were to create HTML/CSS mockups for the product team.
 			</p>
@@ -185,9 +185,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Portfolio Projects
-			</p>
+			</h2>
 			<p>
 				I planned to build three websites in order to create a portfolio as a fullstack web developer. I had built plenty of apps but I had never "completed" a project. I didn't have any websites that I was proud of and wanted to show off – a website that I could talk about and that could prove that I can make a good website.
 			</p>
@@ -214,9 +214,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Conclusion
-			</p>
+			</h2>
 			<p>
 				There is no secret to learning how to program – you just need to start doing it.
 			</p>

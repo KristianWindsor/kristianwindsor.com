@@ -23,9 +23,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				About MOM Clothing
-			</p>
+			</h2>
 			<p>
 				Senior year of high school, my friends and I launched a clothing brand called MOM. It was an aesthetic brand that sold embroidered hoodies, sweaters, tshirts, and hats.
 			</p>
@@ -40,9 +40,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Base your business on a real problem
-			</p>
+			</h2>
 			<p>
 				Is your business solving a problem? A real problem? A problem that people care about, and are willing to spend money on to fix?
 			</p>
@@ -58,9 +58,9 @@
 			<img src="mom-hats.jpg" />
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Design for scale
-			</p>
+			</h2>
 			<p>
 				Let's say you sell only 10 products a week. Then, one night, your business blows up! Now you're getting 5,000 orders a week. Can your current business model fulfull all of these orders?
 			</p>
@@ -72,9 +72,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Remove yourself from the equation
-			</p>
+			</h2>
 			<p>
 				One of the mistakes I made was bottlenecking production with myself. I was manually producing the clothes, which meant that the total output was limited to only what I could produce in the time I had. It was a fixed model.
 			</p>
@@ -90,9 +90,9 @@
 			<img src="mom-crew.jpg" >
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Don't underprice your product
-			</p>
+			</h2>
 			<p>
 				I cared more about the product than about the business. I wanted people to have the clothes I was making, so I priced them as low as I could in order to make them accessible – $34 for an embroidered hoodie.
 			</p>
@@ -105,9 +105,9 @@
 			<img src="mom-hoodies.jpg" />
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Don't chase perfection
-			</p>
+			</h2>
 			<p>
 				Oh man. I love perfecting things. I live for it – creating that perfect product. Every little detail, inside and out, completely flawless.
 			</p>
@@ -119,9 +119,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Manage your money
-			</p>
+			</h2>
 			<p>
 				"It's an investment", I would tell myself.
 			</p>
@@ -137,9 +137,9 @@
 			<img src="mom-cards2.jpg" />
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Conclusion
-			</p>
+			</h2>
 			<p>
 				Running a clothing brand was a ton of fun but I'm glad it's over. I can now take what I've learned, direct my energy into my next project, and learn my from my next array of failures!
 			</p>

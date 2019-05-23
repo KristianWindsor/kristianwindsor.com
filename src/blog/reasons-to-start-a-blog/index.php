@@ -21,32 +21,33 @@
 			This post is mostly targeted towards software developers, but still applies to everyone from dog walkers to graphic designers.
 		</p>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				1. You get a deeper understanding of the topics you write about
-			</p>
+			</h2>
 			<p>
 				Writing about a topic ensures that you really understand that topic, no matter if you've worked with it for years or if its totally new to you. As you recite your own understanding, you begin to see it in a new light. Seeing in this new light, a fresh perspective, you may realize that you are missing a few pieces to the bigger picture. This is why people say the best way to learn something is to teach it.
 			</p>
 		</div>
-			<div class="paragraph">
-			<p class="bold-text">
+		<div class="paragraph">
+			<h2>
 				2. You're advertising yourself
-			</p>
+			</h2>
 			<p>
 				While you sleep, your blog is still up and easily accessible to anyone. You might catch the attention of a potential employer, or find a coding buddy. Any way it goes, having a blog can lead to many professional opportunities.
 			</p>
-			<div class="paragraph">
-			<p class="bold-text">
+		</div>
+		<div class="paragraph">
+			<h2>
 				3. You get to show off your skills and expertise
-			</p>
+			</h2>
 			<p>
 				In order to give your name credibility, you need to show your work and talk about it. For example, instead of just listing PHP as one of your languages, you can talk about your experiences with PHP and the challenges you've overcame. You can talk about what you did and the reasoning behind each decision. 
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Starting a blog
-			</p>
+			</h2>
 			<p>
 				If you're seeking to work in web development, this is a great opportunity to gain experience. You can use your choice of languages and tools to build your own blogging platform that also doubles as a portfolio piece.
 			</p>

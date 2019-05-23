@@ -21,9 +21,9 @@
 			You can view this finished project live at <a href="https://passgen.site/" target="_blank">passgen.site</a>.
 		</p>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Getting the idea
-			</p>
+			</h2>
 			<p>
 				I wanted to create a project that would be fun to work on and put my javascript skills to the test. Creating a password generator is a common beginner’s programming project, but this challenged me to create a password generator that was different and better than all others.
 			</p>
@@ -116,9 +116,9 @@
 				My website is capable of reproducing all of the different "recipes" of passwords: Sentence-based passwords, pronouncable passwords, alpha-numeric passwords, and random character passwords.
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				How the script functions
-			</p>
+			</h2>
 			<p>
 				The script functions by creating a sentence in the format "verb-adjective-adjective-adjective-noun-number", and is broken down into 11 "steps"; in each of which some characters are replaced. Each character is replaced twice from steps 0-10, chosen at random. 
 			</p>
@@ -288,9 +288,9 @@
 			</ul>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				User Experience (UX)
-			</p>
+			</h2>
 			<p>
 				I decided to change the position of elements between mobile and desktop devices for the best user experience across platforms.
 			</p>
@@ -344,9 +344,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Conclusion
-			</p>
+			</h2>
 			<p>
 				My password generator has all of the functionality of other password generators but provides a better user experience. 
 			</p>

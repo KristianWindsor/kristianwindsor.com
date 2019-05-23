@@ -23,9 +23,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Cite What?
-			</p>
+			</h2>
 			<p>
 				This is a citation generator designed to help students with their papers.
 			</p>
@@ -37,9 +37,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				The Chegg Monopoly
-			</p>
+			</h2>
 			<p>
 				Chegg is king of online citation generators – they practically own the first page of any google search relating to citations. They trick search engines by duplicating their website and presenting it as different websites. <a href="http://www.easybib.com/" target="_blank">Easybib.com</a>, <a href="http://www.citationmachine.net/" target="_blank">citationmachine.net</a>, <a href="http://www.citethisforme.com/" target="_blank">citethisforme.com</a>, and <a href="http://www.bibme.org/" target="_blank">bibme.org</a> are all the same website, just reskinned.
 			</p>
@@ -52,9 +52,9 @@
 			<img src="google-chegg.png" >
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Creating my own citation generator
-			</p>
+			</h2>
 			<p>
 				The citation generators on the first few pages of Google are all incredibly difficult to use.
 			</p>
@@ -100,9 +100,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				It's really, really fast
-			</p>
+			</h2>
 			<p>
 				Citethis.net is the fastest citation generator on the entire Internet. Hands down.
 			</p>
@@ -115,9 +115,9 @@
 			<img src="inspect-network.gif" />
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				User testing: time spent
-			</p>
+			</h2>
 			<p>
 				When users go to these sites, they have one thing on their mind: "I need a citation".
 			</p>
@@ -173,9 +173,9 @@
 			<img src="time-spent-graph.png" />
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Data transferred for each citation
-			</p>
+			</h2>
 			<p>
 				I grew up on a farm with a terrible internet connection (you'd be lucky to ever stream YouTube in 480p), so I'm very conscientious when it comes to loading page content. I know in today's age, everyone has a 6 MB parallax ultra HD fancy-framework website, but I like to keep it simple. (Guess how large this blog post is!)
 			</p>
@@ -220,9 +220,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Languages and Technologies
-			</p>
+			</h2>
 			<p>
 				Trying to make this website lightweight, I wrote all of the HTML, CSS, and Javascript myself. The only library I used is <a href="https://github.com/jquery/jquery" target="_blank">jQuery</a>, which allowed animating DOM manipulation to be a breeze.
 			</p>
@@ -237,9 +237,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Microservice Architecture
-			</p>
+			</h2>
 			<p>
 				That's right. I said the M-word. Microservice.
 			</p>
@@ -264,9 +264,9 @@
 			<img src="microservices.png" />
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Mistakes I made
-			</p>
+			</h2>
 			<p>
 				Initially, I only supported MLA, APA, and Chicago formats because they were the most commonly used. But once I started asking for feedback from students, they asked, "Does it support IEEE format?". I quickly realized supporting only 3 formats would limit my audience, so I shifted the objective to instead support every single format.
 			</p>
@@ -284,9 +284,9 @@
 			</p>
 		</div>
 		<div class="paragraph">
-			<p class="bold-text">
+			<h2>
 				Conclusion
-			</p>
+			</h2>
 			<p>
 				I am proud to have imagined an idea and seen it through to creation. I'm now watching the daily user count grow and I plan on improving this website for years down the line – fixing bugs, supporting more kinds of sources, and supporting more citation formats.
 			</p>
