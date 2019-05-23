@@ -15,7 +15,7 @@
 			By Kristian Windsor on May 8th, 2018
 		</p>
 	</header>
-	<img src="<?php echo $imageUrl; ?>" class="image" />
+	<img src="<?php echo $imageUrl; ?>" class="image" alt="Password Generator" />
 	<section class="article-body">
 		<p>
 			You can view this finished project live at <a href="https://passgen.site/" target="_blank">passgen.site</a>.
@@ -29,7 +29,7 @@
 			</p>
 			<p>
 				I was inspired by this XKCD comic:
-				<img src="https://imgs.xkcd.com/comics/password_strength.png" />
+				<img src="https://imgs.xkcd.com/comics/password_strength.png" alt="XKCD Password Generator Comic" />
 			</p>
 			<p>
 				From the comic, I got that sentence-based passwords are easier to remember and are more secure. I came across <a href="https://eth0za.github.io/password-generator" target="_blank">this password generator</a> on Github that does just that. It generated these two sentence-based passwords:
@@ -111,7 +111,7 @@
 			<p>
 				I would describe the trend as a transition from a complete sentence to a random combination of characters. This is how I designed my password generator to function. I created a slider (HTML input range) that deteriorates sentence-based passwords, allowing the user to choose any "recipe" for the password with a single UI control.
 			</p>
-			<img src="a-password-generator-examples.png" />
+			<img src="a-password-generator-examples.png" alt="Password Generator screenshots" />
 			<p class="caption">
 				My website is capable of reproducing all of the different "recipes" of passwords: Sentence-based passwords, pronouncable passwords, alpha-numeric passwords, and random character passwords.
 		</div>
@@ -311,10 +311,10 @@
 			<p>
 				The three elements are positioned following the traditional direction of reading: left-to-right and top-to-bottom.
 			</p>
-			<img src="desktop-ux.png" />
+			<img src="desktop-ux.png" alt="Password Generator User Experience Desktop Flow" />
 			<p>
 				However, accessbility is a higher priority on mobile devices. Here is an image of thumb-zone mapping that shows the accessibility of content on mobile devices:
-				<img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/496f7bc0-4c6c-4159-b731-ec3adcf91105/thumb-zone-mapping-opt.png" />
+				<img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/496f7bc0-4c6c-4159-b731-ec3adcf91105/thumb-zone-mapping-opt.png" alt="Thumb Zone User Experience" />
 				<span class="caption">
 					If you are interested in learning more about mobile UX, this image is from <a href="https://www.smashingmagazine.com/2016/09/the-thumb-zone-designing-for-mobile-users/" target="_blank">The Thumb Zone: Designing For Mobile Users</a>.
 				</span>
@@ -337,7 +337,7 @@
 				</li>
 			</ul>
 			<span class="image-wrap">
-				<img src="mobile-ux.png" class="small" />
+				<img src="mobile-ux.png" class="small" alt="Password Generator User Experience Mobile Flow" />
 			</span>
 			<p>
 				In this image, all elements are within the green-natural region, so the user doesn't have to scroll or extend their thumb to use the app. 

@@ -15,7 +15,7 @@
 			By Kristian Windsor on March 18th, 2018
 		</p>
 	</header>
-	<img src="<?php echo $imageUrl; ?>" class="image" />
+	<img src="<?php echo $imageUrl; ?>" class="image" alt="Starting a Blog" />
 	<section class="article-body">
 		<p>
 			This post is mostly targeted towards software developers, but still applies to everyone from dog walkers to graphic designers.

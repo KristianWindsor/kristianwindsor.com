@@ -17,7 +17,7 @@
 	</header>
 	<section class="article-body">
 		<div class="paragraph">
-			<img src="<?php echo $imageUrl ?>" class="image" />
+			<img src="<?php echo $imageUrl ?>" class="image" alt="CiteThis" />
 			<p>
 				You can view this finished project live at <a href="https://citethis.net/" target="_blank">citethis.net</a>.
 			</p>
@@ -49,7 +49,7 @@
 			<p>
 				Below is a screenshot of a google search for "mla citation generator". As you can see, all but one of the results is owned by Chegg. And how often do you ever click on the very last result of a google search?
 			</p>
-			<img src="google-chegg.png" >
+			<img src="google-chegg.png" alt="Chegg's EasyBib, CitationMachine, CiteFast on Google" >
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -112,7 +112,7 @@
 			<p>
 				And this all happens when the user pastes a URL – not when the user clicks the cite button. By the time the user actually clicks the button, the citation is already in the browser, ready to be displayed.
 			</p>
-			<img src="inspect-network.gif" />
+			<img src="inspect-network.gif" alt="CiteThis.net Chrome inspect network" />
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -170,7 +170,7 @@
 			<p>
 				Below is a visualization of the average times.
 			</p>
-			<img src="time-spent-graph.png" />
+			<img src="time-spent-graph.png" alt="citationmachine.net, citationproducer.com, citefast.com, citethis.net User Experience" />
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -214,7 +214,7 @@
 					</tr>
 				</tbody>
 			</table>
-			<img src="data-transferred-graph.png" />
+			<img src="data-transferred-graph.png" alt="citationmachine.net, citationproducer.com, citefast.com, citethis.net Size Metrics" />
 			<p>
 				Citation Machine, Google's #1 ranked generator, loads 30 MB of content for every citation generated. 30 MB!! That's 300x the amount of data as Cite This. If you went to citethis.net every weekday for an entire year, your browser would download less content than it would generating a single citation using Citation Machine.
 			</p>
@@ -261,7 +261,7 @@
 			<p>
 				Having infrastructure clearly defined in code is another bonus. Defining the containers, the ports that are exposed, the CPU and memory that's allocated, the routing of domain names to the containers, and even the SSL certificate – is all explicitly defined in configuration files, in source control, alongside the rest of the files in the GitHub repository.
 			</p>
-			<img src="microservices.png" />
+			<img src="microservices.png" alt="Microservice architecture of CiteThis Python web app" />
 		</div>
 		<div class="paragraph">
 			<h2>

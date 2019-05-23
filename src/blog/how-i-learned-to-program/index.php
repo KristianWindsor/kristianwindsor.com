@@ -29,7 +29,7 @@
 			<p>
 				This helped establish some foundational principles for programming even though I never actually wrote code.
 			</p>
-			<img src="teamblock.png" />
+			<img src="teamblock.png" alt="Team Block" />
 			<p class="caption">
 				Team Block is a platformer game where you play as multiple characters to solve the puzzles.
 			</p>
@@ -47,7 +47,7 @@
 			<p>
 				Winning the challenge instilled confidence in me and opened my eyes to the world of programming.
 			</p>
-			<img src="stemchallenge.jpg" />
+			<img src="stemchallenge.jpg" alt="Winners of the 2012 National STEM Video Game Challenge" />
 			<p class="caption">
 				The winners of the 2012 National STEM Video Game Challenge.
 			</p>
@@ -84,7 +84,7 @@
 					</p>
 				</li>
 			</ul>
-			<img src="username.png" />
+			<img src="username.png" alt="Zelocs Username Generator" />
 			<p class="caption">
 				Zelocs Username Generator is an app that combines random syllables to create unique pronounceable usernames.
 			</p>
@@ -130,7 +130,7 @@
 					</p>
 				</li>
 			</ul>
-			<img src="wordcounter.png" />
+			<img src="wordcounter.png" alt="Word Counter web app" />
 			<p class="caption">
 				Word Counter is a web app that provides live metrics on the inputted text.
 			</p>
@@ -162,7 +162,7 @@
 					</p>
 				</li>
 			</ul>
-			<img src="simplistudy.png" />
+			<img src="simplistudy.png" alt="Simplistudy" />
 			<p class="caption">
 				Simplistudy is a notecard app with 3rd party integrations and custom features.
 			</p>
@@ -208,7 +208,7 @@
 					</p>
 				</li>
 			</ul>
-			<img src="citethis.png" />
+			<img src="citethis.png" alt="CiteThis" />
 			<p class="caption">
 				Cite This is a web app for students to generate citations for sources in the chosen format.
 			</p>

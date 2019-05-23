@@ -30,7 +30,7 @@
 		</div>
 		<div id="content">
 			<a href="how-i-learned-to-program" class="post-preview">
-				<img src="how-i-learned-to-program/teamblock.png" />
+				<img src="how-i-learned-to-program/teamblock.png" alt="Team Block" />
 				<div>
 					<h2>
 						How I Learned to Program
@@ -41,7 +41,7 @@
 				</div>
 			</a>
 			<a href="citethis.net" class="post-preview">
-				<img src="citethis.net/citethis.png" />
+				<img src="citethis.net/citethis.png" alt="CiteThis" />
 				<div>
 					<h2>
 						CiteThis.net
@@ -52,7 +52,7 @@
 				</div>
 			</a>
 			<a href="designing-a-password-generator" class="post-preview">
-				<img src="designing-a-password-generator/a-password-generator.png" />
+				<img src="designing-a-password-generator/a-password-generator.png" alt="Password Generator" />
 				<div>
 					<h2>
 						Designing a Password Generator
@@ -63,7 +63,7 @@
 				</div>
 			</a>
 			<a href="running-a-clothing-brand-lessons-learned" class="post-preview">
-				<img src="running-a-clothing-brand-lessons-learned/mom-card.jpg" />
+				<img src="running-a-clothing-brand-lessons-learned/mom-card.jpg" alt="MOM Clothing 2016" />
 				<div>
 					<h2>
 						Running a Clothing Brand: Lessons Learned

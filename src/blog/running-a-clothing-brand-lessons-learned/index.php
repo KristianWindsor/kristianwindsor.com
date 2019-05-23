@@ -17,7 +17,7 @@
 	</header>
 	<section class="article-body">
 		<div class="paragraph">
-			<img src="<?php echo $imageUrl ?>" class="image" />
+			<img src="<?php echo $imageUrl ?>" class="image" alt="MOM Clothing 2016" />
 			<p>
 				You can check out the Instagram page, <a href="https://www.instagram.com/wear.mom/" target="_blank">@wear.mom</a>.
 			</p>
@@ -55,7 +55,7 @@
 			<p>
 				Creating a product in order to satisfy a need in the market has grounds to thrive as a business. Creating a product for the sake of just creating it is only just a hobby.
 			</p>
-			<img src="mom-hats.jpg" />
+			<img src="mom-hats.jpg" alt="MOM Clothing MOM Caps Hats" />
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -87,7 +87,7 @@
 			<p>
 				You must delegate responsibilities. Put someone in charge of the Instagram, and if you don't have someone that can manage that, there are apps that can assist instead. If you can't find someone to produce your product, you can outsource it. There is always a way.
 			</p>
-			<img src="mom-crew.jpg" >
+			<img src="mom-crew.jpg" alt="MOM Clothing MOM Crew" />
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -102,7 +102,7 @@
 			<p>
 				I did sell a lot with the low price, but the profit margins weren't even worth it. And every product sold cost me time – time that could have been used to grow the business elsewhere.
 			</p>
-			<img src="mom-hoodies.jpg" />
+			<img src="mom-hoodies.jpg" alt="MOM Clothing MOM Season Hoodies" />
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -134,7 +134,7 @@
 			<p>
 				This isn't your money. It belongs to the business. How should the business spend it's money?
 			</p>
-			<img src="mom-cards2.jpg" />
+			<img src="mom-cards2.jpg" alt="MOM Clothing Cards" />
 		</div>
 		<div class="paragraph">
 			<h2>
