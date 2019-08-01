@@ -112,8 +112,9 @@
 				I would describe the trend as a transition from a complete sentence to a random combination of characters. This is how I designed my password generator to function. I created a slider (HTML input range) that deteriorates sentence-based passwords, allowing the user to choose any "recipe" for the password with a single UI control.
 			</p>
 			<img src="a-password-generator-examples.png" alt="Password Generator screenshots" />
-			<p class="caption">
+			<p>
 				My website is capable of reproducing all of the different "recipes" of passwords: Sentence-based passwords, pronouncable passwords, alpha-numeric passwords, and random character passwords.
+			</p>
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -357,7 +358,7 @@
 				Working on this project got me thinking outside the box as I reimagined the way users interact with the app. I had fun while gaining valuable experience with javascript and UX.
 			</p>
 			<p>
-				You can view all the code for this project on Github: <a href="https://github.com/Windso/passgen.site" target="_blank">github.com/Windso/passgen.site</a>
+				You can view all the code for this project on Github: <a href="https://github.com/KristianWindsor/passgen.site" target="_blank">github.com/KristianWindsor/passgen.site</a>
 			</p>
 			<p>
 				Thanks for reading!

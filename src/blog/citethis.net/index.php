@@ -216,7 +216,7 @@
 			</table>
 			<img src="data-transferred-graph.png" alt="citationmachine.net, citationproducer.com, citefast.com, citethis.net Size Metrics" />
 			<p>
-				Citation Machine, Google's #1 ranked generator, loads 30 MB of content for every citation generated. 30 MB!! That's 300x the amount of data as Cite This. If you went to citethis.net every weekday for an entire year, your browser would download less content than it would generating a single citation using Citation Machine.
+				Citation Machine, Google's #1 ranked generator, loads 30 MB of content for every citation generated. 30 MB!! That's 300x the amount of data as CiteThis. If you went to citethis.net every weekday for an entire year, your browser would download less content than it would generating a single citation using Citation Machine.
 			</p>
 		</div>
 		<div class="paragraph">

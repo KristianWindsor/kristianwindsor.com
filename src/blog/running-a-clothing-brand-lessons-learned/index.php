@@ -50,7 +50,7 @@
 				Just because you experience a problem, and that people you ask agree with you, doesn't mean it's a real problem. Someone saying, "yeah I'd buy that product" or "yeah I'd get that app", does not equate to them actually spending money on your product or downloading your app. 
 			</p>
 			<p>
-				In my case, our clothing brand wasn't based on a problem. It was based on trendy photos we saw on Instagram and Tumblr, and we blindly assumed that there must be a demand for it.
+				In my case, our clothing brand wasn't based on a problem. It was based on trendy photos we saw on Instagram and Tumblr, and we jumped to the conclusion that there was a demand for it.
 			</p>
 			<p>
 				Creating a product in order to satisfy a need in the market has grounds to thrive as a business. Creating a product for the sake of just creating it is only just a hobby.
@@ -79,7 +79,7 @@
 				One of the mistakes I made was bottlenecking production with myself. I was manually producing the clothes, which meant that the total output was limited to only what I could produce in the time I had. It was a fixed model.
 			</p>
 			<p>
-				Not only did I sign myself up for all the production work, but I was also taking most of the photos and managing the Instagram. I had experience with photography and I wanted the Instagram to be consistent so it made sense at the time, but doing everything yourself is neither sustainable nor efficient.
+				Not only did I sign myself up for all the production work, but I was also taking most of the photos and managing the Instagram. The tasks seem easy sometimes – but the fact is you have a finite amount of time and you cannot do everything.
 			</p>
 			<p>
 				What if I wanted to take a break? The business would come to a complete standstill without me. This is what you want to avoid. If you must be present for the business to run, then it's not a business, it's just you.
@@ -112,7 +112,7 @@
 				Oh man. I love perfecting things. I live for it – creating that perfect product. Every little detail, inside and out, completely flawless.
 			</p>
 			<p>
-				Most people don't care though. If the embroidery is off-center by half an inch, people won't throw a fit, but if you redo it 5 times to get it perfect you're just wasting your valuable time.
+				Most people don't care though. If the embroidery is off-center by half an inch, people won't throw a fit, but getting it perfect by redoing it 10 times is just a waste of valuable time.
 			</p>
 			<p>
 				Don't forget what this is: a business. Time is money and every dollar matters.
@@ -141,7 +141,7 @@
 				Conclusion
 			</h2>
 			<p>
-				Running a clothing brand was a ton of fun but I'm glad it's over. I can now take what I've learned, direct my energy into my next project, and learn my from my next array of failures!
+				Running a clothing brand was a ton of fun but I'm glad it's over. I can now take what I've learned, direct my energy into my next project.
 			</p>
 			<p>
 				Thanks for reading!
