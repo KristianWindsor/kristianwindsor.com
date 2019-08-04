@@ -65,7 +65,7 @@
 			<ul>
 				<li>
 					<p>
-						A calculator, where hovering over a key displays the possible result, as if you were to click that key. The idea was to save a couple seconds in the user experience and provide a new way of interacting with the keypad.
+						A calculator, where hovering over a key displays the possible result, as if you were to click that key. The idea was to save a few seconds and provide a new way of interacting with the keypad.
 					</p>
 				</li>
 				<li>
@@ -75,7 +75,7 @@
 				</li>
 				<li>
 					<p>
-						A Minecraft file swapper. The purpose was to automatically switch between the minecraft.jar files at the click of a button, which otherwise would require manually renaming 2 .jar files.
+						A Minecraft file swapper. The purpose was to automatically switch between the minecraft.jar files at the click of a button, which otherwise would require manually renaming 2 files.
 					</p>
 				</li>
 				<li>
@@ -100,7 +100,7 @@
 				My friends had Macs and the school computers had restrictions preventing access from executable files. So they wouldn't run on my friends computers, the school computers, and definitely not on smartphones – so what was the point of making them? What is the point in creating something if people cannot use it?
 			</p>
 			<p>
-				The idea of web apps stuck out to me. A web app works on every device – Windows, macOS, Android, iOS, even on Apple Watches and Nintendo Wiis – with no installation necessary.
+				The idea of web apps stuck out to me. A web app works on every device – Windows, macOS, Android, iOS, even on Nintendo Wiis – with no installation needed.
 			</p>
 			<p>
 				I started making web apps. I had already worked with HTML before, so it was just a matter of learning Javacript.
@@ -132,7 +132,7 @@
 			</ul>
 			<img src="wordcounter.png" alt="Word Counter web app" />
 			<p class="caption">
-				Word Counter is a web app that provides live metrics on the inputted text.
+				Word Counter is a web app that provides metrics on the inputted text without clicking any buttons.
 			</p>
 		</div>
 		<div class="paragraph">
@@ -148,17 +148,17 @@
 			<ul>
 				<li>
 					<p>
-						Chess with multiplayer support. You could start a match and give your friend the 4-digit code to play against you. It also had touch event support, allowing people to intuitively play on their smartphones.
+						Chess with multiplayer support. You could start a match and give your friend the 4-digit code to play against you. It also had touch event support, allowing people to intuitively play on smartphones and iPads.
 					</p>
 				</li>
 				<li>
 					<p>
-						A visualization of every past user's mouse position. Every 5 milliseconds, the user's mouse position is recorded into the database. When viewing the site, there is a mouse image for every past user, and the mouse images moves every 5 milliseconds to the next position, simulating that person's cursor. I called it, Mouse Party.
+						A visualization of every past user's mouse position – somewhat of a social experiment. Every 5 milliseconds, the user's mouse position is recorded into the database. When viewing the site, there is a mouse image for every past user, and the mouse images moves every 5 milliseconds to the next position, simulating that person's cursor. I called it, Mouse Party.
 					</p>
 				</li>
 				<li>
 					<p>
-						A notecard app. I called it Simplistudy, and it was a simplified knockoff of Quizlet with a few customized features. It had a smart-paste-interpreter textbox that turned lists and notes into notecards. It also Bing Search and Google Translate integration.
+						A notecard app. I called it Simplistudy, and it was a simplified knockoff of Quizlet with a few customized features. It had a smart-paste interpreter textbox that turned lists and notes into notecards. It also Bing Search and Google Translate integration.
 					</p>
 				</li>
 			</ul>

@@ -234,17 +234,6 @@ a:hover, .a-hovering {
         width: 38.2%;
     }
 }
-.nobig-wrap {
-    width: 23.61%;
-    margin: 0 18px 9px 0;
-    float: left;
-}
-.nobig-wrap .nobig {
-    width: 100%;
-    max-width: 250px;
-    margin: 0 auto;
-    float: none;
-}
 
 .container-container {
     width: 100%;
