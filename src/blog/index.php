@@ -29,6 +29,17 @@
 			</h1>
 		</div>
 		<div id="content">
+			<a href="fullspeed.io-premium-car-videography" class="post-preview">
+				<img src="fullspeed.io-premium-car-videography/audi1.png" alt="Fullspeed.io" />
+				<div>
+					<h2>
+						Fullspeed.io – Premium Car Videography
+					</h2>
+					<p>
+						Vroom vroom
+					</p>
+				</div>
+			</a>
 			<a href="how-i-learned-to-program" class="post-preview">
 				<img src="how-i-learned-to-program/teamblock.png" alt="Team Block" />
 				<div>
