@@ -201,10 +201,6 @@ td {
     margin: 14px 0;
   }
 }
-@media (max-width: 620px) {
-  .post-preview img {
-  }
-}
 @media (max-width: 430px) {
   #body {
     padding: 0;
@@ -244,8 +240,6 @@ td {
   }
   .article-body img.small {
     width: 100%;
-  }
-  #article .bold-text {
   }
 }
 
