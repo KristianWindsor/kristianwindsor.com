@@ -123,7 +123,7 @@
 				YouTube: Fullspeed
 			</p>
 			<p>
-				We got 11 followers on Instagram from the letters (22% follow rate!) and a couple of people texted me, but none were down to pay the $250 that we were asking.
+				We got 11 followers on Instagram from the letters (22% follow rate!) and a couple of people texted me, but no one was down to pay the $250 that we were asking.
 			</p>
 			<p>
 				Patrick led the advertising campaign on Instagram, promoting our original content. However, that was met with the same result – several followers but no customers.
