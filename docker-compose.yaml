@@ -2,6 +2,8 @@ version: "3.7"
 services:
   webui:
     build: .
+    env_file:
+      - environment.env
     ports:
       - 80:80
     volumes:

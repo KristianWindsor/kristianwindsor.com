@@ -17,11 +17,11 @@ spec:
           ports:
             - containerPort: 80
           env:
-          - name: GMAIL_LOGIN
-            valueFrom:
-              secretKeyRef:
-                name: gmail-login
-                key: password
+            - name: SLACK_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: kristianwindsor-env
+                  key: SLACK_TOKEN
           volumeMounts:
            - name: kristianwindsor-messages
              mountPath: /var/www/html/messages/
