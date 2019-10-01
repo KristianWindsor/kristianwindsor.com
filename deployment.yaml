@@ -27,7 +27,7 @@ spec:
              mountPath: /var/www/html/messages/
           resources:
             requests:
-              cpu: 20m
+              cpu: 5m
       volumes:
        - name: kristianwindsor-messages
          persistentVolumeClaim:
