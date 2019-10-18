@@ -165,6 +165,14 @@ a:hover, .a-hovering {
     }
 }
 
+.image-wrap {
+    width: 23.62%;
+    min-width: 150px;
+}
+
+.text-wrap {
+    padding: 18px;
+}
 .text {
     margin: 0;
     line-height: 1.5;
@@ -187,13 +195,6 @@ a:hover, .a-hovering {
 .experience .right {
     width: 76.39%;
 }
-.experience .project {
-    padding: 18px;
-}
-
-.about .project {
-    padding: 18px;
-}
 
 .contact .project {
     background-color: transparent;
@@ -214,13 +215,22 @@ a:hover, .a-hovering {
     margin: 0 auto;
 }
 .image.partial {
-    width: 23.61%;
-    margin: 0 18px 9px 0;
+    margin-right: 18px;
     float: left;
 }
-@media (max-width: 500px) {
-    .image.partial {
-        width: 38.2%;
+.experience .image.partial {
+    padding: 18px;
+}
+
+@media (max-width: 700px) {
+    .image-wrap img {
+        padding: 18px;
+        margin: 0 !important;
+    }
+}
+@media (max-width: 750px) {
+    .experience .image.partial {
+        padding: 9px;
     }
 }
 

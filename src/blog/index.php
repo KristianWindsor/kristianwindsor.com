@@ -30,8 +30,10 @@
 		</div>
 		<div id="content">
 			<a href="fullspeed.io-premium-car-videography" class="post-preview">
-				<img src="fullspeed.io-premium-car-videography/audi1.png" alt="Fullspeed.io" />
-				<div>
+				<div class="image-wrap">
+					<img src="fullspeed.io-premium-car-videography/audi1.png" alt="Fullspeed.io" />
+				</div>
+				<div class="text-wrap">
 					<h2>
 						Fullspeed.io – Premium Car Videography
 					</h2>
@@ -41,8 +43,10 @@
 				</div>
 			</a>
 			<a href="how-i-learned-to-program" class="post-preview">
-				<img src="how-i-learned-to-program/teamblock.png" alt="Team Block" />
-				<div>
+				<div class="image-wrap">
+					<img src="how-i-learned-to-program/teamblock.png" alt="Team Block" />
+				</div>
+				<div class="text-wrap">
 					<h2>
 						How I Learned to Program
 					</h2>
@@ -52,8 +56,10 @@
 				</div>
 			</a>
 			<a href="citethis.net" class="post-preview">
-				<img src="citethis.net/citethis.png" alt="CiteThis" />
-				<div>
+				<div class="image-wrap">
+					<img src="citethis.net/citethis.png" alt="CiteThis" />
+				</div>
+				<div class="text-wrap">
 					<h2>
 						CiteThis.net
 					</h2>
@@ -63,8 +69,10 @@
 				</div>
 			</a>
 			<a href="designing-a-password-generator" class="post-preview">
-				<img src="designing-a-password-generator/a-password-generator.png" alt="Password Generator" />
-				<div>
+				<div class="image-wrap">
+					<img src="designing-a-password-generator/a-password-generator.png" alt="Password Generator" />
+				</div>
+				<div class="text-wrap">
 					<h2>
 						Designing a Password Generator
 					</h2>
@@ -74,8 +82,10 @@
 				</div>
 			</a>
 			<a href="running-a-clothing-brand-lessons-learned" class="post-preview">
-				<img src="running-a-clothing-brand-lessons-learned/mom-card.jpg" alt="MOM Clothing 2016" />
-				<div>
+				<div class="image-wrap">
+					<img src="running-a-clothing-brand-lessons-learned/mom-card.jpg" alt="MOM Clothing 2016" />
+				</div>
+				<div class="text-wrap">
 					<h2>
 						Running a Clothing Brand: Lessons Learned
 					</h2>
