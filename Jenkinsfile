@@ -1,23 +1,24 @@
 node {
     def app
+    def buildname = 'b' + env.BUILD_NUMBER
 
-    stage('Clone repository') {
+    stage('Get Code') {
         checkout scm
     }
 
-    stage('Build') {
+    stage('Build Image') {
         app = docker.build("kristianwindsor/kristianwindsor.com")
     }
 
-    stage('Push') {
+    stage('Push Image') {
         docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
-            app.push("b${env.BUILD_NUMBER}")
+            app.push(buildname)
             app.push("latest")
         }
     }
     stage('Deploy') {
         sh """
-            sed -i "s/kristianwindsor\.com.*/kristianwindsor\.com.:$IMAGE_TAG/" deployment.yaml
+            sed -i "s/kristianwindsor.com.*/kristianwindsor.com:$buildname/" deployment.yaml
             kubectl apply -f deployment.yaml
         """
     }
