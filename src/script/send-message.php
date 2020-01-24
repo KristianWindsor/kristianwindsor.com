@@ -5,10 +5,9 @@
     $message = $_POST['message'];
     $slackMessage = $_POST['name']."\n".$_POST['email']."\n".$_POST['message'];
 
-    $url = 'https://hooks.slack.com/services/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';
+    $url = 'https://hooks.slack.com/services/' . getenv('SLACK_TOKEN');
+    
     $data = array (
-        "token" => "XdiBqIMu8ELyzEIaxqzvbBsl",
-        "channel" => "#kristianwindsor",
         "text"=> $slackMessage
     );
     $postdata = json_encode($data);
