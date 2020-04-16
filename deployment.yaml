@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kristianwindsor
@@ -6,6 +6,9 @@ metadata:
     app: kristianwindsor
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: kristianwindsor
   template:
     metadata:
       labels:
