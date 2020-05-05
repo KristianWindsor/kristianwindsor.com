@@ -234,6 +234,29 @@ a:hover, .a-hovering {
     }
 }
 
+.blog .project {
+    display: inline-block;
+    width: 30%;
+    margin: 2vh 1.5%;
+}
+.blog .image-wrap {
+    width: 100%;
+}
+.blog .image-wrap img {
+    padding: 0;
+}
+@media (max-width: 1200px) {
+    .blog .project {
+        width: 46%;
+    }
+}
+@media (max-width: 650px) {
+    .blog .project {
+        width: 100%;
+        margin: 2vh 0;
+    }
+}
+
 .container-container {
     width: 100%;
     text-align: center;
