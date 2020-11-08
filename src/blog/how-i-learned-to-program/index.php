@@ -210,7 +210,7 @@
 			</ul>
 			<img src="citethis.png" alt="CiteThis" />
 			<p class="caption">
-				Cite This is a web app for students to generate citations for sources in the chosen format.
+				CiteThis is a web app for students to generate citations for sources in the chosen format.
 			</p>
 		</div>
 		<div class="paragraph">
