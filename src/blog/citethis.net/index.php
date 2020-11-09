@@ -24,7 +24,7 @@
 		</div>
 		<div class="paragraph">
 			<h2>
-				Cite What?
+				Cite what?
 			</h2>
 			<p>
 				This is a citation generator designed to help students with their papers.
@@ -38,13 +38,13 @@
 		</div>
 		<div class="paragraph">
 			<h2>
-				The Chegg Monopoly
+				Chegg's monopoly
 			</h2>
 			<p>
-				Chegg is king of online citation generators – they practically own the first page of any google search relating to citations. They trick search engines by duplicating their website and presenting it as different websites. <a href="http://www.easybib.com/" target="_blank">Easybib.com</a>, <a href="http://www.citationmachine.net/" target="_blank">citationmachine.net</a>, <a href="http://www.citethisforme.com/" target="_blank">citethisforme.com</a>, and <a href="http://www.bibme.org/" target="_blank">bibme.org</a> are all the same website, just reskinned.
+				The most popular citation generators are all owned by Chegg: <a href="http://www.easybib.com/" target="_blank">easybib.com</a>, <a href="http://www.citationmachine.net/" target="_blank">citationmachine.net</a>, <a href="http://www.citethisforme.com/" target="_blank">citethisforme.com</a>, and <a href="http://www.bibme.org/" target="_blank">bibme.org</a>. 
 			</p>
 			<p>
-				Can you blame them though? It's working very well for them.
+				And Chegg’s websites suck. They suck ass. Don't believe me? Look at <a href="https://www.reddit.com/r/assholedesign/search?q=chegg&restrict_sr=on&sort=relevance&t=all" target="_blank">these posts on Reddit's /r/assholedesign</a>.
 			</p>
 			<p>
 				Below is a screenshot of a google search for "mla citation generator". As you can see, all but one of the results is owned by Chegg. And how often do you ever click on the very last result of a google search?
@@ -122,10 +122,10 @@
 				When users go to these sites, they have one thing on their mind: "I need a citation".
 			</p>
 			<p>
-				How long does actually that take? 
+				How long does that actually take? 
 			</p>
 			<p>
-				To get real data on this, I conducted a test in which users were instructed to cite a webpage in MLA and APA format using different citation generators.
+				To collect data on this, I conducted a test in which 3 users were instructed to cite a webpage in MLA and APA format using different citation generators.
 			</p>
 			<p>
 				You can see the full user test here: <a href="https://youtu.be/ZDnJCwV8vQQ" target="_blank">https://youtu.be/ZDnJCwV8vQQ</a>
@@ -165,10 +165,7 @@
 				</tbody>
 			</table>
 			<p>
-				I should note that these times include the user opening the website and copying the generated citation to the clipboard.
-			</p>
-			<p>
-				Below is a visualization of the average times.
+				Below is a graph showing average user times to generate a citation.
 			</p>
 			<img src="time-spent-graph.png" alt="citationmachine.net, citationproducer.com, citefast.com, citethis.net User Experience" />
 		</div>
@@ -215,13 +212,10 @@
 				</tbody>
 			</table>
 			<img src="data-transferred-graph.png" alt="citationmachine.net, citationproducer.com, citefast.com, citethis.net Size Metrics" />
-			<p>
-				Citation Machine, Google's #1 ranked generator, loads 30 MB of content for every citation generated. 30 MB!! That's 300x the amount of data as CiteThis. If you went to citethis.net every weekday for an entire year, your browser would download less content than it would generating a single citation using Citation Machine.
-			</p>
 		</div>
 		<div class="paragraph">
 			<h2>
-				Languages and Technologies
+				Languages and technologies
 			</h2>
 			<p>
 				Trying to make this website lightweight, I wrote all of the HTML, CSS, and Javascript myself. The only library I used is <a href="https://github.com/jquery/jquery" target="_blank">jQuery</a>, which allowed animating DOM manipulation to be a breeze.
@@ -238,7 +232,7 @@
 		</div>
 		<div class="paragraph">
 			<h2>
-				Microservice Architecture
+				Microservice architecture
 			</h2>
 			<p>
 				That's right. I said the M-word. Microservice.
@@ -247,19 +241,19 @@
 				If you're not familiar with microservices, I recommend watching this quick video that explains monolithic architecture vs microservice architecture: <a href="https://youtu.be/RJkn9VHM7lc" target="_blank">https://youtu.be/RJkn9VHM7lc</a>.
 			</p>
 			<p>
-				When I first put this site up, it was hosted on my $20/month AWS server, along with a dozen other of my websites. One time, the server crashed, and I didn't realize that all of my sites were down until a full 8 hours later. 8 hours of production downtime is downright embarrassing!
+				Initially this website was hosted on my server, sharing apache and mysql with several other websites. Well one day apache crashes, taking down all of my websites. It took me 8 hours to realize they were down and to get them back up. 8 hours!
 			</p>
 			<p>
-				Enter: Microservices. Docker to build containers, and Kubernetes as the container orchestration system.
+				With containers (Docker), each website can have a dedicated apache and mysql instance. So if one website goes down, the others are still running.
 			</p>
 			<p>
-				One of the cool features of Kubernetes is the self-healing ability. If a container dies, or if the pod dies, or if the node dies – Kubernetes will relaunch it. I'm proud to say that since the architectural change, I haven't had a single second of downtime.
+				With container orchestration (Kubernetes), each website can be restarted if anything goes wrong. If apache dies, the process will immediately be relaunched. Additionally, Kubernetes makes it easy for the service to be highly available.
 			</p>
 			<p>
-				Breaking down this application into microservices also made deployments an effortless task. This has allowed me to focus my energy on developing the application instead of worrying about maintaining production.
+				Using container-based deployments also made it easy to create a CD pipeline. Commits to master now go directly to production, with the help of a github trigger and a jenkins pipeline. This allows me to focus my energy on developing the application instead of worrying about maintaining production.
 			</p>
 			<p>
-				Having infrastructure clearly defined in code is another bonus. Defining the containers, the ports that are exposed, the CPU and memory that's allocated, the routing of domain names to the containers, and even the SSL certificate – is all explicitly defined in configuration files, in source control, alongside the rest of the files in the GitHub repository.
+				Infrastructure as code (IAC) has also made my life easier. Everything from container resource allocation to SSL certificates are statically defined in YAML files alongside my application code.
 			</p>
 			<img src="microservices.png" alt="Microservice architecture of CiteThis Python web app" />
 		</div>

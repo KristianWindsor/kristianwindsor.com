@@ -18,7 +18,7 @@
 	<section class="article-body">
 		<div class="paragraph">
 			<h2>
-				Drag and Drop Programming
+				Drag and drop programming
 			</h2>
 			<p>
 				When I was 13 years old I was introduced to a program called GameMaker Studio, a drag-and-drop programming engine. My friend showed me a simple game he made using it, and I had to try it out. 
@@ -42,22 +42,22 @@
 				The challenge is a competition for middle schoolers and high schoolers to create a video game, and I decided to make one for the challenge using my new GameMaker skills.
 			</p>
 			<p>
-				To my suprise, I won my division of the competition. Among the 3700+ entries, myself and 27 other winners were flown to Washington DC to collect our awards. I got to shake hands with Bill Gates and others who sponsored <a href="https://current.org/2012/05/young-game-developers-honored-at-2012-national-stem-video-game-challenge/" target="_blank">the event</a>. All winners received a new HP laptop and $2,000 towards something educational. 
+				To my suprise, I won my division of the competition. Among the 3700+ entries, myself and 27 other winners were flown to Washington DC to collect our awards. All winners received a new HP laptop and $2,000 towards something educational. <a href="https://joanganzcooneycenter.org/press/winners-of-2012-national-stem-video-game-challenge-announced/" target="_blank">Read more here.</a>
 			</p>
 			<p>
 				Winning the challenge instilled confidence in me and opened my eyes to the world of programming.
 			</p>
-			<img src="stemchallenge.jpg" alt="Winners of the 2012 National STEM Video Game Challenge" />
+			<img src="2012-stem-challenge.jpeg" alt="Winners of the 2012 National STEM Video Game Challenge" />
 			<p class="caption">
 				The winners of the 2012 National STEM Video Game Challenge.
 			</p>
 		</div>
 		<div class="paragraph">
 			<h2>
-				Windows Applications (C#)
+				Windows applications (C#)
 			</h2>
 			<p>
-				I wanted a taste of real programming, so I torrented Visual Studio on the new laptop I had won and started learning C#.
+				I wanted a taste of real programming, so I installed Visual Studio on the new laptop I had won and started learning C#.
 			</p>
 			<p>
 				I made many simple programs that I used on a regular basis.
@@ -75,7 +75,7 @@
 				</li>
 				<li>
 					<p>
-						A Minecraft file swapper. The purpose was to automatically switch between the minecraft.jar files at the click of a button, which otherwise would require manually renaming 2 files.
+						A Minecraft binary swapper. The purpose was to automatically switch between different versions of the game (super helpful for modding!). This feature wasn't added to the game until years later.
 					</p>
 				</li>
 				<li>
@@ -91,7 +91,7 @@
 		</div>
 		<div class="paragraph">
 			<h2>
-				Web Apps (Javascript, jQuery)
+				Web apps (Javascript, jQuery)
 			</h2>
 			<p>
 				I felt like a baller, having made computer games and programs. I wanted to show them to my friends at school, but there was one problem: I couldn't because they had an .exe extension.
@@ -116,7 +116,7 @@
 				</li>
 				<li>
 					<p>
-						A chatterbot that can have conversations with people, similar to CleverBot. It had precomposed messages and lots and lots of if-statements.
+						A chatterbot that can have conversations with people, similar to CleverBot. It had 500+ precomposed messages and lots and lots of if-statements.
 					</p>
 				</li>
 				<li>
@@ -126,7 +126,7 @@
 				</li>
 				<li>
 					<p>
-						A word counter. It has a single input textbox that triggers the metrics to update on value-change and on key-press. The number of words, characters, sentences, and paragraphs were all tallied up.
+						A word counter. The displayed metrics are live – they update immediately after the textbox content is updated. The number of words, characters, sentences, and paragraphs are all tallied up.
 					</p>
 				</li>
 			</ul>
@@ -137,10 +137,10 @@
 		</div>
 		<div class="paragraph">
 			<h2>
-				Web Apps with a Backend (PHP, MySQL)
+				Web apps with a backend (PHP, MySQL)
 			</h2>
 			<p>
-				My sophomore year of high school, I learned PHP and MySQL with the help and influence of my brother, who was interning at Facebook at the time. 
+				My sophomore year of high school, I learned PHP and MySQL with the help and influence of <a href="https://kristopherwindsor.com/" target="_blank">my brother</a>, who was interning at Facebook at the time. 
 			</p>
 			<p>
 				Having a backend created an entire new dimension to web apps. Using AJAX with jQuery I was able to easily communicate between the user's browser and the database which allows the app to be much more intelligent.
@@ -172,7 +172,7 @@
 				Internship at Pinger
 			</h2>
 			<p>
-				I landed an internship a few months out of high school through people that I knew. My responsibilities were to create HTML/CSS mockups for the product team.
+				I landed an internship a few months out of high school through good people that I know. My responsibilities were to create HTML/CSS mockups for the product team.
 			</p>
 			<p>
 				I eventually ran out of work to do, so I asked the web team if they had any Javascript work I could do. I was assigned a couple of unimportant bugs from the backlog, which I struggled to accomplish working in the large codebase and a new workflow, but I did manage to fix the bugs and my code went out to production in the next release.
@@ -186,7 +186,7 @@
 		</div>
 		<div class="paragraph">
 			<h2>
-				Portfolio Projects
+				Portfolio projects
 			</h2>
 			<p>
 				I planned to build three websites in order to create a portfolio as a fullstack web developer. I had built plenty of apps but I had never "completed" a project. I didn't have any websites that I was proud of and wanted to show off – a website that I could talk about and that could prove that I can make a good website.
@@ -194,7 +194,7 @@
 			<ul class="normal">
 				<li>
 					<p>
-						PHP/HTML/CSS - creating a basic multipage website. Kristianwindsor.com is <a href="https://github.com/KristianWindsor/kristianwindsor.com/blob/master/src/blog/how-i-learned-to-program/index.php#L197" target="_blank">open source</a>, completely responsive, and it's super lightweight. This page you're on now, with all 6 images, weighs just 400KB.
+						PHP/HTML/CSS - creating a basic multipage website. Kristianwindsor.com is <a href="https://github.com/KristianWindsor/kristianwindsor.com/blob/master/src/blog/how-i-learned-to-program/index.php#L197" target="_blank">open source</a>, completely responsive, and it's super lightweight. This page you're on now, with all 6 images, weighs just 500KB.
 					</p>
 				</li>
 				<li>
