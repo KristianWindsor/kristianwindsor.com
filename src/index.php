@@ -1,40 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>
-			Kristian Windsor
-		</title>
-		<link rel="stylesheet" href="/style.css">
-		<link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
-		<link rel="manifest" href="/icon/manifest.json">
-		<link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#61cae9">
-		<link rel="shortcut icon" href="/icon/favicon.ico">
-		<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-		<meta name="msapplication-config" content="/icon/browserconfig.xml">
-		<meta name="theme-color" content="#ffffff">
-		<meta name="description" content="Kristian Windsor: Portfolio, Experience, About, Contact, Blog.">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<meta name="google-site-verification" content="8BffalIDkAupJL8A3shSeoIYLmPFH3R0HmdboZfsFzY" />
-	</head>
+	<?php
+		include_once("html/head.php");
+	?>
 	<body>
 		<div class="head">
-			<div class="nav">
-				<a id="nav-portfolio">
-					Portfolio
-				</a>
-				<a id="nav-experience">
-					Experience
-				</a>
-				<a id="nav-about">
-					About
-				</a>
-				<a id="nav-contact">
-					Contact
-				</a>
-			</div>
+			<?php
+				include_once("html/nav.php");
+			?>
 			<div class="hi">
 				<h1>
 					Hi, I'm Kristian Windsor.
@@ -45,159 +18,10 @@
 			</div>
 		</div>
 		<div class="body">
-			<div class="section portfolio">
-				<div>
-					<h2>
-						My portfolio
-					</h2>
-				</div>
-				<div>
-					<div class="project">
-						<div class="left image-container hoverable big-mobile">
-							<div class="website-image">
-								<img src="/img/citethis.png" title="CiteThis" alt="Generate citations for your bibliography in MLA, APA, or Chicago format" />
-							</div>
-							<div class="website-info">
-								<div class="centered">
-									<div>
-										<a class="website-link" href="https://citethis.net/" target="_blank">
-											<i class="icon icon-export">&#xe800;</i>
-											Visit Website
-										</a>
-									</div>
-									<div class="website-link-container">
-										<a class="website-link" href="/blog/citethis.net/">
-											<i class="icon icon-book-open">&#xe801;</i>
-											Read About It
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="right">
-							<div>
-								<h3 class="title">
-									CiteThis
-								</h3>
-								<h4 class="url">
-									<a href="https://citethis.net/" target="_blank">
-										citethis.net
-									</a>
-								</h4>
-								<p class="text">
-									A citation generator to help students create bibliographies.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="project">
-						<div class="left image-container hoverable big-mobile">
-							<div class="website-info">
-								<div class="centered">
-									<div class="website-link-container">
-										<a class="website-link" href="https://passgen.site/" target="_blank">
-											<i class="icon icon-export">&#xe800;</i>
-											Visit Website
-										</a>
-									</div>
-									<div class="website-link-container">
-										<a class="website-link" href="/blog/designing-a-password-generator/">
-											<i class="icon icon-book-open">&#xe801;</i>
-											Read About It
-										</a>
-									</div>
-									<div class="website-link-container">
-										<a class="website-link" href="https://github.com/KristianWindsor/passgen.site" target="_blank">
-											<i class="icon icon-github">&#xf300;</i>
-											View On Github
-										</a>
-									</div>
-								</div>
-							</div>
-								<img src="/img/passgen.png" title="Password Generator" alt="Password Generator" />
-						</div>
-						<div class="right text">
-							<h3 class="title">
-								Password Generator
-							</h3>
-							<h4 class="url">
-								<a href="https://passgen.site/" target="_blank">
-									passgen.site
-								</a>
-							</h4>
-							<p class="text">
-								A minimal password generator.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section experience">
-				<div>
-					<h2>
-						Experience
-					</h2>
-				</div>
-				<div>
-					<div class="project">
-						<div class="image-wrap">
-							<img src="/img/pinger-devops-engineer.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
-						</div>
-						<div class="text-wrap">
-							<h3 class="title">
-								DevOps Engineer
-							</h3>
-							<h4 class="text">
-								<a href="https://www.pinger.com/" target="_blank">Pinger, Inc.</a>
-							</h4>
-							<h4 class="text">
-								May 2019 - Present
-							</h4>
-							<p class="text">
-								I am building out the development infrastructure with Kubernetes, writing Jenkins pipelines, refactoring monolithic applications into a microservice architecture, and helping engineers get comfortable with using Docker.
-							</p>
-						</div>
-					</div>
-					<div class="project">
-						<div class="image-wrap">
-							<img src="/img/pinger-software-engineer.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
-						</div>
-						<div class="text-wrap">
-							<h3 class="title">
-								Software Engineer
-							</h3>
-							<h4 class="text">
-								<a href="https://www.pinger.com/" target="_blank">Pinger, Inc.</a>
-							</h4>
-							<h4 class="text">
-								July 2017 - May 2019
-							</h4>
-							<p class="text">
-								Working part-time as a member of the web team, I built the CI pipeline and created the UI automation test suite which uses Selenium, CucumberJS, and WebdriverIO.
-							</p>
-						</div>
-					</div>
-					<div class="project">
-						<div class="image-wrap">
-							<img src="/img/pinger-software-engineer-intern.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
-						</div>
-						<div class="text-wrap">
-							<h3 class="title">
-								Software Engineer Intern
-							</h3>
-							<h4 class="text">
-								<a href="https://www.pinger.com/" target="_blank">Pinger, Inc.</a>
-							</h4>
-							<p class="text">
-								July 2016 - Nov. 2016
-							</p>
-							<p class="text">
-								Working with the product team and web team, my responsibilities entailed creating mockups in HTML/CSS and fixing bugs for the company's web app, Textfree, using AngularJS.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php
+				include_once("html/portfolio.php");
+				include_once("html/experience.php");
+			?>
 			<div class="section blog">
 				<div>
 					<h2>
@@ -272,124 +96,16 @@
 					</a>
 				</div>
 			</div>
-			<div class="section about">
-				<div class="title">
-					<h2>
-						About me
-					</h2>
-				</div>
-				<div class="content">
-					<div class="project">
-						<div class="image-wrap">
-							<img src="/img/me.jpg" id="profile-photo" class="image partial nobig" alt="Kristian Windsor" />
-						</div>
-						<div class="text-wrap">
-							<p class="text">
-								When I'm not programming, my free time is spent riding my bike around town, going on hikes, and hobbying in photography.
-							</p>
-							<p class="text">
-								In the future, I plan on running my own technology oriented business.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="section contact">
-				<div>
-					<h2>
-						Contact me!
-					</h2>
-				</div>
-				<div>
-					<div class="project">
-						<div class="left big-mobile">
-							<form class="contact">
-								<span id="name-label" class="contact-label">Name</span><br>
-								<input type="input" id="name" class="input textbox" placeholder="Bruce Wayne" />
-
-								<span id="email-label" class="contact-label">Email</span><br>
-								<input type="input" id="email" class="input textbox" placeholder="batman321@hotmail.com" />
-
-								<span id="message-label" class="contact-label">Message</span><br>
-								<textarea id="message" rows="8" class="input textbox" placeholder="You look great today."></textarea>
-
-								<input type="button" value="Send" id="send" class="input button"/>
-
-								<span id="no-name-no-email">You didn't put your name or your email address. Send anyways?</span>
-								<span id="no-name">You didn't put your name. Send anyways?</span>
-								<span id="no-email">You didn't put an email address. Send anyways?</span>
-								<span id="bad-email">Your email address doesn't look right. Send anyways?</span>
-								<input type="button" value="Cancel" id="send-no" class="input button yesno"/>
-								<input type="button" value="Send" id="send-yes" class="input button yesno"/>
-							</form>
-						</div>
-						<div class="right">
-							<div class="contact mobile-padding container-container">
-								<div class="container">
-									<p>
-										<a class="contact-link gap" href="mailto:hello@kristianwindsor.com">
-											<i class="icon icon-mail">&#xe803;</i>
-											hello@kristianwindsor.com
-										</a>
-									</p>
-									<p>
-										<a class="contact-link gap" href="tel:14086220926">
-											<i class="icon icon-phone">&#xe804;</i>
-											(408) 622-0926
-										</a>
-									</p>
-									<p>
-										<a class="contact-link" href="https://www.google.com/maps/place/Cupertino,+CA/" target="_blank">
-											<i class="icon icon-location">&#xe802;</i>
-											Cupertino, CA
-										</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="content" id="submitted">
-					<p>
-						<span class="big">Thanks<span id="firstName"></span>! </span><span class="green">Your message has been submitted.</span>
-					</p>
-					<p>
-						I'll get back to you as soon as I can.
-					</p>
-				</div>
-			</div>
+			<?php
+				include_once("html/about.php");
+				include_once("html/contact.php");
+			?>
 		</div>
-		<div class="foot">
-			<div class="links">
-				<div class="container">
-					<p>
-						<a href="https://github.com/KristianWindsor" target="_blank">
-							<i class="icon icon-github">&#xf300;</i> Github
-						</a>
-					</p>
-					<p>
-						<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank">
-							<i class="icon icon-linkedin">&#xf318;</i> LinkedIn
-						</a>
-					</p>
-					<p>
-						<a href="https://www.flickr.com/photos/kristianwindsor/" target="_blank">
-							<i class="icon icon-flickr">&#xf303;</i> Flickr
-						</a>
-					</p>
-				</div>
-			</div>
-		</div>
+		<?php
+			include_once("html/foot.php");
+		?>
 	</body>
-	<script type="text/javascript" src="/script/jquery.js"></script>
-	<script type="text/javascript" src="/script/script.js"></script>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-92639312-2', 'auto');
-		ga('send', 'pageview');
-	</script>
+	<?php
+		include_once("html/footer.php");
+	?>
 </html>
