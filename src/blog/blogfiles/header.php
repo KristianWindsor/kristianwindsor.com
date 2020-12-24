@@ -34,6 +34,6 @@
 	</head>
 	<body id="body" class="blog">
 		<div id="breadcrumb">
-			<a href="/">Kristian Windsor</a> --> <a href="../">Blog</a> --> <a href=<?php echo '"../'.$articleUrl.'"'.'>'.$articleTitle?></a>
+			<a href="/">Home</a> --> <a href="../">Blog</a> --> <a href=<?php echo '"../'.$articleUrl.'"'.'>'.$articleTitle?></a>
 		</div>
 		<div id="blog-post">

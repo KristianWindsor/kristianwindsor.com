@@ -5,13 +5,13 @@
 		<title>
 			Kristian Windsor
 		</title>
-		<link rel="stylesheet" href="style.css">
-		<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+		<link rel="stylesheet" href="/style.css">
+		<link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
 		<link rel="manifest" href="/icon/manifest.json">
 		<link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#61cae9">
-		<link rel="shortcut icon" href="icon/favicon.ico">
+		<link rel="shortcut icon" href="/icon/favicon.ico">
 		<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
 		<meta name="msapplication-config" content="/icon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
@@ -55,7 +55,7 @@
 					<div class="project">
 						<div class="left image-container hoverable big-mobile">
 							<div class="website-image">
-								<img src="img/citethis.png" title="CiteThis" alt="Generate citations for your bibliography in MLA, APA, or Chicago format" />
+								<img src="/img/citethis.png" title="CiteThis" alt="Generate citations for your bibliography in MLA, APA, or Chicago format" />
 							</div>
 							<div class="website-info">
 								<div class="centered">
@@ -66,7 +66,7 @@
 										</a>
 									</div>
 									<div class="website-link-container">
-										<a class="website-link" href="blog/citethis.net/">
+										<a class="website-link" href="/blog/citethis.net/">
 											<i class="icon icon-book-open">&#xe801;</i>
 											Read About It
 										</a>
@@ -101,7 +101,7 @@
 										</a>
 									</div>
 									<div class="website-link-container">
-										<a class="website-link" href="blog/designing-a-password-generator/">
+										<a class="website-link" href="/blog/designing-a-password-generator/">
 											<i class="icon icon-book-open">&#xe801;</i>
 											Read About It
 										</a>
@@ -114,7 +114,7 @@
 									</div>
 								</div>
 							</div>
-								<img src="img/passgen.png" title="Password Generator" alt="Password Generator" />
+								<img src="/img/passgen.png" title="Password Generator" alt="Password Generator" />
 						</div>
 						<div class="right text">
 							<h3 class="title">
@@ -141,7 +141,7 @@
 				<div>
 					<div class="project">
 						<div class="image-wrap">
-							<img src="img/pinger-devops-engineer.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
+							<img src="/img/pinger-devops-engineer.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
 						</div>
 						<div class="text-wrap">
 							<h3 class="title">
@@ -160,7 +160,7 @@
 					</div>
 					<div class="project">
 						<div class="image-wrap">
-							<img src="img/pinger-software-engineer.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
+							<img src="/img/pinger-software-engineer.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
 						</div>
 						<div class="text-wrap">
 							<h3 class="title">
@@ -179,7 +179,7 @@
 					</div>
 					<div class="project">
 						<div class="image-wrap">
-							<img src="img/pinger-software-engineer-intern.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
+							<img src="/img/pinger-software-engineer-intern.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
 						</div>
 						<div class="text-wrap">
 							<h3 class="title">
@@ -205,9 +205,9 @@
 					</h2>
 				</div>
 				<div class="content">
-					<a class="project" href="blog/fullspeed.io-premium-car-videography/">
+					<a class="project" href="/blog/fullspeed.io-premium-car-videography/">
 						<div class="image-wrap">
-							<img src="blog/fullspeed.io-premium-car-videography/audi1.png" alt="Fullspeed.io" />
+							<img src="/blog/fullspeed.io-premium-car-videography/audi1.png" alt="Fullspeed.io" />
 						</div>
 						<div class="text-wrap">
 							<h3>
@@ -218,9 +218,9 @@
 							</p>
 						</div>
 					</a>
-					<a class="project" href="blog/how-i-learned-to-program/">
+					<a class="project" href="/blog/how-i-learned-to-program/">
 						<div class="image-wrap">
-							<img src="blog/how-i-learned-to-program/teamblock.png" alt="Team Block" />
+							<img src="/blog/how-i-learned-to-program/teamblock.png" alt="Team Block" />
 						</div>
 						<div class="text-wrap">
 							<h3>
@@ -231,9 +231,9 @@
 							</p>
 						</div>
 					</a>
-					<a class="project" href="blog/citethis.net/">
+					<a class="project" href="/blog/citethis.net/">
 						<div class="image-wrap">
-							<img src="blog/citethis.net/citethis.png" alt="CiteThis" />
+							<img src="/blog/citethis.net/citethis.png" alt="CiteThis" />
 						</div>
 						<div class="text-wrap">
 							<h3>
@@ -244,9 +244,9 @@
 							</p>
 						</div>
 					</a>
-					<a class="project" href="blog/designing-a-password-generator/">
+					<a class="project" href="/blog/designing-a-password-generator/">
 						<div class="image-wrap">
-							<img src="blog/designing-a-password-generator/a-password-generator.png" alt="Password Generator" />
+							<img src="/blog/designing-a-password-generator/a-password-generator.png" alt="Password Generator" />
 						</div>
 						<div class="text-wrap">
 							<h3>
@@ -257,9 +257,9 @@
 							</p>
 						</div>
 					</a>
-					<a class="project" href="blog/running-a-clothing-brand-lessons-learned/">
+					<a class="project" href="/blog/running-a-clothing-brand-lessons-learned/">
 						<div class="image-wrap">
-							<img src="blog/running-a-clothing-brand-lessons-learned/mom-card.jpg" alt="MOM Clothing 2016" />
+							<img src="/blog/running-a-clothing-brand-lessons-learned/mom-card.jpg" alt="MOM Clothing 2016" />
 						</div>
 						<div class="text-wrap">
 							<h3>
@@ -281,7 +281,7 @@
 				<div class="content">
 					<div class="project">
 						<div class="image-wrap">
-							<img src="img/me.jpg" id="profile-photo" class="image partial nobig" alt="Kristian Windsor" />
+							<img src="/img/me.jpg" id="profile-photo" class="image partial nobig" alt="Kristian Windsor" />
 						</div>
 						<div class="text-wrap">
 							<p class="text">
@@ -381,8 +381,8 @@
 			</div>
 		</div>
 	</body>
-	<script type="text/javascript" src="script/jquery.js"></script>
-	<script type="text/javascript" src="script/script.js"></script>
+	<script type="text/javascript" src="/script/jquery.js"></script>
+	<script type="text/javascript" src="/script/script.js"></script>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
