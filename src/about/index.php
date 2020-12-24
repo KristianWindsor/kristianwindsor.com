@@ -22,7 +22,7 @@
 				<div class="content">
 					<div class="project">
 						<div class="image-wrap">
-							<img src="/img/me.jpg" id="profile-photo" class="image partial nobig" alt="Kristian Windsor" />
+							<img src="/img/kristian_windsor.jpg" id="profile-photo" class="image partial nobig" alt="Kristian Windsor" />
 						</div>
 						<div class="text-wrap">
 							<p class="text">
