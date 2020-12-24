@@ -13,17 +13,12 @@
 					Contact Me
 				</h1>
 				<p>
-					Ayyyy
+					Got an idea? Let's get in touch.
 				</p>
 			</div>
 		</div>
 		<div class="body">
 			<div class="section contact">
-				<div>
-					<h2>
-						Contact me!
-					</h2>
-				</div>
 				<div>
 					<div class="project">
 						<div class="left big-mobile">

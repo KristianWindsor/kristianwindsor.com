@@ -13,17 +13,12 @@
 					Portfolio
 				</h1>
 				<p>
-					Websites by Kristian Windsor
+					I like to design, develop, and operate websites in my spare time
 				</p>
 			</div>
 		</div>
 		<div class="body">
 			<div class="section portfolio">
-				<div>
-					<h2>
-						My portfolio
-					</h2>
-				</div>
 				<div>
 					<div class="project">
 						<div class="left image-container hoverable big-mobile">

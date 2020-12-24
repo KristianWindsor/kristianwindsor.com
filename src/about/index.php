@@ -13,17 +13,12 @@
 					About Me
 				</h1>
 				<p>
-					Ayyyy
+					Let me tell you who I am...
 				</p>
 			</div>
 		</div>
 		<div class="body">
 			<div class="section about">
-				<div class="title">
-					<h2>
-						About me
-					</h2>
-				</div>
 				<div class="content">
 					<div class="project">
 						<div class="image-wrap">

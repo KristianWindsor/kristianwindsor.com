@@ -73,10 +73,10 @@ footer {
   min-height: 40%;
 }
 
-.image-wrap {
+#blog .image-wrap {
   width: 32.8%;
 }
-.text-wrap {
+#blog .text-wrap {
   padding: 0 18px;
 }
 
@@ -168,7 +168,7 @@ footer {
   color: #7a7a7a;
 }
 
-.image {
+#blog .image {
   width: 100%;
   margin: 60px 0 30px;
 }

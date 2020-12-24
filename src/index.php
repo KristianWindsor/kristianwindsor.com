@@ -17,77 +17,74 @@
 				</p>
 			</div>
 		</div>
-		<div class="body">
-			<div class="section experience">
-				<div>
+		<div id="content" class="mainbody">
+			<a href="/experience/" class="post-preview">
+				<div class="text-wrap">
 					<h2>
-						I'm a DevOps Engineer
+						I'm a DevOps Engineer.
 					</h2>
-				</div>
-				<div>
 					<p>
-						<a href="experience">
-							See my work experience
-						</a>
+						See my work experience
 					</p>
-					<!-- <img src="https://go.isostech.com/hubfs/classicdevops.png" style="width:35%" /> -->
 				</div>
-			</div>
-			<div class="section portfolio">
-				<div>
+				<div class="image-wrap">
+					<img src="https://go.isostech.com/hubfs/classicdevops.png" alt="Fullspeed.io" />
+				</div>
+			</a>
+			<a href="/portfolio/" class="post-preview">
+				<div class="text-wrap">
 					<h2>
-						I make websites
+						I make websites for fun.
 					</h2>
-				</div>
-				<div>
 					<p>
-						<a href="/portfolio/">
-							See my portfolio
-						</a>
+						See my portfolio
 					</p>
-					<!-- <img src="/img/citethis.png" style="width:35%" /> -->
 				</div>
-			</div>
-			<div class="section blog">
-				<div>
+				<div class="image-wrap">
+					<img src="/img/citethis.png" alt="Team Block" />
+				</div>
+			</a>
+			<a href="/blog/" class="post-preview">
+				<div class="text-wrap">
 					<h2>
-						I write about my projects
+						I write about my projects.
 					</h2>
-				</div>
-				<div>
 					<p>
-						<a href="/blog/">
-							See my blog
-						</a>
+						See my blog
 					</p>
-					<!-- <img src="/blog/how-i-learned-to-program/teamblock.png" style="width:35%" /> -->
 				</div>
-			</div>
-			<div class="section contact">
-				<div>
+				<div class="image-wrap">
+					<img src="/blog/fullspeed.io-premium-car-videography/audi1.png" alt="CiteThis" />
+				</div>
+			</a>
+			<a href="/contact/" class="post-preview">
+				<div class="text-wrap">
 					<h2>
 						Get in touch!
 					</h2>
-				</div>
-				<div>
 					<p>
 						Contact me
 					</p>
 				</div>
-			</div>
-			<div class="section about">
-				<div>
+				<div class="image-wrap">
+				<i class="icon icon-mail">&#xe803;</i>
+				<i class="icon icon-phone">&#xe804;</i>
+				</div>
+			</a>
+			<a href="/about/" class="post-preview">
+				<div class="text-wrap">
 					<h2>
-						About
+						About me.
 					</h2>
-				</div>
-				<div>
 					<p>
-						About me
+						See the about page
 					</p>
-					<!-- <img src="/img/me.jpg" style="width:35%" /> -->
 				</div>
-			</div>
+				<div class="image-wrap">
+					<img src="/img/me.jpg" alt="MOM Clothing 2016" />
+				</div>
+			</a>
+		</div>
 		</div>
 		<?php
 			include_once("html/foot.php");

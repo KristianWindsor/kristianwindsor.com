@@ -10,10 +10,10 @@
 			?>
 			<div class="hi">
 				<h1>
-					Experience
+					Work Experience.
 				</h1>
 				<p>
-					Work experience
+					Mostly as a DevOps Engineer
 				</p>
 			</div>
 		</div>
@@ -21,7 +21,19 @@
 			<div class="section experience">
 				<div>
 					<h2>
-						Experience
+						Résumé
+					</h2>
+				</div>
+				<div>
+					<p>
+						See my résumé (resume.pdf)
+					</p>
+				</div>
+			</div>
+			<div class="section experience">
+				<div>
+					<h2>
+						Work Experience
 					</h2>
 				</div>
 				<div>
@@ -82,6 +94,21 @@
 							</p>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="section experience">
+				<div>
+					<h2>
+						Awards, Accomplishments & Activity
+					</h2>
+				</div>
+				<div>
+					<ul>
+						<li>Presented a demo at DevOps World (2020)</li>
+						<li>Spoke on the DevOps World Podcast (2019)</li>
+						<li>Received the Rising Star Award on behalf of Pinger (2019)</li>
+						<li>Won the National STEM Challenge (2012)</li>
+					</ul>
 				</div>
 			</div>
 		</div>

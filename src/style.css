@@ -138,10 +138,36 @@ a:hover, .a-hovering {
     }
 }
 
+.mainbody .text-wrap {
+    width: 50%;
+    float: left;
+}
+
+.mainbody .image-wrap {
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    padding: 18px;
+    text-align: center;
+}
+
+.mainbody .post-preview {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.mainbody .icon {
+    font-size: 80px;
+}
+
+.mainbody img {
+    border-radius: 4px;
+}
+
 .project {
     margin: 4vh 0;
 	background-color: #fff;
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	/* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); */
     overflow: hidden;
     border-radius: 4px;
     text-align: left;
@@ -195,6 +221,9 @@ a:hover, .a-hovering {
 .experience .right {
     width: 76.39%;
 }
+.experience li {
+    text-align: left;
+}
 
 .contact .project {
     background-color: transparent;
@@ -219,7 +248,7 @@ a:hover, .a-hovering {
     float: left;
 }
 .experience .image.partial {
-    padding: 18px;
+    padding: 39px 21px 21px;
 }
 
 @media (max-width: 700px) {
