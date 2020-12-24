@@ -1,4 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en">
+	<?php
+		include_once("../html/head.php");
+	?>
+	<body>
+		<div class="head">
+			<?php
+				include_once("../html/nav.php");
+			?>
+			<div class="hi">
+				<h1>
+					Portfolio
+				</h1>
+				<p>
+					Websites by Kristian Windsor
+				</p>
+			</div>
+		</div>
+		<div class="body">
 			<div class="section portfolio">
 				<div>
 					<h2>
@@ -86,3 +105,12 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<?php
+			include_once("../html/foot.php");
+		?>
+	</body>
+	<?php
+		include_once("../html/footer.php");
+	?>
+</html>

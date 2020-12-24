@@ -1,4 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en">
+	<?php
+		include_once("../html/head.php");
+	?>
+	<body>
+		<div class="head">
+			<?php
+				include_once("../html/nav.php");
+			?>
+			<div class="hi">
+				<h1>
+					About Me
+				</h1>
+				<p>
+					Ayyyy
+				</p>
+			</div>
+		</div>
+		<div class="body">
 			<div class="section about">
 				<div class="title">
 					<h2>
@@ -21,3 +40,12 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<?php
+			include_once("../html/foot.php");
+		?>
+	</body>
+	<?php
+		include_once("../html/footer.php");
+	?>
+</html>
