@@ -38,9 +38,9 @@
 										</a>
 									</p>
 									<p>
-										<a class="contact-link gap" href="tel:14086220926">
+										<a class="contact-link gap" href="tel:14086834007">
 											<i class="icon icon-phone">&#xe804;</i>
-											(408) 622-0926
+											(408) 683-4007
 										</a>
 									</p>
 									<p>
