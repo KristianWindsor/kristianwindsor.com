@@ -7,34 +7,54 @@
     <priority>1.00</priority>
   </url>
   <url>
+    <loc>https://kristianwindsor.com/experience/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://kristianwindsor.com/portfolio/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
     <loc>https://kristianwindsor.com/blog/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://kristianwindsor.com/contact/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.66</priority>
+  </url>
+  <url>
+    <loc>https://kristianwindsor.com/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.66</priority>
   </url>
   <url>
     <loc>https://kristianwindsor.com/blog/running-a-clothing-brand-lessons-learned/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.33</priority>
   </url>
   <url>
     <loc>https://kristianwindsor.com/blog/designing-a-password-generator/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.33</priority>
   </url>
   <url>
     <loc>https://kristianwindsor.com/blog/citethis.net/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.33</priority>
   </url>
   <url>
     <loc>https://kristianwindsor.com/blog/how-i-learned-to-program/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.33</priority>
   </url>
   <url>
     <loc>https://kristianwindsor.com/blog/fullspeed.io-premium-car-videography/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <priority>0.33</priority>
   </url>
 
 </urlset>
