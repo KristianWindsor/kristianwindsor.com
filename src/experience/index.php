@@ -26,7 +26,7 @@
 				</div>
 				<div>
 					<p>
-						See my résumé (resume.pdf)
+						<a href="/resume.pdf" target="_blank">See my résumé (resume.pdf)</a>
 					</p>
 				</div>
 			</div>
@@ -109,6 +109,27 @@
 						<li>Received the Rising Star Award on behalf of Pinger (2019)</li>
 						<li>Won the National STEM Challenge (2012)</li>
 					</ul>
+				</div>
+			</div>
+			<div class="section experience">
+				<div>
+					<h2>
+						Connect with me
+					</h2>
+				</div>
+				<div>
+					<div class="container">
+						<p>
+							<a href="https://github.com/KristianWindsor" target="_blank">
+								<i class="icon icon-github">&#xf300;</i> Github
+							</a>
+						</p>
+						<p>
+							<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank">
+								<i class="icon icon-linkedin">&#xf318;</i> LinkedIn
+							</a>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>

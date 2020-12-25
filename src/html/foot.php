@@ -3,22 +3,22 @@
 			<div class="links">
 				<div class="container">
 					<a href="/">
-						home
+						HOME
 					</a>
 					<a href="/experience/">
-						experience
+						EXPERIENCE
 					</a>
 					<a href="/portfolio/">
-						portfolio
+						PORTFOLIO
 					</a>
 					<a href="/blog/">
-						blog
+						BLOG
 					</a>
 					<a href="/about/">
-						about
+						ABOUT
 					</a>
 					<a href="/contact/">
-						contact
+						CONTACT
 					</a>
 				</div>
 			</div>

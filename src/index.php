@@ -28,7 +28,7 @@
 					</p>
 				</div>
 				<div class="image-wrap">
-					<img src="https://go.isostech.com/hubfs/classicdevops.png" alt="Fullspeed.io" />
+					<img src="https://go.isostech.com/hubfs/classicdevops.png" alt="DevOps Infinity Circle" />
 				</div>
 			</a>
 			<a href="/portfolio/" class="post-preview">
@@ -54,7 +54,7 @@
 					</p>
 				</div>
 				<div class="image-wrap">
-					<img src="/blog/fullspeed.io-premium-car-videography/audi1.png" alt="CiteThis" />
+					<img src="/blog/fullspeed.io-premium-car-videography/audi1.png" alt="Fullspeed.io" />
 				</div>
 			</a>
 			<a href="/contact/" class="post-preview">
@@ -81,7 +81,7 @@
 					</p>
 				</div>
 				<div class="image-wrap">
-					<img src="/img/me.jpg" alt="MOM Clothing 2016" />
+					<img src="/img/kristian_windsor.jpg" alt="kristian windsor face" />
 				</div>
 			</a>
 		</div>
