@@ -47,19 +47,19 @@
 								<div class="container">
 									<p>
 										<a class="contact-link gap" href="mailto:hello@kristianwindsor.com">
-											<i class="icon icon-mail">&#xe803;</i>
+											<i class="icon icon-mail">&#xe802;</i>
 											hello@kristianwindsor.com
 										</a>
 									</p>
 									<p>
 										<a class="contact-link gap" href="tel:14086834007">
-											<i class="icon icon-phone">&#xe804;</i>
+											<i class="icon icon-phone">&#xe803;</i>
 											(408) 683-4007
 										</a>
 									</p>
 									<p>
 										<a class="contact-link" href="https://www.google.com/maps/place/Cupertino,+CA/" target="_blank">
-											<i class="icon icon-location">&#xe802;</i>
+											<i class="icon icon-location">&#xe801;</i>
 											Cupertino, CA
 										</a>
 									</p>

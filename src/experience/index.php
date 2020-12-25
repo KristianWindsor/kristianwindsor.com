@@ -126,7 +126,7 @@
 						</p>
 						<p>
 							<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank">
-								<i class="icon icon-linkedin">&#xf318;</i> LinkedIn
+								<i class="icon icon-linkedin">&#xf0e1;</i> LinkedIn
 							</a>
 						</p>
 					</div>

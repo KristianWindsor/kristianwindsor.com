@@ -29,13 +29,13 @@
 								<div class="centered">
 									<div>
 										<a class="website-link" href="https://citethis.net/" target="_blank">
-											<i class="icon icon-export">&#xe800;</i>
+											<i class="icon icon-export">&#xf081;</i>
 											Visit Website
 										</a>
 									</div>
 									<div class="website-link-container">
 										<a class="website-link" href="/blog/citethis.net/">
-											<i class="icon icon-book-open">&#xe801;</i>
+											<i class="icon icon-book-open">&#xe800;</i>
 											Read About It
 										</a>
 									</div>
@@ -64,13 +64,13 @@
 								<div class="centered">
 									<div class="website-link-container">
 										<a class="website-link" href="https://passgen.site/" target="_blank">
-											<i class="icon icon-export">&#xe800;</i>
+											<i class="icon icon-export">&#xf081;</i>
 											Visit Website
 										</a>
 									</div>
 									<div class="website-link-container">
 										<a class="website-link" href="/blog/designing-a-password-generator/">
-											<i class="icon icon-book-open">&#xe801;</i>
+											<i class="icon icon-book-open">&#xe800;</i>
 											Read About It
 										</a>
 									</div>
