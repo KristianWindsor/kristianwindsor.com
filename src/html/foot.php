@@ -18,13 +18,13 @@
 						<p><i class="icon icon-flickr">&#xe807;</i></p>
 						<p><span>BLOG</span></p>
 					</a>
-					<a href="/about/" class="icon-link">
-						<p><i class="icon icon-flickr">&#xe808;</i></p>
-						<p><span>ABOUT</span></p>
-					</a>
 					<a href="/contact/" class="icon-link">
 						<p><i class="icon icon-flickr">&#xe803;</i></p>
 						<p><span>CONTACT</span></p>
+					</a>
+					<a href="/about/" class="icon-link">
+						<p><i class="icon icon-flickr">&#xe808;</i></p>
+						<p><span>ABOUT</span></p>
 					</a>
 				</div>
 			</div>

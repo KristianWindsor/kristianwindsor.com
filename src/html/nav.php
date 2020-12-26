@@ -12,10 +12,10 @@
 				<a id="nav-blog" href="/blog/">
 					Blog
 				</a>
-				<a id="nav-about" href="/about/">
-					About
-				</a>
 				<a id="nav-contact" href="/contact/">
 					Contact
+				</a>
+				<a id="nav-about" href="/about/">
+					About
 				</a>
 			</div>

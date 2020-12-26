@@ -19,14 +19,19 @@
 		<meta name="description" content="Blog by Kristian Windsor.">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	</head>
-	<body id="blog">
-		<div id="breadcrumb">
-			<a href="../">Kristian Windsor</a> --> <a href="../blog/">Blog</a>
-		</div>
-		<div id="title">
-			<h1>
-				Blog posts by Kristian
-			</h1>
+	<body id="blog" style="padding:0">
+		<div class="head">
+			<?php
+				include_once("../html/nav.php");
+			?>
+			<div class="hi">
+				<h1>
+					Blog Posts
+				</h1>
+				<p>
+					By yours truly
+				</p>
+			</div>
 		</div>
 		<div id="content">
 			<a href="fullspeed.io-premium-car-videography" class="post-preview">
@@ -95,15 +100,11 @@
 				</div>
 			</a>
 		</div>
+		<?php
+			include_once("../html/foot.php");
+		?>
 	</body>
-	<script type="text/javascript" src="../script/jquery.js"></script>
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-92639312-2', 'auto');
-		ga('send', 'pageview');
-	</script>
+	<?php
+		include_once("../html/footer.php");
+	?>
 </html>
