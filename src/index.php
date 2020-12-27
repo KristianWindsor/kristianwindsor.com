@@ -28,7 +28,7 @@
 					</p>
 				</div>
 				<div class="image-wrap">
-					<img src="https://go.isostech.com/hubfs/classicdevops.png" alt="DevOps Infinity Circle" />
+					<img src="/img/devops_infinity_loop.png" alt="DevOps Infinity Circle" />
 				</div>
 			</a>
 			<a href="/portfolio/" class="post-preview">
