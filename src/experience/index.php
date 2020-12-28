@@ -1,3 +1,7 @@
+<?php
+	$title = "Experience | Kristian Windsor";
+	$description = "Résumé and work experience of Kristian Windsor as a DevOps Engineer and Software Engineer.";
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<?php
@@ -99,7 +103,7 @@
 			<div class="section experience">
 				<div>
 					<h2>
-						Awards, Accomplishments & Activity
+						Recognition & Activities
 					</h2>
 				</div>
 				<div>

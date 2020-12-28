@@ -1,3 +1,7 @@
+<?php
+	$title = "Contact | Kristian Windsor";
+	$description = "Get in touch with Kristian Windsor.";
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<?php

@@ -1,3 +1,7 @@
+<?php
+	$title = "About | Kristian Windsor";
+	$description = "Kristian Windsor is a DevOps Engineer from San Martin, California.";
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<?php

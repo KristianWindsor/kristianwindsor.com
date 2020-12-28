@@ -1,3 +1,7 @@
+<?php
+	$title = "Home | Kristian Windsor";
+	$description = "This is my website.";
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<?php

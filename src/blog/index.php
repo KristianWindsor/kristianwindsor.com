@@ -1,9 +1,13 @@
+<?php
+	$title = "Blog | Kristian Windsor";
+	$description = "Blog posts by Kristian Windsor.";
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>
-			Blog posts by Kristian
+			<?php echo $title; ?>
 		</title>
 		<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
 		<link rel="stylesheet" href="../style.css">
@@ -16,7 +20,7 @@
 		<link rel="shortcut icon" href="../icon/favicon.ico">
 		<meta name="msapplication-config" content="../icon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
-		<meta name="description" content="Blog by Kristian Windsor.">
+		<meta name="description" content="<?php echo $description; ?>">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	</head>
 	<body id="blog" style="padding:0">

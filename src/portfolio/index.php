@@ -1,3 +1,7 @@
+<?php
+	$title = "Portfolio | Kristian Windsor";
+	$description = "Websites designed and developed by Kristian Windsor.";
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<?php
@@ -13,7 +17,7 @@
 					Portfolio
 				</h1>
 				<p>
-					I like to design, develop, and operate websites in my spare time
+					I design, develop, and operate websites in my spare time
 				</p>
 			</div>
 		</div>
