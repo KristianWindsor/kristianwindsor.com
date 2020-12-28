@@ -50,9 +50,9 @@
 							<div class="contact mobile-padding container-container">
 								<div class="container">
 									<p>
-										<a class="contact-link gap" href="mailto:hello@kristianwindsor.com">
+										<a class="contact-link gap" href="mailto:kristian@kristianwindsor.com">
 											<i class="icon icon-mail">&#xe802;</i>
-											hello@kristianwindsor.com
+											kristian@kristianwindsor.com
 										</a>
 									</p>
 									<p>
@@ -62,9 +62,9 @@
 										</a>
 									</p>
 									<p>
-										<a class="contact-link" href="https://www.google.com/maps/place/Cupertino,+CA/" target="_blank">
+										<a class="contact-link" href="https://www.google.com/maps/place/San+Jose,+CA/" target="_blank">
 											<i class="icon icon-location">&#xe801;</i>
-											Cupertino, CA
+											San Jose, CA
 										</a>
 									</p>
 								</div>
