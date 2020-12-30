@@ -27,7 +27,7 @@
 			<?php
 				include_once("../html/nav.php");
 			?>
-			<div class="hi">
+			<div class="title-section">
 				<h1>
 					Blog Posts
 				</h1>
@@ -36,72 +36,74 @@
 				</p>
 			</div>
 		</div>
-		<div id="content">
-			<a href="fullspeed.io-premium-car-videography" class="post-preview">
-				<div class="image-wrap">
-					<img src="fullspeed.io-premium-car-videography/audi1.png" alt="Fullspeed.io" />
-				</div>
-				<div class="text-wrap">
-					<h2>
-						Fullspeed.io – Premium Car Videography
-					</h2>
-					<p>
-						Vroom vroom
-					</p>
-				</div>
-			</a>
-			<a href="how-i-learned-to-program" class="post-preview">
-				<div class="image-wrap">
-					<img src="how-i-learned-to-program/teamblock.png" alt="Team Block" />
-				</div>
-				<div class="text-wrap">
-					<h2>
-						How I Learned to Program
-					</h2>
-					<p>
-						Once upon a time...
-					</p>
-				</div>
-			</a>
-			<a href="citethis.net" class="post-preview">
-				<div class="image-wrap">
-					<img src="citethis.net/citethis.png" alt="CiteThis" />
-				</div>
-				<div class="text-wrap">
-					<h2>
-						CiteThis.net
-					</h2>
-					<p>
-						Take that, Chegg.
-					</p>
-				</div>
-			</a>
-			<a href="designing-a-password-generator" class="post-preview">
-				<div class="image-wrap">
-					<img src="designing-a-password-generator/a-password-generator.png" alt="Password Generator" />
-				</div>
-				<div class="text-wrap">
-					<h2>
-						Designing a Password Generator
-					</h2>
-					<p>
-						The UX in this app will knock your socks off!
-					</p>
-				</div>
-			</a>
-			<a href="running-a-clothing-brand-lessons-learned" class="post-preview">
-				<div class="image-wrap">
-					<img src="running-a-clothing-brand-lessons-learned/mom-card.jpg" alt="MOM Clothing 2016" />
-				</div>
-				<div class="text-wrap">
-					<h2>
-						Running a Clothing Brand: Lessons Learned
-					</h2>
-					<p>
-						Spoilers: don't run a clothing brand.
-					</p>
-				</div>
-			</a>
+		<div class="body">
+			<div class="section blog">
+				<a href="fullspeed.io-premium-car-videography" class="card">
+					<div class="image-wrap">
+						<img src="fullspeed.io-premium-car-videography/audi1.png" alt="Fullspeed.io" />
+					</div>
+					<div class="text-wrap">
+						<h2>
+							Fullspeed.io – Premium Car Videography
+						</h2>
+						<p>
+							Vroom vroom
+						</p>
+					</div>
+				</a>
+				<a href="how-i-learned-to-program" class="card">
+					<div class="image-wrap">
+						<img src="how-i-learned-to-program/teamblock.png" alt="Team Block" />
+					</div>
+					<div class="text-wrap">
+						<h2>
+							How I Learned to Program
+						</h2>
+						<p>
+							Once upon a time...
+						</p>
+					</div>
+				</a>
+				<a href="citethis.net" class="card">
+					<div class="image-wrap">
+						<img src="citethis.net/citethis.png" alt="CiteThis" />
+					</div>
+					<div class="text-wrap">
+						<h2>
+							CiteThis.net
+						</h2>
+						<p>
+							Take that, Chegg.
+						</p>
+					</div>
+				</a>
+				<a href="designing-a-password-generator" class="card">
+					<div class="image-wrap">
+						<img src="designing-a-password-generator/a-password-generator.png" alt="Password Generator" />
+					</div>
+					<div class="text-wrap">
+						<h2>
+							Designing a Password Generator
+						</h2>
+						<p>
+							The UX in this app will knock your socks off!
+						</p>
+					</div>
+				</a>
+				<a href="running-a-clothing-brand-lessons-learned" class="card">
+					<div class="image-wrap">
+						<img src="running-a-clothing-brand-lessons-learned/mom-card.jpg" alt="MOM Clothing 2016" />
+					</div>
+					<div class="text-wrap">
+						<h2>
+							Running a Clothing Brand: Lessons Learned
+						</h2>
+						<p>
+							Spoilers: don't run a clothing brand.
+						</p>
+					</div>
+				</a>
+			</div>
 		</div>
 		<?php
 			include_once("../html/foot.php");

@@ -12,7 +12,7 @@
 			<?php
 				include_once("../html/nav.php");
 			?>
-			<div class="hi">
+			<div class="title-section">
 				<h1>
 					Contact Me
 				</h1>
@@ -24,7 +24,7 @@
 		<div class="body">
 			<div class="section contact">
 				<div>
-					<div class="project">
+					<div class="card">
 						<div class="left big-mobile">
 							<form class="contact">
 								<span id="name-label" class="contact-label">Name</span><br>

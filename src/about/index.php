@@ -12,7 +12,7 @@
 			<?php
 				include_once("../html/nav.php");
 			?>
-			<div class="hi">
+			<div class="title-section">
 				<h1>
 					About Me
 				</h1>
@@ -23,19 +23,17 @@
 		</div>
 		<div class="body">
 			<div class="section about">
-				<div class="content">
-					<div class="project">
-						<div class="text-wrap">
-							<p class="text">
-								When I'm not programming, my free time is spent riding my bike around town, going on hikes, and hobbying in photography.
-							</p>
-							<p class="text">
-								In the future, I plan on running my own technology oriented business.
-							</p>
-						</div>
-						<div class="image-wrap">
-							<img src="/img/kristian_windsor.jpg" id="profile-photo" class="image partial nobig" alt="Kristian Windsor" />
-						</div>
+				<div class="card">
+					<div class="text-wrap">
+						<p class="text">
+							When I'm not programming, my free time is spent riding my bike around town, going on hikes, and hobbying in photography.
+						</p>
+						<p class="text">
+							In the future, I plan on running my own technology oriented business.
+						</p>
+					</div>
+					<div class="image-wrap">
+						<img src="/img/kristian_windsor.jpg" id="profile-photo" class="image partial nobig" alt="Kristian Windsor" />
 					</div>
 				</div>
 				<div class="container">
