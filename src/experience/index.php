@@ -26,9 +26,10 @@
 				<h2>
 					Résumé
 				</h2>
-				<p>
-					<a href="/resume.pdf" target="_blank">See my résumé (resume.pdf)</a>
-				</p>
+				<a href="/resume.pdf" target="_blank" class="icon-link">
+					<p><i class="icon icon-file-pdf">&#xf1c1;</i></p>
+					<p><span>See my résumé</span></p>
+				</a>
 			</div>
 			<div class="section experience">
 				<h2>
