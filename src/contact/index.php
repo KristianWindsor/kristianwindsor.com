@@ -1,12 +1,30 @@
-
+<?php
+	$title = "Contact | Kristian Windsor";
+	$description = "Get in touch with Kristian Windsor.";
+?>
+<!DOCTYPE html>
+<html lang="en">
+	<?php
+		include_once("../html/head.php");
+	?>
+	<body>
+		<div class="head">
+			<?php
+				include_once("../html/nav.php");
+			?>
+			<div class="title-section">
+				<h1>
+					Contact Me
+				</h1>
+				<p>
+					Got an idea? Let's get in touch.
+				</p>
+			</div>
+		</div>
+		<div class="body">
 			<div class="section contact">
 				<div>
-					<h2>
-						Contact me!
-					</h2>
-				</div>
-				<div>
-					<div class="project">
+					<div class="card">
 						<div class="left big-mobile">
 							<form class="contact">
 								<span id="name-label" class="contact-label">Name</span><br>
@@ -33,19 +51,19 @@
 								<div class="container">
 									<p>
 										<a class="contact-link gap" href="mailto:kristian@kristianwindsor.com">
-											<i class="icon icon-mail">&#xe803;</i>
+											<i class="icon icon-mail">&#xe802;</i>
 											kristian@kristianwindsor.com
 										</a>
 									</p>
 									<p>
 										<a class="contact-link gap" href="tel:14086834007">
-											<i class="icon icon-phone">&#xe804;</i>
+											<i class="icon icon-phone">&#xe803;</i>
 											(408) 683-4007
 										</a>
 									</p>
 									<p>
 										<a class="contact-link" href="https://www.google.com/maps/place/San+Jose,+CA/" target="_blank">
-											<i class="icon icon-location">&#xe802;</i>
+											<i class="icon icon-location">&#xe801;</i>
 											San Jose, CA
 										</a>
 									</p>
@@ -63,3 +81,12 @@
 					</p>
 				</div>
 			</div>
+		</div>
+		<?php
+			include_once("../html/foot.php");
+		?>
+	</body>
+	<?php
+		include_once("../html/footer.php");
+	?>
+</html>

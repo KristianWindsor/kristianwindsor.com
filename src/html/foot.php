@@ -2,21 +2,30 @@
 		<div class="foot">
 			<div class="links">
 				<div class="container">
-					<p>
-						<a href="https://github.com/KristianWindsor" target="_blank">
-							<i class="icon icon-github">&#xf300;</i> Github
-						</a>
-					</p>
-					<p>
-						<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank">
-							<i class="icon icon-linkedin">&#xf318;</i> LinkedIn
-						</a>
-					</p>
-					<p>
-						<a href="https://www.flickr.com/photos/kristianwindsor/" target="_blank">
-							<i class="icon icon-flickr">&#xf303;</i> Flickr
-						</a>
-					</p>
+					<a href="/" class="icon-link">
+						<p><i class="icon icon-flickr">&#xe804;</i></p>
+						<p><span>HOME</span></p>
+					</a>
+					<a href="/experience/" class="icon-link">
+						<p><i class="icon icon-flickr">&#xe809;</i></p>
+						<p><span>EXPERIENCE</span></p>
+					</a>
+					<a href="/portfolio/" class="icon-link">
+						<p><i class="icon icon-flickr">&#xe806;</i></p>
+						<p><span>PORTFOLIO</span></p>
+					</a>
+					<a href="/blog/" class="icon-link">
+						<p><i class="icon icon-flickr">&#xe807;</i></p>
+						<p><span>BLOG</span></p>
+					</a>
+					<a href="/contact/" class="icon-link">
+						<p><i class="icon icon-flickr">&#xe803;</i></p>
+						<p><span>CONTACT</span></p>
+					</a>
+					<a href="/about/" class="icon-link">
+						<p><i class="icon icon-flickr">&#xe808;</i></p>
+						<p><span>ABOUT</span></p>
+					</a>
 				</div>
 			</div>
 		</div>
