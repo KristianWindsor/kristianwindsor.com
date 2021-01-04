@@ -44,7 +44,7 @@
 							DevOps Engineer
 						</h3>
 						<h4 class="text">
-							<a href="https://www.pinger.com/" target="_blank">Pinger, Inc.</a>
+							Pinger, Inc.
 						</h4>
 						<p class="text">
 							May 2019 - Present
@@ -69,7 +69,7 @@
 							Software Engineer
 						</h3>
 						<h4 class="text">
-							<a href="https://www.pinger.com/" target="_blank">Pinger, Inc.</a>
+							Pinger, Inc.
 						</h4>
 						<p class="text">
 							July 2017 - May 2019
@@ -88,7 +88,7 @@
 							Software Engineer Intern
 						</h3>
 						<h4 class="text">
-							<a href="https://www.pinger.com/" target="_blank">Pinger, Inc.</a>
+							Pinger, Inc.
 						</h4>
 						<p class="text">
 							July 2016 - Nov. 2016
@@ -114,13 +114,11 @@
 						<p class="text">
 							Working at Pinger, I created a tool capable of launching endless amounts of production-like environments. The tool was adopted by several teams and used for parallelized automated  testing and manual feature branch testing. I demoed this tool at DevOps World 2020.
 						</p>
-						<ul>
-							<li>
-								<a href="https://www.cloudbees.com/resources/40-second-production-environment" target="_blank">
-									See the presentation on Cloudbees.com
-								</a>
-							</li>
-						</ul>
+						<p class="text">
+							<a href="https://www.cloudbees.com/resources/40-second-production-environment" target="_blank">
+								See the presentation on Cloudbees.com
+							</a>
+						</p>
 					</div>
 				</div>
 				<div class="card">
@@ -160,13 +158,15 @@
 				</h2>
 				<div class="container">
 					<p>
-						<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank">
-							<i class="icon icon-linkedin">&#xf0e1;</i> LinkedIn
+						<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank" class="icon-link">
+							<i class="icon icon-linkedin">&#xf0e1;</i>
+							LinkedIn
 						</a>
 					</p>
 					<p>
-						<a href="https://github.com/KristianWindsor" target="_blank">
-							<i class="icon icon-github">&#xf300;</i> Github
+						<a href="https://github.com/KristianWindsor" target="_blank" class="icon-link">
+							<i class="icon icon-github">&#xf300;</i>
+							Github
 						</a>
 					</p>
 				</div>
