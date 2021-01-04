@@ -26,10 +26,16 @@
 				<div class="card">
 					<div class="text-wrap">
 						<p class="text">
-							When I'm not programming, my free time is spent riding my bike around town, going on hikes, and hobbying in photography.
+							Hello. My name is Kristian Windsor and I am a DevOps engineer based in San Jose, California. 
 						</p>
 						<p class="text">
-							In the future, I plan on running my own technology oriented business.
+							I’ve been programming since middle school and have always had a passion for it.
+						</p>
+						<p class="text">
+							Outside of programming, I enjoy camping and photography. The Santa Cruz mountains are a goldmine for campsites and a longtime favorite of mine. Take a look at some of my adventures on Instagram and Flickr!
+						</p>
+						<p class="text">
+							In the future I would love to start my own software company. One thing at a time though...
 						</p>
 					</div>
 					<div class="image-wrap">

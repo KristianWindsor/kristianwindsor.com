@@ -32,7 +32,7 @@
 					Blog Posts
 				</h1>
 				<p>
-					By yours truly
+					By me
 				</p>
 			</div>
 		</div>

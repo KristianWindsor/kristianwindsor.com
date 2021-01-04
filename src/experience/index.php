@@ -45,11 +45,17 @@
 						<h4 class="text">
 							<a href="https://www.pinger.com/" target="_blank">Pinger, Inc.</a>
 						</h4>
-						<h4 class="text">
-							May 2019 - Present
-						</h4>
 						<p class="text">
-							I am building out the development infrastructure with Kubernetes, writing Jenkins pipelines, refactoring monolithic applications into a microservice architecture, and helping engineers get comfortable with using Docker.
+							May 2019 - Present
+						</p>
+						<p class="text">
+							I’m building out the development and production cloud infrastructure, including container orchestration, network security, logging and monitoring, and a disaster recovery plan. I’m responsible for the availability and uptime of all services living in these environments.
+						</p>
+						<p class="text">
+							I’m helping the company shift to be cloud native, such as integrating Docker into developers’ workflows and migrating legacy services to the cloud.
+						</p>
+						<p class="text">
+							See <a href="/resume.pdf">my résumé</a> for more details.
 						</p>
 					</div>
 				</div>
@@ -64,11 +70,11 @@
 						<h4 class="text">
 							<a href="https://www.pinger.com/" target="_blank">Pinger, Inc.</a>
 						</h4>
-						<h4 class="text">
-							July 2017 - May 2019
-						</h4>
 						<p class="text">
-							Working part-time as a member of the web team, I built the CI pipeline and created the UI automation test suite which uses Selenium, CucumberJS, and WebdriverIO.
+							July 2017 - May 2019
+						</p>
+						<p class="text">
+							Working part-time as a member of the web team, I took ownership of the build system and implemented the UI automation suite. I automated hundreds of test cases, allowing for quicker and more frequent deployments to production.
 						</p>
 					</div>
 				</div>
@@ -87,7 +93,7 @@
 							July 2016 - Nov. 2016
 						</p>
 						<p class="text">
-							Working with the product team and web team, my responsibilities entailed creating mockups in HTML/CSS and fixing bugs for the company's web app, Textfree, using AngularJS.
+							I contributed to the development of Textfree Web with AngularJS.
 						</p>
 					</div>
 				</div>
@@ -102,14 +108,14 @@
 					</div>
 					<div class="text-wrap">
 						<h3 class="title">
-							Presented a demo at DevOps World (2020)
+							Presented at DevOps World (2020)
 						</h3>
 						<p class="text">
-							"40 Second Prod"
+							Working at Pinger, I created a tool capable of launching endless amounts of production-like environments. The tool was adopted by several teams and used for parallelized automated  testing and manual feature branch testing. I demoed this tool at DevOps World 2020.
 						</p>
 						<ul>
 							<li>
-								<a href="" target="_blank">
+								<a href="https://www.cloudbees.com/resources/40-second-production-environment" target="_blank">
 									See the presentation on Cloudbees.com
 								</a>
 							</li>
@@ -122,10 +128,10 @@
 					</div>
 					<div class="text-wrap">
 						<h3 class="title">
-							Featured on the DevOps Radio podcast (2019)
+							Featured on DevOps Radio (2019)
 						</h3>
 						<p class="text">
-							We (the DevOps team at Pinger) received the Rising Star Award on behalf of Pinger.
+							Me and my boss Adam are interviewed on the DevOps Radio podcast. We make up the DevOps team at Pinger and won the Rising Star Award at DevOps World 2019.
 						</p>
 						<ul>
 							<li>
@@ -143,21 +149,6 @@
 									Listen with LibSyn
 								</a>
 							</li>
-							<li>
-								<a href="https://www.businesswire.com/news/home/20190815005016/en/2019-DevOps-World-Jenkins-World-Award-Winners" target="_blank">
-									Business Wire
-								</a>
-							</li>
-							<li>
-								<a href="https://www.cloudbees.com/press/2019-devops-world-jenkins-world-award-winners-announced" target="_blank">
-									Cloudbees Press
-								</a>
-							</li>
-							<li>
-								<a href="" target="_blank">
-									Link
-								</a>
-							</li>
 						</ul>
 					</div>
 				</div>
@@ -168,13 +159,13 @@
 				</h2>
 				<div class="container">
 					<p>
-						<a href="https://github.com/KristianWindsor" target="_blank">
-							<i class="icon icon-github">&#xf300;</i> Github
+						<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank">
+							<i class="icon icon-linkedin">&#xf0e1;</i> LinkedIn
 						</a>
 					</p>
 					<p>
-						<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank">
-							<i class="icon icon-linkedin">&#xf0e1;</i> LinkedIn
+						<a href="https://github.com/KristianWindsor" target="_blank">
+							<i class="icon icon-github">&#xf300;</i> Github
 						</a>
 					</p>
 				</div>
