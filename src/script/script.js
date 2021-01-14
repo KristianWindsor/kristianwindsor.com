@@ -182,7 +182,7 @@ function hideYesNo() {
 // send message
 function sendMessage (n,e,m) {
 	$.ajax({
-	    url: 'script/send-message.php',
+	    url: '/script/send-message.php',
 	    type: 'post',
 	    data: { "name": n, "email" : e, "message" : m },
 	    success: function() {
