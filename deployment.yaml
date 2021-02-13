@@ -29,4 +29,8 @@ spec:
                   key: SLACK_TOKEN
           resources:
             requests:
-              cpu: 5m
+              memory: "40Mi"
+              cpu: "20m"
+            limits:
+              memory: "80Mi"
+              cpu: "40m"
