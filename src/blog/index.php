@@ -77,7 +77,7 @@
 						</p>
 					</div>
 				</a>
-				<a href="designing-a-password-generator" class="card">
+				<a href="designing-a-password-generator/" class="card">
 					<div class="image-wrap">
 						<img src="designing-a-password-generator/a-password-generator.png" alt="Password Generator" />
 					</div>
