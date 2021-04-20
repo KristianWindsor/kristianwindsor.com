@@ -36,7 +36,15 @@ jobs:
         with:
           push: true
           tags: kristianwindsor/kristianwindsor.com:b${{ github.run_number }}
-
-      # # logs
-      # - name: Image digest
-      #   run: echo ${{ steps.docker_build.outputs.digest }}
+      
+      # deploy
+      - name: 'Deploy'
+      uses: 'deliverybot/helm@master'
+      with:
+        token: '${{ github.token }}'
+        chart: 'app'
+        secrets: '${{ toJSON(secrets) }}'
+        chart: 'app'
+        release: mychart
+      env:
+        KUBECONFIG_FILE: '${{ secrets.KUBECONFIG }}'
