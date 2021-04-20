@@ -41,9 +41,10 @@ jobs:
       - name: Deploy
         uses: deliverybot/helm@master
         with:
-          token: ${{ github.token }}
-          secrets: ${{ toJSON(secrets) }}
-          chart: app
+          # token: ${{ github.token }}
+          # secrets: ${{ toJSON(secrets) }}
           release: mychart
+          namespace: default
+          chart: app
         env:
           KUBECONFIG_FILE: ${{ secrets.KUBECONFIG }}
