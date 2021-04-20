@@ -42,7 +42,6 @@ jobs:
         uses: deliverybot/helm@master
         with:
           token: ${{ github.token }}
-          chart: app
           secrets: ${{ toJSON(secrets) }}
           chart: app
           release: mychart
