@@ -39,12 +39,14 @@ jobs:
       
       # deploy
       - name: Deploy
-        uses: deliverybot/helm@master
-        with:
-          # token: ${{ github.token }}
-          # secrets: ${{ toJSON(secrets) }}
-          release: mychart
-          namespace: default
-          chart: app
+        uses: steebchen/kubectl@master
         env:
-          KUBECONFIG_FILE: ${{ secrets.KUBECONFIG }}
+          KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
+        with:
+          args: set image --record deployment/kristianwindsor kristianwindsor=kristianwindsor.com:b${{ github.run_number }}
+      - name: Very deployment
+        uses: steebchen/kubectl@master
+        env:
+          KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
+        with:
+          args: rollout status deployment/kristianwindsor
