@@ -38,13 +38,13 @@ jobs:
           tags: kristianwindsor/kristianwindsor.com:b${{ github.run_number }}
       
       # deploy
-      - name: 'Deploy'
-      uses: 'deliverybot/helm@master'
+      - name: Deploy
+      uses: deliverybot/helm@master
       with:
-        token: '${{ github.token }}'
-        chart: 'app'
-        secrets: '${{ toJSON(secrets) }}'
-        chart: 'app'
+        token: ${{ github.token }}
+        chart: app
+        secrets: ${{ toJSON(secrets) }}
+        chart: app
         release: mychart
       env:
-        KUBECONFIG_FILE: '${{ secrets.KUBECONFIG }}'
+        KUBECONFIG_FILE: ${{ secrets.KUBECONFIG }}
