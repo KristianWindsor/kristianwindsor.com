@@ -43,7 +43,7 @@ jobs:
         env:
           KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
         with:
-          args: set image --record deployment/kristianwindsor kristianwindsor=kristianwindsor.com:b${{ github.run_number }}
+          args: set image --record deployment/kristianwindsor kristianwindsor=kristianwindsor/kristianwindsor.com:b${{ github.run_number }}
       - name: Very deployment
         uses: steebchen/kubectl@master
         env:
