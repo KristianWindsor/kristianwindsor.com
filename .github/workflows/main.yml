@@ -6,7 +6,7 @@ on:
     branches: [ master ]
   workflow_dispatch:
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       # dockerhub login
