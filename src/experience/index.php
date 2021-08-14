@@ -37,6 +37,25 @@
 				</h2>
 				<div class="card">
 					<div class="image-wrap">
+						<img src="/img/libdib.jpeg" class="image partial nobig" title="LibDib, LLC" alt="LibDib, LLC" />
+					</div>
+					<div class="text-wrap">
+						<h3 class="title">
+							DevOps Engineer
+						</h3>
+						<h4 class="text">
+							LibDib, LLC
+						</h4>
+						<p class="text">
+							July 2021 - Present
+						</p>
+						<p class="text">
+							I'm helping LibDib scale up their infrastructure as the company rapidly grows.
+						</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="image-wrap">
 						<img src="/img/pinger-devops-engineer.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
 					</div>
 					<div class="text-wrap">
@@ -47,13 +66,13 @@
 							Pinger, Inc.
 						</h4>
 						<p class="text">
-							May 2019 - Present
+							May 2019 - April 2021
 						</p>
 						<p class="text">
-							I’m building out the development and production cloud infrastructure, including container orchestration, network security, logging and monitoring, and a disaster recovery plan. I’m responsible for the availability and uptime of all services living in these environments.
+							I built out the development and production cloud infrastructure, including container orchestration, network security, logging and monitoring, and a disaster recovery plan. I’m responsible for the availability and uptime of all services living in these environments.
 						</p>
 						<p class="text">
-							I’m helping the company shift to be cloud native, such as integrating Docker into developers’ workflows and migrating legacy services to the cloud.
+							I helped the company shift to be cloud native, such as integrating Docker into developers’ workflows and migrating legacy services to the cloud.
 						</p>
 						<p class="text">
 							See <a href="/resume.pdf">my résumé</a> for more details.
