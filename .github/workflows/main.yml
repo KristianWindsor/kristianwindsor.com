@@ -24,13 +24,13 @@ jobs:
           tags: kristianwindsor/kristianwindsor.com:b${{ github.run_number }}
       # deploy
       - name: Deploy to cluster
-        uses: steebchen/kubectl@master
+        uses: steebchen/kubectl@v1.1.0
         env:
           KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
         with:
           args: set image --record deployment/kristianwindsor kristianwindsor=kristianwindsor/kristianwindsor.com:b${{ github.run_number }}
       - name: Verify deployment
-        uses: steebchen/kubectl@master
+        uses: steebchen/kubectl@v1.1.0
         env:
           KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
         with:
