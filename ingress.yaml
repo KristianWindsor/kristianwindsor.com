@@ -1,22 +1,22 @@
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: kristianwindsor-ingress
+  name: kristianwindsor
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
-    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
-    nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
-    cert-manager.io/cluster-issuer: "letsencrypt"
-    kubernetes.io/ingress.class: "nginx"
+    kubernetes.io/ingress.class: nginx
+    certmanager.k8s.io/cluster-issuer: letsencrypt
 spec:
   rules:
   - host: kristianwindsor.com
     http:
       paths:
-      - path: /
+      - pathType: Prefix
+        path: /
         backend:
-          serviceName: kristianwindsor
-          servicePort: 80
+          service:
+            name: kristianwindsor
+            port:
+              number: 80
   tls:
   - hosts:
     - kristianwindsor.com
