@@ -21,7 +21,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: kristianwindsor/kristianwindsor.com:b${{ github.run_number }}
+          tags: kristianwindsor/kristianwindsor.com:b${{ github.run_number }},kristianwindsor/kristianwindsor.com:latest
       # deploy
       - name: Deploy to cluster
         uses: steebchen/kubectl@v1.1.0
