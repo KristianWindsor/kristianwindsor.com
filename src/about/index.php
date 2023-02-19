@@ -26,13 +26,10 @@
 				<div class="card">
 					<div class="text-wrap">
 						<p class="text">
-							Hello. My name is Kristian Windsor and I am a DevOps engineer based in San Jose, California. 
+							Hi, my name is Kristian Windsor and I work as a DevOps engineer in San Francisco.
 						</p>
 						<p class="text">
-							I’ve been programming since middle school and have always had a passion for it.
-						</p>
-						<p class="text">
-							Outside of programming, I enjoy camping and photography. The Santa Cruz mountains are a goldmine for campsites and a longtime favorite of mine. Take a look at some of my adventures on Instagram and Flickr!
+							Apart from building cool software, I enjoy hiking, riding my motorcycle, playing board games, and trying out new restaurants with friends.
 						</p>
 						<p class="text">
 							In the future I would love to start my own software company. One thing at a time though...
