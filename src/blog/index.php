@@ -38,6 +38,19 @@
 		</div>
 		<div class="body">
 			<div class="section blog">
+				<a href="custom-built-kitchen-for-my-lexus" class="card">
+					<div class="image-wrap">
+						<img src="custom-built-kitchen-for-my-lexus/cover.jpg" alt="Lexus Kitchen" />
+					</div>
+					<div class="text-wrap">
+						<h2>
+							Custom-Built Kitchen for My Lexus
+						</h2>
+						<p>
+							Inspired by the #VanLife trend
+						</p>
+					</div>
+				</a>
 				<a href="fullspeed.io-premium-car-videography" class="card">
 					<div class="image-wrap">
 						<img src="fullspeed.io-premium-car-videography/audi1.png" alt="Fullspeed.io" />
