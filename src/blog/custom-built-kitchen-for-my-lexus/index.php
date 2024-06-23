@@ -1,7 +1,7 @@
 <?php
 	$articleTitle = "Custom-Built Kitchen for My Lexus";
 	$articleDescription = "Car camping was trending...";
-	$articleUrl = "custom-build-kitchen-for-my-lexus";
+	$articleUrl = "custom-built-kitchen-for-my-lexus";
 	$imageUrl = "cover.jpg";
 	$datePublished = "2024-06-21";
 	include '../blogfiles/header.php';
