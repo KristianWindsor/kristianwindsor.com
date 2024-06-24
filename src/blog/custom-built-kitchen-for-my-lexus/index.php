@@ -69,7 +69,7 @@
 			<p>
 				The cooler and the water jug can both be easily removed for restocking and for cleaning. Every piece is built like LEGO – held in place through interlocking friction, gravity, and magnets.
 			</p>
-			<img class="isgif" src="modular.jpg" >
+			<img class="isgif" src="modular-design.jpg" >
 		</div>
 		<div class="paragraph">
 			<h2>
