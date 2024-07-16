@@ -42,7 +42,7 @@
 				High-Performance Cooler
 			</h2>
 			<p>
-				Another key feature of my mini kitchen is the high-performance cooler, meticulously designed to preserve the freshness of your food, even for perishables like milk and raw meat. Encased in up to 5 inches of R-5 insulation foam, this outperforms Yeti coolers and anything else on the market.
+				Another key feature of my mini kitchen is the high-performance cooler, meticulously designed to preserve the freshness of your food, even for perishables like milk and raw meat. Encased in up to 5 inches of foam board insulation, this modified Coleman cooler is comparable in performance to name-brand coolers like Yeti.
 			</p>
 			<img src="cooler.jpg" alt="Opening the cooler to grab some dinner" >
 			<p>
@@ -84,6 +84,20 @@
 				The tabletop is hand-carved from plywood and wrapped in wood grain vinyl to match the car's wood trim interior, giving it a premium look.
 			</p>
 			<img src="table-style.jpg" alt="A beautiful wood grain vinyl wrap" >
+		</div>
+		<div class="paragraph">
+			<h2>
+				Room for Improvement...
+			</h2>
+			<p>
+				I am proud of this project, but it is by no means perfect.
+			</p>
+			<p>
+				I wanted it to be portable so that it'd be easy to remove from my car when the space is needed for something else. Unfortunately, due to the choice in materials (lots of wood), the final product is way too heavy to be easily moved. If I were to build this again, I would try to use more lightweight materials like plastic or 3D printer filament instead of solid wood.
+			</p>
+			<p>
+				Another failed goal was for this cooler to outperform name-brand coolers like Yeti. Although I was successful in greatly improving performance of the $20 Coleman cooler that I used, it was not enough to beat a Yeti. If I were to build this again, I would simply start with a high-performance cooler instead of trying to create my own.
+			</p>
 		</div>
 		<div class="paragraph">
 			<h2>
