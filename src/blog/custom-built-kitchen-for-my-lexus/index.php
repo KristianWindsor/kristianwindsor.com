@@ -48,6 +48,7 @@
 			<p>
 				The cooler is equipped with a Bluetooth-enabled thermometer, allowing you to monitor the internal temperature directly from your phone. In addition to providing peace of mind with the knowledge that your food is at a safe temperature, this also helps keep the temperature down by preventing the cooler from being opened unnecessarily.
 			</p>
+			<img src="bluetooth.jpg" alt="Using my phone to view the cooler's temperature" >
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -76,9 +77,13 @@
 				Seamless Lexus Styling
 			</h2>
 			<p>
-				Beyond its functionality, every detail of this build is styled to seamlessly integrate with the aesthetic of this car. The exterior is styled with matching OEM colors and materials, featuring ivory leather wrapping on the face and sides, a wood grain vinyl wrap on the table top, and an OEM cargo mat that's been cut out and mounted to the lid. Even the interior components have been spray-painted black, ensuring a cohesive and premium look.
+				Beyond its functionality, every detail of this build is styled to seamlessly integrate with the aesthetic of this car. The exterior is styled with matching OEM colors and materials, featuring ivory leather wrapping on the face and sides and an OEM cargo mat that's been cut out and mounted to the lid. Even the interior components have been spray-painted black, ensuring a cohesive look.
 			</p>
 			<img src="style.jpg" alt="Lexus Kitchen styling" >
+			<p>
+				The tabletop is hand-carved from plywood and wrapped in wood grain vinyl to match the car's wood trim interior, giving it a premium look.
+			</p>
+			<img src="table-style.jpg" alt="A beautiful wood grain vinyl wrap" >
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -113,7 +118,7 @@
 			<p>
 				Creating this project was an incredibly rewarding journey, filled with both challenges and triumphs. What started as a simple idea inspired by a YouTube video evolved into a fully functional setup that perfectly complements my car adventures. Each step, from designing and selecting materials to overcoming the trials of woodworking and insulation, taught me valuable skills and deepened my appreciation for hands-on craftsmanship.
 			</p>
-			<img src="pulledover.jpg" >
+			<img src="camping.jpg" alt="Camping" >
 			<p>
 				Whether you're a seasoned DIY enthusiast or a beginner like I was, I hope my journey inspires you to take on your own projects and discover the joy of creating something from scratch.
 			</p>
