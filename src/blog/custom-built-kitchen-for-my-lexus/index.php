@@ -87,6 +87,12 @@
 		</div>
 		<div class="paragraph">
 			<h2>
+				Cooler Performance Test Results
+			</h2>
+			<canvas id="coolerChart"></canvas>
+		</div>
+		<div class="paragraph">
+			<h2>
 				Room for Improvement...
 			</h2>
 			<p>
@@ -166,5 +172,6 @@
 	</section>
 </article>
 <?php
+	include 'chart.php';
 	include '../blogfiles/footer.php';
 ?>
