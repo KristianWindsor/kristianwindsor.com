@@ -74,7 +74,7 @@
 
     const ctx = document.getElementById('coolerChart');
 
-    new Chart(ctx, {
+    coolerChart = new Chart(ctx, {
         type: 'line',
         data: {
             labels: chartDataLabels,
@@ -122,6 +122,13 @@
             },
             // so text looks nice when you zoom in
             devicePixelRatio: 4
+        }
+    });
+
+    // fix tooltip not quitting on mobile 
+    document.addEventListener('touchend', function (event) {
+        if (event.target && event.target.tagName.toLowerCase() !== "canvas") {
+            coolerChart.canvas.dispatchEvent(new Event('mouseout'));
         }
     });
 </script>
