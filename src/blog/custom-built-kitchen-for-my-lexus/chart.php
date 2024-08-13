@@ -120,6 +120,16 @@
                     },
                 }
             },
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            var label = context.dataset.label.split(' ')[0] + ': ' + Math.round(context.formattedValue) + '°F';
+                            return label;
+                        }
+                    }
+                }
+            },
             // so text looks nice when you zoom in
             devicePixelRatio: 4
         }
