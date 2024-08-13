@@ -94,6 +94,7 @@
             ]
         },
         options: {
+            aspectRatio: 1.5,
             borderWidth: 2,
             pointRadius: 0,
             pointHoverRadius: 5,
@@ -118,7 +119,9 @@
                         },
                     },
                 }
-            }
+            },
+            // so text looks nice when you zoom in
+            devicePixelRatio: 4
         }
     });
 </script>

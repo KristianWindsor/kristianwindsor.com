@@ -89,6 +89,18 @@
 			<h2>
 				Cooler Performance Test Results
 			</h2>
+			<p>
+				To measure my cooler's capabilities, I conducted a performance test against an unmodified version of it and a similarly sized Yeti cooler. Each of the 3 coolers sat in the back of my car and were loaded with 9 lbs of ice for the test. They remained shut for one week while the ice slowly melted and Bluetooth-enabled thermometers collected internal temperature data.
+			</p>
+			<p>
+				The unmodified <a href="https://a.co/d/c3yXOAW" target="_blank">$20 Coleman cooler</a> lasted nearly 2 days – 1 day and 20 hours – before the temperature started to drastically rise.
+			</p>
+			<p>
+				The <a href="https://a.co/d/1aeNRbg" target="_blank">Yeti Roadie 15</a> lasted more than twice that, with temperatures starting to rise after 4 days and 4 hours. Looking at the data, I'm surprised to see temperatures spiking up to 55°F during the day, but I think this can be explained by the tall shape of the cooler which results in a greater distance between the thermometer (mounted to the ceiling) and the ice below.
+			</p>
+			<p>
+				My cooler was just 8 hours behind the Yeti at 3 days and 20 hours before the temperature started climbing. So close!
+			</p>
 			<canvas id="coolerChart"></canvas>
 		</div>
 		<div class="paragraph">
@@ -102,7 +114,7 @@
 				I aimed for portability so it could be easily removed from my car when needed. However, my choice of materials, primarily wood, made the final product too heavy to move effortlessly. If I were to rebuild it, I would opt for lighter materials like plastic or 3D printer filament instead of solid wood.
 			</p>
 			<p>
-				Another failed goal was for this cooler to outperform name-brand coolers like Yeti. Although I was successful in greatly improving performance of the <a href="https://a.co/d/c3yXOAW" target="_blank">$20 Coleman cooler</a> that I started with, it was not enough to beat a Yeti. If I were to rebuild this project, I'd simply purchase a high-performance cooler instead of going the DIY route and trying to create my own.
+				Another failed goal was for this cooler to outperform name-brand coolers like Yeti. Although I was successful in greatly improving performance of the $20 Coleman cooler that I started with, it was not enough to beat a Yeti. If I were to rebuild this project, I'd simply purchase a high-performance cooler instead of going the DIY route and trying to create my own.
 			</p>
 		</div>
 		<div class="paragraph">
