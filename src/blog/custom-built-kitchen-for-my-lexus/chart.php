@@ -126,7 +126,7 @@
     });
 
     // fix tooltip not quitting on mobile 
-    document.addEventListener('touchend', function (event) {
+    document.addEventListener('touchstart', function (event) {
         if (event.target && event.target.tagName.toLowerCase() !== "canvas") {
             coolerChart.canvas.dispatchEvent(new Event('mouseout'));
         }
