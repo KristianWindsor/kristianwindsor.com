@@ -158,7 +158,7 @@
 				</li>
 				<li>
 					<p>
-						A notecard app. I called it Simplistudy, and it was a simplified knockoff of Quizlet with a few customized features. It had a smart-paste interpreter textbox that turned lists and notes into notecards. It also Bing Search and Google Translate integration.
+						A notecard app. I called it Simplistudy, and it was a simplified knockoff of Quizlet with a few customized features. It had a smart-paste interpreter textbox that turned lists and notes into notecards. It also had Bing Search and Google Translate integration.
 					</p>
 				</li>
 			</ul>
@@ -172,7 +172,7 @@
 				Internship at Pinger
 			</h2>
 			<p>
-				I landed an internship a few months out of high school through good people that I know. My responsibilities were to create HTML/CSS mockups for the product team.
+				I was fortunate to land an internship a few months out of high school through kindhearted people that I knew. My responsibilities were to create HTML/CSS mockups for the product team.
 			</p>
 			<p>
 				I eventually ran out of work to do, so I asked the web team if they had any Javascript work I could do. I was assigned a couple of unimportant bugs from the backlog, which I struggled to accomplish working in the large codebase and a new workflow, but I did manage to fix the bugs and my code went out to production in the next release.

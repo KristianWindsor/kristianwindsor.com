@@ -27,7 +27,7 @@
 				The idea
 			</h2>
 			<p>
-				Fullspeed.io is a business prototype that I pursued with my business partners, <a href="https://www.linkedin.com/in/patrick-moran-2b7a8a132/" target="_blank">Patrick Moran</a> and <a href="https://www.linkedin.com/in/brandon-seanez-b07241190/" target="_blank">Brandon Seanez</a>. 
+				Fullspeed.io is a business prototype that I worked on with my friends, <a href="https://www.linkedin.com/in/patrick-moran-2b7a8a132/" target="_blank">Patrick</a> and <a href="https://www.linkedin.com/in/brandon-seanez-b07241190/" target="_blank">Brandon</a>. 
 			</p>
 			<p>
 				Our target audience was car enthusiasts with customized high-end cars – people who spend thousands of dollars on the aesthetics of their ride.
@@ -45,10 +45,10 @@
 				Crafting a portfolio
 			</h2>
 			<p>
-				Finding a paying customer without experience is just unrealistic, so we needed to get experience.
+				Finding a paying customer without having a portfolio first is just unrealistic. We needed to get experience and showcase what we had to offer.
 			</p>
 			<p>
-				Luckily for us, we knew some people with cars we could film. Patrick's neighbor, Tommy Linebarger, runs a <a href="https://www.youtube.com/channel/UCSqxIOhsUYW8PbS1IfPeFHQ" target="_blank">YouTube channel</a> where he modifies cars, namely his Audi S4. My coworkers, Andy and Christian, have a BMW 440i and Nissan GTR and were gracious enough to let us film them.
+				Luckily for us, we knew some people with cars we could film. Patrick's neighbor, Tommy Linebarger, runs a <a href="https://www.youtube.com/channel/UCSqxIOhsUYW8PbS1IfPeFHQ" target="_blank">YouTube channel</a> where he modifies cars, namely his Audi S4. My coworkers at Pinger, Andy and Christian, have a BMW 440i and Nissan GTR and were gracious enough to let us film them.
 			</p>
 			<p>
 				We filmed and edited all three videos within a month and learned exactly what this business would entail. 
@@ -156,7 +156,7 @@
 				Another reason was the demand wasn't prevalent. Smartphone cameras are good enough for most people, plus it's common to have a friend with a professional camera.
 			</p>
 			<p>
-				We also were quick to give up on this business. From the idea phase to calling it quits was only a period of 5 months.
+				We also were quick to give up on this business. From having the initial idea to officially calling it quits was only a period of 5 months.
 			</p>
 			<img src="gtr.jpg" alt="Nissan GTR" />
 			<p class="caption">
@@ -225,7 +225,7 @@
 				Conclusion
 			</h2>
 			<p>
-				Cars are freaking cool, but I think I'll stick to developing software.
+				Cars are hecka cool, but I think I'll stick to developing software.
 			</p>
 			<p>
 				Thanks for reading!

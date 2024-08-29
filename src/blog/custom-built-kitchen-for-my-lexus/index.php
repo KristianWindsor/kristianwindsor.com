@@ -29,7 +29,7 @@
 				Pull-Out Water Jug
 			</h2>
 			<p>
-				Mounted on smooth, sturdy rails, a 3.5-gallon water jug with a built-in faucet effortlessly slides out of the car, where it can be used for refilling water bottles, boiling water for dinner, brushing your teeth, or even for cleaning up pots and pans after a hearty meal.
+				Mounted on smooth, sturdy rails, a 3.5-gallon water jug with a built-in faucet effortlessly slides out of the car, where it can be used for refilling water bottles, boiling pasta for dinner, brushing your teeth, or even for cleaning up pots and pans after a hearty meal.
 			</p>
 			<img src="water-jug.jpg" alt="Washing my pan after making oatmeal for breakfast" >
 			<p>
@@ -93,15 +93,18 @@
 				To measure my cooler's capabilities, I conducted a performance test against an unmodified version of it and a similarly sized Yeti cooler. Each of the 3 coolers sat in the back of my car and were loaded with 9 lbs of ice for the test. They remained shut for one week while the ice slowly melted and Bluetooth-enabled thermometers collected internal temperature data.
 			</p>
 			<p>
-				The unmodified <a href="https://a.co/d/c3yXOAW" target="_blank">$20 Coleman cooler</a> lasted nearly 2 days – 1 day and 20 hours – before the temperature started to drastically rise.
+				The unmodified <a href="https://a.co/d/c3yXOAW" target="_blank">$20 Coleman cooler</a> was the first to give out, lasting just shy of 2 days – 1 day and 20 hours – before the temperature started to drastically rise.
 			</p>
 			<p>
-				The <a href="https://a.co/d/1aeNRbg" target="_blank">Yeti Roadie 15</a> lasted more than twice that, with temperatures starting to rise after 4 days and 4 hours. Looking at the data, I'm surprised to see temperatures spiking up to 55°F during the day, but I think this can be explained by the tall shape of the cooler which results in a greater distance between the thermometer (mounted to the ceiling) and the ice below.
+				The <a href="https://a.co/d/1aeNRbg" target="_blank">Yeti Roadie 15</a> lasted more than twice as long, with temperatures starting to rise after 4 days and 4 hours. 
 			</p>
 			<p>
 				My cooler was just 8 hours behind the Yeti at 3 days and 20 hours before the temperature started climbing. So close!
 			</p>
 			<canvas id="coolerChart"></canvas>
+			<p>
+				I'm surprised to see a noticeable difference in temperature between my cooler and the Yeti cooler, even though they ended up lasting almost the same amount of time. The Yeti spiked up to 50°F on the first day while mine only peaked at 42°F. This discrepancy might be due to the placement of the thermometers and the difference in shape between the coolers. The Yeti has a tall, narrow shape, while the Colemans are shorter and more horizontal, and since the thermometers are mounted on the ceilings, there's a greater distance between the ice and the thermometer in the Yeti.
+			</p>
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -111,7 +114,7 @@
 				I am proud of this project, but it is by no means perfect.
 			</p>
 			<p>
-				I aimed for portability so it could be easily removed from my car when needed. However, my choice of materials, primarily wood, made the final product too heavy to move effortlessly. If I were to rebuild it, I would opt for lighter materials like plastic or 3D printer filament instead of solid wood.
+				I wanted this to be portable so it could be easily removed from my car when needed. However, my choice of materials, primarily wood, made the final product too heavy to be moved easily. If I were to rebuild it, I would opt for lighter materials like plastic or 3D printer filament instead of solid wood.
 			</p>
 			<p>
 				Another failed goal was for this cooler to outperform name-brand coolers like Yeti. Although I was successful in greatly improving performance of the $20 Coleman cooler that I started with, it was not enough to beat a Yeti. If I were to rebuild this project, I'd simply purchase a high-performance cooler instead of going the DIY route and trying to create my own.
