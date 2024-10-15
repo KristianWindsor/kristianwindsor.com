@@ -59,7 +59,7 @@
 						</p>
 					</div>
 					<div class="image-wrap">
-						<img src="/blog/fullspeed.io-premium-car-videography/audi1.png" alt="Fullspeed.io" />
+						<img src="/blog/custom-built-kitchen-for-my-lexus/cover.jpg" title="Lexus Kitchen" alt="Camping with my custom-built Lexus Kitchen" />
 					</div>
 				</a>
 				<a href="/contact/" class="card">
