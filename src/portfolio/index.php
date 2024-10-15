@@ -1,6 +1,7 @@
 <?php
 	$title = "Portfolio | Kristian Windsor";
 	$description = "Websites designed and developed by Kristian Windsor.";
+	$urlPath = "portfolio/"
 ?>
 <!DOCTYPE html>
 <html lang="en">

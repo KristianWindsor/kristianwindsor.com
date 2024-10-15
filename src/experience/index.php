@@ -1,6 +1,7 @@
 <?php
 	$title = "Experience | Kristian Windsor";
 	$description = "Résumé and work experience of Kristian Windsor as a DevOps Engineer and Software Engineer.";
+	$urlPath = "experience/"
 ?>
 <!DOCTYPE html>
 <html lang="en">

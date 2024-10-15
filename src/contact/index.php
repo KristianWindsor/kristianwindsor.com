@@ -1,6 +1,7 @@
 <?php
 	$title = "Contact | Kristian Windsor";
 	$description = "Get in touch with Kristian Windsor.";
+	$urlPath = "contact/"
 ?>
 <!DOCTYPE html>
 <html lang="en">

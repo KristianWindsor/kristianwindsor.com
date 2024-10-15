@@ -1,27 +1,13 @@
 <?php
 	$title = "Blog | Kristian Windsor";
 	$description = "Blog posts by Kristian Windsor.";
+	$urlPath = "blog/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>
-			<?php echo $title; ?>
-		</title>
-		<link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
-		<link rel="stylesheet" href="../style.css">
-		<link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
-		<link rel="manifest" href="../icon/manifest.json">
-		<link rel="mask-icon" href="../icon/safari-pinned-tab.svg" color="#61cae9">
-		<link rel="shortcut icon" href="../icon/favicon.ico">
-		<meta name="msapplication-config" content="../icon/browserconfig.xml">
-		<meta name="theme-color" content="#ffffff">
-		<meta name="description" content="<?php echo $description; ?>">
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	</head>
+	<?php
+		include_once("../html/head.php");
+	?>
 	<body id="blog" style="padding:0">
 		<div class="head">
 			<?php
