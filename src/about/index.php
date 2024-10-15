@@ -36,7 +36,7 @@
 						</p>
 					</div>
 					<div class="image-wrap">
-						<img src="/img/kristian_windsor.jpg" id="profile-photo" class="image partial nobig" alt="Kristian Windsor" />
+						<img src="kristian-windsor-profile-photo.jpg" id="profile-photo" class="image partial nobig" alt="Kristian Windsor" />
 					</div>
 				</div>
 				<div class="container">

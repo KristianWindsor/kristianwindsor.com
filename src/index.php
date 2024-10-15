@@ -33,7 +33,7 @@
 						</p>
 					</div>
 					<div class="image-wrap">
-						<img src="/img/devops_infinity_loop.png" alt="DevOps Infinity Circle" />
+						<img src="/experience/devops-infinity-loop.png" alt="DevOps Infinity Circle" />
 					</div>
 				</a>
 				<a href="/portfolio/" class="card">
@@ -46,7 +46,7 @@
 						</p>
 					</div>
 					<div class="image-wrap">
-						<img src="/img/citethis.png" alt="Team Block" />
+						<img src="/portfolio/citethis-screenshot.png" alt="Team Block" />
 					</div>
 				</a>
 				<a href="/blog/" class="card">
@@ -86,7 +86,7 @@
 						</p>
 					</div>
 					<div class="image-wrap">
-						<img src="/img/kristian_windsor.jpg" alt="kristian windsor face" />
+						<img src="/about/kristian-windsor-profile-photo.jpg" alt="kristian windsor face" />
 					</div>
 				</a>
 			</div>

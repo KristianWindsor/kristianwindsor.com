@@ -37,7 +37,7 @@
 				</h2>
 				<div class="card">
 					<div class="image-wrap">
-						<img src="/img/libdib.jpeg" class="image partial nobig" title="LibDib, LLC" alt="LibDib, LLC" />
+						<img src="libdib-logo.png" class="image partial nobig" title="LibDib, LLC" alt="LibDib, LLC" />
 					</div>
 					<div class="text-wrap">
 						<h3 class="title">
@@ -56,7 +56,7 @@
 				</div>
 				<div class="card">
 					<div class="image-wrap">
-						<img src="/img/pinger-devops-engineer.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
+						<img src="pinger-devops-engineer.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
 					</div>
 					<div class="text-wrap">
 						<h3 class="title">
@@ -81,7 +81,7 @@
 				</div>
 				<div class="card">
 					<div class="image-wrap">
-						<img src="/img/pinger-software-engineer.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
+						<img src="pinger-software-engineer.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
 					</div>
 					<div class="text-wrap">
 						<h3 class="title">
@@ -100,7 +100,7 @@
 				</div>
 				<div class="card">
 					<div class="image-wrap">
-						<img src="/img/pinger-software-engineer-intern.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
+						<img src="pinger-software-engineer-intern.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
 					</div>
 					<div class="text-wrap">
 						<h3 class="title">
@@ -124,7 +124,7 @@
 				</h2>
 				<div class="card">
 					<div class="image-wrap">
-						<img src="/img/devops-world-2020.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
+						<img src="devops-world-2020.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
 					</div>
 					<div class="text-wrap">
 						<h3 class="title">
@@ -142,7 +142,7 @@
 				</div>
 				<div class="card">
 					<div class="image-wrap">
-						<img src="/img/devops_radio.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
+						<img src="devops-radio.png" class="image partial nobig" title="Pinger Inc." alt="Pinger Inc." />
 					</div>
 					<div class="text-wrap">
 						<h3 class="title">

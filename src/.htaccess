@@ -1,3 +1,15 @@
+# 301 Permanent Redirects
+Redirect 301 /img/kristian_windsor.jpg /about/kristian-windsor-profile-photo.jpg
+Redirect 301 /img/devops_infinity_loop.png /experience/devops-infinity-loop.png
+Redirect 301 /img/devops_radio.png /experience/devops-radio.png
+Redirect 301 /img/devops-world-2020.png /experience/devops-world-2020.png
+Redirect 301 /img/libdib.jpeg /experience/libdib-logo.png
+Redirect 301 /img/pinger-devops-engineer.png /experience/pinger-devops-engineer.png
+Redirect 301 /img/pinger-software-engineer-intern.png /experience/pinger-software-engineer-intern.png
+Redirect 301 /img/pinger-software-engineer.png /experience/pinger-software-engineer.png
+Redirect 301 /img/citethis.png /portfolio/citethis-screenshot.png
+Redirect 301 /img/passgen.png /portfolio/password-generator-screenshot.png
+
 <IfModule mod_headers.c>
 	<Files index.html>
 		Header append Link "</style.css>; rel=preload; as=style"

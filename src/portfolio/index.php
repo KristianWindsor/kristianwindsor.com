@@ -26,7 +26,7 @@
 				<div class="card">
 					<div class="image-wrap left image-container hoverable big-mobile">
 						<div class="website-image">
-							<img src="/img/citethis.png" title="CiteThis" alt="Generate citations for your bibliography in MLA, APA, or Chicago format" />
+							<img src="citethis-screenshot.png" title="CiteThis" alt="Generate citations for your bibliography in MLA, APA, or Chicago format" />
 						</div>
 						<div class="website-info">
 							<div class="centered">
@@ -83,7 +83,7 @@
 								</div>
 							</div>
 						</div>
-						<img src="/img/passgen.png" title="Password Generator" alt="Password Generator" />
+						<img src="password-generator-screenshot.png" title="Password Generator" alt="Password Generator" />
 					</div>
 					<div class="text-wrap right text">
 						<h3 class="title">
