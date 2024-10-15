@@ -93,7 +93,7 @@
 				To measure my cooler's capabilities, I conducted a performance test against an unmodified version of it and a similarly sized Yeti cooler. Each of the 3 coolers sat in the back of my car and were loaded with 9 lbs of ice for the test. They remained shut for one week while the ice slowly melted and Bluetooth-enabled thermometers collected internal temperature data.
 			</p>
 			<p>
-				The unmodified <a href="https://a.co/d/c3yXOAW" target="_blank">$20 Coleman cooler</a> was the first to give out, lasting just shy of 2 days – 1 day and 20 hours – before the temperature started to drastically rise.
+				The unmodified <a href="https://a.co/d/c3yXOAW" target="_blank">$20 Coleman cooler</a> was the first to give out, lasting just shy of 2 days – 1 day and 20 hours – before the temperature started to drastically rise, indicating that the melted ice water had reached room temperature.
 			</p>
 			<p>
 				The <a href="https://a.co/d/1aeNRbg" target="_blank">Yeti Roadie 15</a> lasted more than twice as long, with temperatures starting to rise after 4 days and 4 hours. 
@@ -165,7 +165,7 @@
 				Conclusion
 			</h2>
 			<p>
-				The purpose of this project was never actually about having a kitchen for my car. I'm proud of what I built, but honestly it's not very practical considering how big and heavy it is. The same functionality could be achieved with just a few products from Amazon. No – the true purpose of this project was simply just to create something.
+				I had an idea to build a kitchen for my car and I was successful in bringing that idea to life. But the motivation that drove me to complete this project wasn’t the functionality or practicality of having a kitchen. I’m proud of what I built, but honestly, the finished product isn’t very practical because of how big and heavy it is. The same functionality could be achieved with just a few products from Amazon. In the end, this project was more about the experience of creating something rather than the final result.
 			</p>
 			<p>
 				There's something magical about the process of creating something – from the moment an idea first pops into my mind to the moment I show the finished product to a friend with a proud, "I made this." The journey of bringing an idea to life is an adventure that never fails to captivate me.
