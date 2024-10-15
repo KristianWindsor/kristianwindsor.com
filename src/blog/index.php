@@ -40,7 +40,7 @@
 			<div class="section blog">
 				<a href="custom-built-kitchen-for-my-lexus" class="card">
 					<div class="image-wrap">
-						<img src="custom-built-kitchen-for-my-lexus/cover.jpg" alt="Lexus Kitchen" />
+						<img src="custom-built-kitchen-for-my-lexus/cover.jpg" title="Lexus Kitchen" alt="Camping with my custom-built Lexus Kitchen" />
 					</div>
 					<div class="text-wrap">
 						<h2>
@@ -53,7 +53,7 @@
 				</a>
 				<a href="fullspeed.io-premium-car-videography" class="card">
 					<div class="image-wrap">
-						<img src="fullspeed.io-premium-car-videography/audi1.png" alt="Fullspeed.io" />
+						<img src="fullspeed.io-premium-car-videography/audi1.png" title="Audi S4" alt="Fullspeed.io Audi S4 rolling shot" />
 					</div>
 					<div class="text-wrap">
 						<h2>
@@ -66,7 +66,7 @@
 				</a>
 				<a href="how-i-learned-to-program" class="card">
 					<div class="image-wrap">
-						<img src="how-i-learned-to-program/teamblock.png" alt="Team Block" />
+						<img src="how-i-learned-to-program/teamblock.png" title="Team Block" alt="Team Block video game screenshot" />
 					</div>
 					<div class="text-wrap">
 						<h2>
@@ -79,7 +79,7 @@
 				</a>
 				<a href="citethis.net" class="card">
 					<div class="image-wrap">
-						<img src="citethis.net/citethis.png" alt="CiteThis" />
+						<img src="citethis.net/citethis.png" title="CiteThis.net" alt="CiteThis.net Citation Generator screenshot" />
 					</div>
 					<div class="text-wrap">
 						<h2>
@@ -92,7 +92,7 @@
 				</a>
 				<a href="designing-a-password-generator/" class="card">
 					<div class="image-wrap">
-						<img src="designing-a-password-generator/a-password-generator.png" alt="Password Generator" />
+						<img src="designing-a-password-generator/a-password-generator.png" title="PassGen.site" alt="PassGen.site Password Generator screenshot" />
 					</div>
 					<div class="text-wrap">
 						<h2>
@@ -105,7 +105,7 @@
 				</a>
 				<a href="running-a-clothing-brand-lessons-learned" class="card">
 					<div class="image-wrap">
-						<img src="running-a-clothing-brand-lessons-learned/mom-card.jpg" alt="MOM Clothing 2016" />
+						<img src="running-a-clothing-brand-lessons-learned/mom-card.jpg" title="MOM Clothing" alt="MOM Clothing 2016" />
 					</div>
 					<div class="text-wrap">
 						<h2>
