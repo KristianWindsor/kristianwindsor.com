@@ -1,6 +1,6 @@
 # Kristian Windsor
 
-![kristian windsor logo](src/img/logo.png)
+![Kristian Windsor logo](src/icon/kristian-windsor-logo.png)
 
 ## About
 
