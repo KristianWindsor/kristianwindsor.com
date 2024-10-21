@@ -110,17 +110,23 @@ a:hover, .a-hovering {
 }
 @media (max-width: 550px) {
 	.nav a {
-	margin: 0 9px;
+		margin: 0 2.5vw;
+		font-size: 14px;
 	}
 }
-@media (max-width: 415px) {
+@media (max-width: 475px) {
 	.nav a {
-	font-size: 12px;
+		margin: 0 1.5vw;
 	}
 }
-@media (max-width: 340px) {
+@media (max-width: 400px) {
 	.nav a {
-	margin: 0 5px;
+		margin: 0 0.5vw;
+	}
+}
+@media (max-width: 350px) {
+	.nav a {
+		font-size: 12px;
 	}
 }
 
