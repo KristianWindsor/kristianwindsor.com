@@ -596,10 +596,15 @@ footer {
 }
 
 .blog .image-wrap {
-	width: 32.8%;
+	width: 61.8%;
 }
 .blog .text-wrap {
 	padding: 0 18px;
+}
+@media (max-width: 700px) {
+	.blog .image-wrap {
+		width: 100%;
+	}
 }
 
 #body {
