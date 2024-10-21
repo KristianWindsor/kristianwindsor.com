@@ -64,7 +64,7 @@
 						</a>
 					</p>
 					<p>
-						<a href="https://www.youtube.com/channel/UCZ4fDjpML5yp6QQcdMkyoXg" target="_blank" class="icon-link">
+						<a href="https://www.youtube.com/@kristianwindsor" target="_blank" class="icon-link">
 							<i class="icon icon-flickr">&#xf16a;</i> YouTube
 						</a>
 					</p>
