@@ -159,21 +159,27 @@ a:hover, .a-hovering {
 }
 
 .home .text-wrap, .about .text-wrap {
-	width: 50%;
+	width: 38%;
 	float: left;
 }
 
 .home .image-wrap, .about .image-wrap {
-	width: 50%;
+	width: 62%;
 	overflow: hidden;
 	float: left;
 	padding: 18px;
 	text-align: center;
 }
-
-.home .card {
-	background-color: transparent;
-	box-shadow: none;
+@media (max-width: 700px) {
+	.home .text-wrap, .about .text-wrap {
+		width: 100%;
+	}
+	.home .image-wrap, .about .image-wrap {
+		width: 100%;
+	}
+	.home .card img, .about .card img {
+		padding: 0;
+	}
 }
 
 .home .icon {
