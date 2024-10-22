@@ -18,7 +18,7 @@
 					About Me
 				</h1>
 				<p>
-					Let me tell you who I am...
+					Who is Kristian Windsor?
 				</p>
 			</div>
 		</div>

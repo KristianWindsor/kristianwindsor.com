@@ -15,10 +15,10 @@
 			?>
 			<div class="title-section">
 				<h1>
-					Portfolio
+					My Portfolio
 				</h1>
 				<p>
-					I design, develop, and operate websites in my spare time
+					I design, develop, and operate websites in my spare time.
 				</p>
 			</div>
 		</div>

@@ -15,10 +15,10 @@
 			?>
 			<div class="title-section">
 				<h1>
-					Work Experience.
+					My Work Experience
 				</h1>
 				<p>
-					Mostly as a DevOps Engineer
+					Mostly as a DevOps Engineer.
 				</p>
 			</div>
 		</div>

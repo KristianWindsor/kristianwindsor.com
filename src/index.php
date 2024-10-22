@@ -14,10 +14,10 @@
 			?>
 			<div class="title-section">
 				<h1>
-					Hi, I'm Kristian Windsor.
+					Hi, I'm Kristian!
 				</h1>
 				<p>
-					This is my website.
+					Welcome to my website.
 				</p>
 			</div>
 		</div>

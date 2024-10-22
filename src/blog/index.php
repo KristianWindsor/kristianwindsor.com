@@ -15,10 +15,10 @@
 			?>
 			<div class="title-section">
 				<h1>
-					Blog Posts
+					My Blog Posts
 				</h1>
 				<p>
-					By me
+					I write about the things that I build.
 				</p>
 			</div>
 		</div>
