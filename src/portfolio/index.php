@@ -50,11 +50,11 @@
 						<h3 class="title">
 							CiteThis
 						</h3>
-						<h4 class="url">
+						<p class="url">
 							<a href="https://citethis.net/" target="_blank">
 								citethis.net
 							</a>
-						</h4>
+						</p>
 						<p class="text">
 							A citation generator to help students create bibliographies.
 						</p>
@@ -90,11 +90,11 @@
 						<h3 class="title">
 							Password Generator
 						</h3>
-						<h4 class="url">
+						<p class="url">
 							<a href="https://passgen.site/" target="_blank">
 								passgen.site
 							</a>
-						</h4>
+						</p>
 						<p class="text">
 							A minimal password generator.
 						</p>
