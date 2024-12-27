@@ -27,10 +27,3 @@ spec:
                 secretKeyRef:
                   name: kristianwindsor-env
                   key: SLACK_TOKEN
-          resources:
-            requests:
-              memory: "40Mi"
-              cpu: "20m"
-            limits:
-              memory: "80Mi"
-              cpu: "40m"
