@@ -10,3 +10,16 @@ spec:
   issuerRef:
     name: letsencrypt
     kind: ClusterIssuer
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: wndsr-cert
+spec:
+  secretName: wndsr-cert
+  commonName: wnd.sr
+  dnsNames:
+  - wnd.sr
+  issuerRef:
+    name: letsencrypt
+    kind: ClusterIssuer

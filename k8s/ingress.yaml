@@ -17,7 +17,20 @@ spec:
             name: kristianwindsor
             port:
               number: 80
+  - host: wnd.sr
+    http:
+      paths:
+      - pathType: Prefix
+        path: /
+        backend:
+          service:
+            name: kristianwindsor
+            port:
+              number: 80
   tls:
   - hosts:
     - kristianwindsor.com
     secretName: kristianwindsor-cert
+  - hosts:
+    - wnd.sr
+    secretName: wndsr-cert
