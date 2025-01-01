@@ -51,9 +51,9 @@
 							<div class="contact mobile-padding container-container">
 								<div class="container">
 									<p>
-										<a class="contact-link gap" href="mailto:kristian@kristianwindsor.com">
+										<a class="contact-link gap" href="mailto:k@wnd.sr">
 											<i class="icon icon-mail">&#xe802;</i>
-											kristian@kristianwindsor.com
+											k@wnd.sr
 										</a>
 									</p>
 									<p>
