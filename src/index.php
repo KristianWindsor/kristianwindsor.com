@@ -1,6 +1,8 @@
 <?php
 	$title = "Home | Kristian Windsor";
 	$description = "This is my website.";
+
+	include('script/redirect-url.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
