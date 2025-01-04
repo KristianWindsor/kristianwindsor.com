@@ -27,7 +27,7 @@
 				The Perfect Email Address
 			</h2>
 			<p>
-				When I was nine years old, I created my first email address: KristianWindsor@gmail.com. It was elegantly simple – just my first and last name paired with a modern "@gmail.com". Unfortunately, I quickly lost the password and, despite my best efforts, was never able to recover the account.
+				When I was 9 years old, I created the email address KristianWindsor@gmail.com. It was elegantly simple – just my first and last name paired with a modern "@gmail.com". Unfortunately, I quickly lost the password and, despite my best efforts, was never able to recover the account.
 			</p>
 			<p>
 				What followed was a string of attempts to find a new, equally satisfying email address. Each attempt felt imperfect in its own way:
@@ -35,7 +35,7 @@
 			<ul>
 				<li>I tried adding numbers,	like kristianwindsor<i>2011</i>@gmail.com, but it felt random and unprofessional.</li>
 				<li>I tried shortening it by removing the trailing "r" (ie. kristian<i>windso</i>@gmail.com), but people always thought it was a typo.</li>
-				<li>I tried using my own domain, like hello@<i>kristianwindsor.com</i>, but it felt too corporate – more like a customer support email than a personal one.</li>
+				<li>I tried using my own domain, like hello@<i>kristianwindsor.com</i>, but it felt too corporate – more like a customer support email than my personal one.</li>
 			</ul>
 			<p>
 				Most people wouldn’t think twice about something like this – it’s just an email address, after all. But to me, it was like a tiny pebble in my shoe: easy enough to ignore, yet always there, subtly bothering me. 
@@ -103,7 +103,7 @@
 				At first, I considered trying free or self-hosted email solutions, but I was worried that the unusual email address paired with an unusual email server would result in mail delivery issues, such as the emails being flagged as spam. So I decided to go with Gmail. I figured the strong reputation of Gmail would help offset the quirkiness of the email address and minimize any potential issues.
 			</p>
 			<p>
-				The Gmail account costs $6/month, which isn't exactly cheap, but I think it's a fair price for the reliablity and peace of mind that it provides.
+				The Gmail account costs $6/month, which isn't exactly cheap, but I think it's a fair price to pay for the reliablity and peace of mind that it provides.
 			</p>
 		</div>
 		<div class="paragraph">
@@ -137,13 +137,13 @@
 				Unfortunately, <a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions" target="_blank">DNSSEC</a>, a security protocol that protects against DNS spoofing, isn’t available for .sr domains. Without this protection, the email address is more vulnerable to phishing attacks and unauthorized email interception.
 			</p>
 			<p>
-				Although unlikely, if the country of Suriname were to cease to exist, the .sr domain could be decommissioned . This has happened a few times throughout history, such as when Yugoslavia's <a href="https://en.wikipedia.org/wiki/.yu" target="_blank">.yu domain</a> was retired in 2010 and when the Netherlands Antilles' <a href="https://en.wikipedia.org/wiki/.an" target="_blank">.an domain</a> was discontinued in 2015. Even today, there is <a href="https://news.ycombinator.com/item?id=41729526" target="_blank">talk about the .io domain going away</a> as the British Indian Ocean Territory will soon cease to exist.
+				If the country of Suriname were ever to cease to exist, all .sr domains could also be deleted. This has happened a few times throughout history, such as when Yugoslavia's <a href="https://en.wikipedia.org/wiki/.yu" target="_blank">.yu domain</a> was retired in 2010 and when the Netherlands Antilles' <a href="https://en.wikipedia.org/wiki/.an" target="_blank">.an domain</a> was discontinued in 2015. Even today, there is <a href="https://news.ycombinator.com/item?id=41729526" target="_blank">talk about the .io domain going away</a> as the British Indian Ocean Territory will soon cease to exist.
 			</p>
 			<p>
 				To reduce risk, I avoid using this email address for important logins like my bank account, just in case anything were to happen to it.
 			</p>
 			<p>
-				Despite these concerns, I’ve used it for years without any problems. Overall, I’m happy with the email address and believe its unique nature outweighs these risks.
+				Despite these concerns, I’ve used it for years without any problems. Overall, I’m happy with the email address and believe its unique nature outweighs these potential problems.
 			</p>
 		</div>
 		<div class="paragraph">
