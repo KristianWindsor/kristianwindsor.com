@@ -24,18 +24,18 @@
 		</div>
 		<div class="paragraph">
 			<h2>
-				Losing the Perfect Email Address
+				The Perfect Email Address
 			</h2>
 			<p>
-				When I was nine years old, I created my first email address: KristianWindsor@gmail.com. It was elegantly simple – just my first and last name paired with a modern "@gmail.com" domain. Unfortunately, I quickly lost the password and, despite my best efforts, was never able to recover the account.
+				When I was nine years old, I created my first email address: KristianWindsor@gmail.com. It was elegantly simple – just my first and last name paired with a modern "@gmail.com". Unfortunately, I quickly lost the password and, despite my best efforts, was never able to recover the account.
 			</p>
 			<p>
 				What followed was a string of attempts to find a new, equally satisfying email address. Each attempt felt imperfect in its own way:
 			</p>
 			<ul>
-				<li>I tried adding numbers,	like kristianwindsor2011@gmail.com, but it felt random and unprofessional.</li>
-				<li>I tried shortening it by removing the trailing "r" for kristianwindso@gmail.com, but people always thought it was a typo.</li>
-				<li>I tried using my own domain, like hello@kristianwindsor.com, but it felt cold and impersonal – more like a customer support email than a personal one.</li>
+				<li>I tried adding numbers,	like kristianwindsor<i>2011</i>@gmail.com, but it felt random and unprofessional.</li>
+				<li>I tried shortening it by removing the trailing "r" (ie. kristian<i>windso</i>@gmail.com), but people always thought it was a typo.</li>
+				<li>I tried using my own domain, like hello@<i>kristianwindsor.com</i>, but it felt too corporate – more like a customer support email than a personal one.</li>
 			</ul>
 			<p>
 				Most people wouldn’t think twice about something like this – it’s just an email address, after all. But to me, it was like a tiny pebble in my shoe: easy enough to ignore, yet always there, subtly bothering me. 
@@ -43,13 +43,13 @@
 		</div>
 		<div class="paragraph">
 			<h2>
-				Fascination with Unique TLDs
+				Inspired by Creative Domains
 			</h2>
 			<p>
-				My fascination with unique and unconventional top-level domains (TLDs) fueled my search. While most people are familiar with traditional TLDs like .com, .net, and .org – or newer ones like .io, .ai, and .xyz – there are over 1,500 TLDs in existence today, each offering exciting possibilities.
+				I've always been interested in unique and creative domain names. While most people are familiar with traditional TLDs like .com, .net, and .org – or newer ones like .io, .ai, and .xyz – there are over 1,500 TLDs in existence today, each offering exciting possibilities.
 			</p>
 			<p>
-				Major brands like Google, Nike, and Lamborghini even use their own custom TLDs to strengthen their brand identity and showcase innovation. For instance:
+				Major brands like Google, Nike, and Lamborghini even use their own custom TLDs to strengthen their brand identity and showcase innovation. Check out these webpages and their cool URLs:
 			</p>
 			<ul>
 				<li><a href="https://about.google/" target="_blank">about.google</a></li>
@@ -57,7 +57,7 @@
 				<li><a href="https://esports.lamborghini/" target="_blank">esports.lamborghini</a></li>
 			</ul>
 			<p>
-				The plethora of modern TLDs allow brands to integrate their name directly with the domain, creating a sleek, memorable identity. Here are some of my favorite brand/domain name combinations:
+				The vast number of modern TLDs allows brands to seamlessly integrate their names into their domains, creating a sleek and memorable identity. Here are some of my favorite brand/domain name combinations:
 			</p>
 			<ul>
 				<li><a href="https://cash.app/" target="_blank">cash.app</a></li>
@@ -81,10 +81,10 @@
 				Discovering the wnd.sr Domain
 			</h2>
 			<p>
-				While exploring options for a new domain to use for email, I stumbled upon the <a href="https://en.wikipedia.org/wiki/.sr" target="_blank">.sr</a> TLD, the country code for <a href="https://en.wikipedia.org/wiki/Suriname" target="_blank">Suriname</a>, a Dutch-speaking nation in South America.
+				While exploring options for a new domain, I stumbled upon the <a href="https://en.wikipedia.org/wiki/.sr" target="_blank">.sr</a> TLD, the country code for <a href="https://en.wikipedia.org/wiki/Suriname" target="_blank">Suriname</a>, a Dutch-speaking nation in South America.
 			</p>
 			<p>
-				To my astonishment, the domain wnd.sr was available! It's short and sweet – exactly what I was looking for.
+				To my astonishment, the domain wnd.sr was available! It's short and sweet – just my last name spelled without vowels – exactly what I was looking for.
 			</p>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7817996.430002706!2d-57.33029739715854!3d6.323498049394742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d0836d5d9d3d551%3A0x1037e1c0712936b2!2sSuriname!5e0!3m2!1sen!2sus!4v1735597775776!5m2!1sen!2sus" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			<p>
@@ -92,7 +92,7 @@
 			</p>
 			<img src="namecheap-wndsr.png" alt="Searching for a .sr domain on NameCheap" >
 			<p>
-				And instead of your typical credit card payment, I made the payment via an international bank transfer, which came with a hefty $40 fee from Chase. Thankfully, the staff at Datasur was incredibly accommodating and allowed me to pay for five years upfront in a single transaction to minimize fees. In the end, the domain costs me about $25/year – a small price for something so unique.
+				And instead of your typical credit card payment, I paid for the domain via an international bank transfer, which came with a hefty $40 fee from Chase. Thankfully, the staff at Datasur was incredibly accommodating and allowed me to pay for five years upfront in a single transaction to minimize fees. In the end, the domain costs me about $25/year – a small price to pay for something so unique.
 			</p>
 		</div>
 		<div class="paragraph">
@@ -100,7 +100,7 @@
 				Choosing an Email Service
 			</h2>
 			<p>
-				At first, I considered trying free or self-hosted email solutions, but I was worried that the combination of the unusual email address paired with an unusual email server would result in delivery or reputation issues, such as the emails being flagged as spam. I decided to go with Gmail. I figured the strong reputation of Gmail would help offset the quirks of the email address and minimize any potential issues.
+				At first, I considered trying free or self-hosted email solutions, but I was worried that the unusual email address paired with an unusual email server would result in mail delivery issues, such as the emails being flagged as spam. So I decided to go with Gmail. I figured the strong reputation of Gmail would help offset the quirkiness of the email address and minimize any potential issues.
 			</p>
 			<p>
 				The Gmail account costs $6/month, which isn't exactly cheap, but I think it's a fair price for the reliablity and peace of mind that it provides.
@@ -111,10 +111,10 @@
 				It's Short!
 			</h2>
 			<p>
-				My previous email address, kristian@kristianwindsor.com, spanned a lengthy 28 characters. By contrast, my new email, k@wnd.sr, is a mere 8 characters long. It's also worth mentioning that the shortest possible email address is just 6 characters long: x@y.zz.
+				One of my earlier email addresses, kristianwindsor2011@gmail.com, spanned a lengthy 29 characters. By contrast, my new email, k@wnd.sr, is a mere 8 characters long. Fun fact: the shortest possible email address is just 6 characters long: x@y.zz.
 			</p>
 			<p>
-				Typing it out is quick and easy, which comes in handy when autofill isn’t available, like on self-serve restaurant tablets or on physical DMV forms. It’s a small convenience, only saving 10-15 seconds here and there, but it does ultimately save me some time.
+				Typing it out is quick and easy, which comes in handy when autofill isn’t available, such as on tablets at self-serve restaurants. It’s a small convenience, only saving 10-15 seconds here and there, but it does ultimately save me some time.
 			</p>
 			<img src="shake-shack.jpg" alt="Entering my email at Shake Shack to get my receipt" >
 		</div>
@@ -126,7 +126,7 @@
 				My email address serves as a subtle yet powerful element of my personal brand, making myself a little more unique in today's vast digital landscape.
 			</p>
 			<p>
-				In the competitive field of software engineering, where innovation and attention to detail are highly valued, a unique email like this helps me stand out in a sea of resumes. If I had business cards, it would undoubtedly become a conversation starter.
+				In the competitive field of software engineering, where innovation and attention to detail are highly valued, a unique email like this can help me stand out amongst a sea of resumes. If I had business cards, it would serve as a great conversation starter.
 			</p>
 		</div>
 		<div class="paragraph">
@@ -134,16 +134,16 @@
 				The Risks
 			</h2>
 			<p>
-				Unfortunately, <a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions" target="_blank">DNSSEC</a>, a security protocol that protects against DNS spoofing attacks, isn’t available for .sr domains. Without this protection, the email account is more vulnerable to phishing attempts and email interception.
+				Unfortunately, <a href="https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions" target="_blank">DNSSEC</a>, a security protocol that protects against DNS spoofing, isn’t available for .sr domains. Without this protection, the email address is more vulnerable to phishing attacks and unauthorized email interception.
 			</p>
 			<p>
-				Although unlikely, there is a possibility that the .sr domain could be decommissioned if the country of Suriname were to cease to exist. This has happened a few times throughout history, such as when Yugoslavia's <a href="https://en.wikipedia.org/wiki/.yu" target="_blank">.yu domain</a> was retired in 2010 and when the Netherlands Antilles' <a href="https://en.wikipedia.org/wiki/.an" target="_blank">.an domain</a> was discontinued in 2015. Even today, there is <a href="https://news.ycombinator.com/item?id=41729526" target="_blank">talk about the .io domain going away</a> as the British Indian Ocean Territory will soon cease to exist.
+				Although unlikely, if the country of Suriname were to cease to exist, the .sr domain could be decommissioned . This has happened a few times throughout history, such as when Yugoslavia's <a href="https://en.wikipedia.org/wiki/.yu" target="_blank">.yu domain</a> was retired in 2010 and when the Netherlands Antilles' <a href="https://en.wikipedia.org/wiki/.an" target="_blank">.an domain</a> was discontinued in 2015. Even today, there is <a href="https://news.ycombinator.com/item?id=41729526" target="_blank">talk about the .io domain going away</a> as the British Indian Ocean Territory will soon cease to exist.
 			</p>
 			<p>
-				To reduce risk, I avoid using this email address for important logins like my bank account, just in case anything were to happen.
+				To reduce risk, I avoid using this email address for important logins like my bank account, just in case anything were to happen to it.
 			</p>
 			<p>
-				Despite these concerns, I haven't had any problems with it in the years that I've been using it, and I think the unique and memorable nature of the address outweighs the potential drawbacks.
+				Despite these concerns, I’ve used it for years without any problems. Overall, I’m happy with the email address and believe its unique nature outweighs these risks.
 			</p>
 		</div>
 		<div class="paragraph">
