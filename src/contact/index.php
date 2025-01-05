@@ -65,7 +65,7 @@
 									<p>
 										<a class="contact-link" href="https://www.google.com/maps/place/San+Jose,+CA/" target="_blank">
 											<i class="icon icon-location">&#xe801;</i>
-											San Jose, CA
+											San Francisco, CA
 										</a>
 									</p>
 								</div>
