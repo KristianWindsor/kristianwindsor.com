@@ -51,7 +51,10 @@
 							July 2021 - Present
 						</p>
 						<p class="text">
-							I'm helping LibDib scale up their infrastructure as the company rapidly grows.
+							As the primary DevOps Engineer for LibDib's e-commerce platforms, <a href="https://libdib.com/libtech/" target="_blank">LibTech</a> and eRNDC, which did $1 billion in revenue in 2024, I oversee deployments, manage infrastructure projects, and ensure the site’s uptime.
+						</p>
+						<p class="text">
+							Upon joining LibDib, I inherited a fragile cloud infrastructure originally built by contractors under a tight three-month deadline. I led a comprehensive modernization effort, rewriting the Terraform codebase for greater stability and transitioning LibTech from an EC2-based monolith to a Kubernetes containerized architecture. This transformation reduced our deployment time from 1.5 hours to just 15 minutes.
 						</p>
 					</div>
 				</div>
@@ -74,9 +77,6 @@
 						</p>
 						<p class="text">
 							I helped the company shift to be cloud native, such as integrating Docker into developers’ workflows and migrating legacy services to the cloud.
-						</p>
-						<p class="text">
-							See <a href="/resume.pdf">my résumé</a> for more details.
 						</p>
 					</div>
 				</div>
