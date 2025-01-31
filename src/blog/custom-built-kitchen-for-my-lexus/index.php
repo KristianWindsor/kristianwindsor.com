@@ -108,16 +108,16 @@
 		</div>
 		<div class="paragraph">
 			<h2>
-				Room for Improvement...
+				Room for Improvement
 			</h2>
 			<p>
-				I am proud of this project, but it is by no means perfect.
+				I'll be honest – this project ended up being too big and too heavy to be considered practical. While everything is fully functional, it hogs up valuable real estate in my car and is a hassle to remove because of how much it weighs.
 			</p>
 			<p>
-				I wanted this to be portable so it could be easily removed from my car when needed. However, my choice of materials, primarily wood, made the final product too heavy to be moved easily. If I were to rebuild it, I would opt for lighter materials like plastic or 3D printer filament instead of solid wood.
+				One culprit for the bloated size is all of the insulation, which does help keep things cool, but the results are frankly underwhelming. In hindsight, I should have simply purchased a high-performance cooler instead of going the DIY route and trying to create my own. Additionally, the 3.5-gallon water jug is disproportionately large compared to the size of the cooler, so a smaller jug would have been a better choice.
 			</p>
 			<p>
-				Another failed goal was for this cooler to outperform name-brand coolers like Yeti. Although I was successful in greatly improving performance of the $20 Coleman cooler that I started with, it was not enough to beat a Yeti. If I were to rebuild this project, I'd simply purchase a high-performance cooler instead of going the DIY route and trying to create my own.
+				The weight is largely to blame on all of the wood used. If I were to rebuild it, I would opt for lighter materials like aluminum and 3D-printed components instead.
 			</p>
 		</div>
 		<div class="paragraph">
@@ -165,16 +165,13 @@
 				Conclusion
 			</h2>
 			<p>
-				I had an idea to build a kitchen for my car and I was successful in bringing that idea to life. But the motivation that drove me to complete this project wasn’t the functionality or practicality of having a kitchen. I’m proud of what I built, but honestly, the finished product isn’t very practical because of how big and heavy it is. The same functionality could be achieved with just a few products from Amazon. In the end, this project was more about the experience of creating something rather than the final result.
-			</p>
-			<p>
-				There's something magical about the process of creating something – from the moment an idea first pops into my mind to the moment I show the finished product to a friend with a proud, "I made this." The journey of bringing an idea to life is an adventure that never fails to captivate me.
+				I had an idea to build a kitchen for my car and I was successful in bringing that idea to life. While it may not be the most practical car accessory, I pursued this project simply because I like to build things. There's something magical about the process of creating something – from the initial spark of an idea to proudly sharing the finished product – the journey of bringing an idea to life is an adventure that never fails to captivate me.
 			</p>
 			<p>
 				Building this also left me with a valuable new skillset that I can apply to future projects or simply put to use in repairing things around my apartment. For me, learning through hands-on experience like this is more effective and more enjoyable than formal classes or lengthy YouTube tutorials.
 			</p>
 			<p>
-				Lastly, I love that this kitchen acts an excuse to take a friend on an adventure – be it a road trip to Death Valley, camping in Lake Tahoe, or just a trip to Costco.
+				Lastly, I love that this kitchen acts as an excuse to take a friend on an adventure – be it a road trip to Death Valley, camping in Lake Tahoe, or just a trip to Costco.
 			</p>
 			<img src="camping.jpg" alt="Camping" >
 			<p>
