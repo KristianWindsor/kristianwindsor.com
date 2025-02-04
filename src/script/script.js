@@ -84,14 +84,12 @@ $("#send").click(function(){
 	var message = $("#message").val();
 	var event;
 	if (isBlank(name) && isBlank(email) && isBlank(message)) {
-		$(".contact-label").css("color", "#f00000");
-		$(".textbox").css("border-color", "#f00000");
+		$(".textbox").addClass("red-border");
 		$("#name").focus();
 		resetColorsTimer = 7;
 		event = "Empty Name, Email, Message";
 	} else if (isBlank(message)) {
-		$("#message-label").css("color", "#f00000");
-		$("#message").css("border-color", "#f00000");
+		$("#message").addClass("red-border");
 		$("#message").focus();
 		resetColorsTimer = 7;
 		event = "Empty Message";
@@ -151,8 +149,7 @@ function isValidEmailAddress (emailAddress) {
 
 // remove red color from contact form
 function resetContactColors () {
-	$(".contact-label").css("color", "#5a5959");
-	$(".textbox").css("border-color", "#bbb");
+	$(".textbox").removeClass("red-border");
 }
 
 //  make sure the contact form behaves correctly if the send button is spammed
