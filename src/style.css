@@ -76,11 +76,17 @@ a:hover, .a-hovering {
 	border-bottom: 1px solid #45a0d5;
 }
 .icon-link {
-	border-bottom: 1px solid #5a5959;
 	display: inline-block;
+	padding: 0 18px;
+	border-radius: 4px;
 }
 .icon-link:hover {
-	border-bottom: 1px solid #45a0d5;
+	background-color: #59c1ff;
+	color: #fff;
+}
+.icon-link p {
+	margin: 9px 0;
+	text-align: center;
 }
 @media (prefers-color-scheme: dark) {
 	a {
@@ -95,8 +101,8 @@ a:hover, .a-hovering {
 	.url a, .text-wrap a {
 		border-bottom: 1px solid #F5F5F5;
 	}
-	.icon-link {
-		border-bottom: 1px solid #F5F5F5;
+	.icon-link:hover {
+		background-color: #45a0d5;
 	}
 }
 
@@ -249,9 +255,13 @@ a:hover, .a-hovering {
 		width: 38%;
 		margin: 18px auto;
 	}
-	.foot .icon-link {
+	.contact .icon-link, .foot .icon-link {
 		display: block;
+		padding: 9px;
 		max-width: 100%;
+	}
+	.contact .icon-link p, .foot .icon-link p {
+		margin: 9px 0;
 	}
 }
 
@@ -305,6 +315,14 @@ a.card:hover {
 @media (max-width: 1200px) {
 	.left, .right {
 		width: 100% !important;
+	}
+}
+@media (min-width: 1201px) {
+	.contact .icon-link {
+		display: block;
+	}
+	.contact .icon-link p {
+		display: inline-block;
 	}
 }
 
@@ -475,10 +493,6 @@ a.card:hover {
 	text-align: left;
 }
 
-.contact-link {
-	display: inline-block;
-}
-
 .input {
 	width: 100%;
 	padding: 10px;
@@ -597,8 +611,7 @@ a.card:hover {
 	align-items: center;
 }
 .foot a {
-	margin: 0 15px;
-	font-size: 16px;
+	color: #ccc;
 }
 @media (prefers-color-scheme: dark) {
 	.foot {
@@ -653,17 +666,6 @@ a.card:hover {
 .green {
 	color: #00f000;
 }
-
-.links a {
-	display: inline-block;
-	padding: 0 5px;
-	color: #ccc;
-}
-
-.links a:hover, .links .a-hovering {
-	color: #fff;
-}
-
 
 
 

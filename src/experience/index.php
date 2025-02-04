@@ -134,12 +134,11 @@
 						<p class="text">
 							Working at Pinger, I created a tool capable of launching endless amounts of production-like environments. The tool was adopted by several teams and used for parallelized automated  testing and manual feature branch testing. I demoed this tool at DevOps World 2020.
 						</p>
-						<p class="text">
-							<a href="https://www.cloudbees.com/resources/40-second-production-environment" target="_blank">
-								See the presentation on Cloudbees.com
-							</a>
-						</p>
 					</div>
+					<a href="https://www.cloudbees.com/resources/40-second-production-environment" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf081;</i></p>
+						<p>See the presentation on Cloudbees.com</p>
+					</a>
 				</div>
 				<div class="card">
 					<div class="image-wrap">
@@ -152,24 +151,19 @@
 						<p class="text">
 							Me and my boss Adam are interviewed on the DevOps Radio podcast. We make up the DevOps team at Pinger and won the Rising Star Award at DevOps World 2019.
 						</p>
-						<ul>
-							<li>
-								<a href="https://open.spotify.com/episode/3gDSGVqLYJTKv6jL7uNAMd?si=mWFpZOR-S2S45ynrACRYAw" target="_blank">
-									Listen with Spotify
-								</a>
-							</li>
-							<li>
-								<a href="https://podcasts.apple.com/us/podcast/episode-61-pinger-a-devops-rising-star-is-born/id1108186102?i=1000453740190" target="_blank">
-									Listen with Apple Podcasts
-								</a>
-							</li>
-							<li>
-								<a href="https://devopsradio.libsyn.com/episode-61-a-devops-rising-star-is-born-adam-robertson-and-kristian-windsor-of-pinger" target="_blank">
-									Listen with LibSyn
-								</a>
-							</li>
-						</ul>
 					</div>
+					<a href="https://open.spotify.com/episode/3gDSGVqLYJTKv6jL7uNAMd?si=mWFpZOR-S2S45ynrACRYAw" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf081;</i></p>
+						<p>Listen with Spotify</p>
+					</a>
+					<a href="https://podcasts.apple.com/us/podcast/episode-61-pinger-a-devops-rising-star-is-born/id1108186102?i=1000453740190" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf081;</i></p>
+						<p>Listen with Apple Podcasts</p>
+					</a>
+					<a href="https://devopsradio.libsyn.com/episode-61-a-devops-rising-star-is-born-adam-robertson-and-kristian-windsor-of-pinger" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf081;</i></p>
+						<p>Listen with LibSyn</p>
+					</a>
 				</div>
 			</div>
 			<div class="section experience">
@@ -177,18 +171,14 @@
 					Connect with me
 				</h2>
 				<div class="container">
-					<p>
-						<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank" class="icon-link">
-							<i class="icon icon-linkedin">&#xf0e1;</i>
-							LinkedIn
-						</a>
-					</p>
-					<p>
-						<a href="https://github.com/KristianWindsor" target="_blank" class="icon-link">
-							<i class="icon icon-github">&#xf300;</i>
-							Github
-						</a>
-					</p>
+					<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf0e1;</i></p>
+						<p>LinkedIn</p>
+					</a>
+					<a href="https://github.com/KristianWindsor" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf300;</i></p>
+						<p>Github</p>
+					</a>
 				</div>
 			</div>
 		</div>

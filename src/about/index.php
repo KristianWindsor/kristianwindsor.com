@@ -40,44 +40,35 @@
 						<img src="kristian-windsor-profile-photo.jpg" id="profile-photo" class="image partial nobig" title="Kristian Windsor" alt="Kristian Windsor profile photo" />
 					</div>
 				</div>
-				<div class="container">
-					<p>
-						<a href="https://github.com/KristianWindsor" target="_blank" class="icon-link">
-							<i class="icon icon-github">&#xf300;</i> Github
-						</a>
-					</p>
-					<p>
-						<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank" class="icon-link">
-							<i class="icon icon-linkedin">&#xf0e1;</i>
-							<span>LinkedIn</span>
-						</a>
-					</p>
-					<p>
-						<a href="https://www.flickr.com/photos/kristianwindsor/" target="_blank" class="icon-link">
-							<i class="icon icon-flickr">&#xf303;</i>
-							<span>Flickr</span>
-						</a>
-					</p>
-					<p>
-						<a href="https://www.instagram.com/wind.so/" target="_blank" class="icon-link">
-							<i class="icon icon-flickr">&#xf32d;</i> Instagram
-						</a>
-					</p>
-					<p>
-						<a href="https://www.youtube.com/@kristianwindsor" target="_blank" class="icon-link">
-							<i class="icon icon-flickr">&#xf16a;</i> YouTube
-						</a>
-					</p>
-					<!--<p>
-						<a href="https://www.reddit.com/user/kristianwindsor" target="_blank">
-							<i class="icon icon-flickr">&#xf281;</i> Reddit
-						</a>
-					</p>
-					<p>
-						<a href="https://twitter.com/kristianwindsor" target="_blank">
-							<i class="icon icon-flickr">&#xf309;</i> Twitter
-						</a>
-					</p>-->
+				<div class="links">
+					<a href="https://github.com/KristianWindsor" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf300;</i></p>
+						<p>Github</p>
+					</a>
+					<a href="https://www.linkedin.com/in/kristian-windsor/" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf0e1;</i></p>
+						<p>LinkedIn</p>
+					</a>
+					<a href="https://www.flickr.com/photos/kristianwindsor/" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf303;</i></p>
+						<p>Flickr</p>
+					</a>
+					<a href="https://www.instagram.com/wind.so/" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf32d;</i></p>
+						<p>Instagram</p>
+					</a>
+					<a href="https://www.youtube.com/@kristianwindsor" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf16a;</i></p>
+						<p>YouTube</p>
+					</a>
+					<a href="https://www.reddit.com/user/kristianwindsor" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf281;</i></p>
+						<p>Reddit</p>
+					</a>
+					<a href="https://twitter.com/kristianwindsor" target="_blank" class="icon-link">
+						<p><i class="icon">&#xf309;</i></p>
+						<p>Twitter</p>
+					</a>
 				</div>
 			</div>
 		</div>

@@ -50,24 +50,18 @@
 						<div class="right">
 							<div class="contact mobile-padding container-container">
 								<div class="container">
-									<p>
-										<a class="contact-link gap" href="mailto:k@wnd.sr">
-											<i class="icon icon-mail">&#xe802;</i>
-											k@wnd.sr
-										</a>
-									</p>
-									<p>
-										<a class="contact-link gap" href="tel:14086834007">
-											<i class="icon icon-phone">&#xe803;</i>
-											(408) 683-4007
-										</a>
-									</p>
-									<p>
-										<a class="contact-link" href="https://www.google.com/maps/place/San+Jose,+CA/" target="_blank">
-											<i class="icon icon-location">&#xe801;</i>
-											San Francisco, CA
-										</a>
-									</p>
+									<a href="mailto:k@wnd.sr" target="_blank" class="icon-link">
+										<p><i class="icon">&#xe802;</i></p>
+										<p>k@wnd.sr</p>
+									</a>
+									<a href="tel:14086834007" class="icon-link">
+										<p><i class="icon">&#xe803;</i></p>
+										<p>(408) 683-4007</p>
+									</a>
+									<a href="https://www.google.com/maps/place/San+Francisco,+CA/" target="_blank" class="icon-link">
+										<p><i class="icon">&#xe801;</i></p>
+										<p>San Francisco, CA</p>
+									</a>
 								</div>
 							</div>
 						</div>
