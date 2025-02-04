@@ -202,6 +202,10 @@ a:hover, .a-hovering {
 	.container {
 		text-align: center;
 	}
+	.foot .links {
+		width: 38%;
+		margin: 18px auto;
+	}
 	.foot .icon-link {
 		display: block;
 		max-width: 100%;
