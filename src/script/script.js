@@ -197,6 +197,18 @@ function sendMessage (n,e,m) {
 	});
 }
 
+// Dark Mode
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+	$('img[src="/contact/phone.png"]').attr('src', '/contact/phone-dark.jpg');
+}
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+	const newColorScheme = event.matches ? "dark" : "light";
+	if (newColorScheme == 'dark') {
+		$('img[src="/contact/phone.png"]').attr('src', '/contact/phone-dark.jpg');
+	} else {
+		$('img[src="/contact/phone-dark.jpg"]').attr('src', '/contact/phone.png');
+	}
+});
 
 
 
