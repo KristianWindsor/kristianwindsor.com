@@ -31,7 +31,7 @@
 							I'm a DevOps Engineer.
 						</h2>
 						<p>
-							See my work experience
+							Working in Silicon Valley, I help engineering teams move faster by making deployments effortless and infrastructure resilient – here’s my journey in DevOps.
 						</p>
 					</div>
 					<div class="image-wrap">
@@ -44,7 +44,7 @@
 							I make websites for fun.
 						</h2>
 						<p>
-							See my portfolio
+							A couple of side projects I built to sharpen my skills, experiment with new ideas, and just have fun. Take a look!
 						</p>
 					</div>
 					<div class="image-wrap">
@@ -57,7 +57,7 @@
 							I write about my projects.
 						</h2>
 						<p>
-							See my blog
+							From coding projects to business experiments to hands-on builds – here’s a look at the things I’ve created.
 						</p>
 					</div>
 					<div class="image-wrap">
@@ -67,10 +67,10 @@
 				<a href="/contact/" class="card">
 					<div class="text-wrap">
 						<h2>
-							Get in touch!
+							Let's get in touch!
 						</h2>
 						<p>
-							Contact me
+							I’m always happy to connect – shoot me an email or a quick text!
 						</p>
 					</div>
 					<div class="image-wrap">
@@ -81,10 +81,10 @@
 				<a href="/about/" class="card">
 					<div class="text-wrap">
 						<h2>
-							About me.
+							A little about me.
 						</h2>
 						<p>
-							See the about page
+							A quick intro to who I am, what I do, and where you can find me online.
 						</p>
 					</div>
 					<div class="image-wrap">
