@@ -74,8 +74,7 @@
 						</p>
 					</div>
 					<div class="image-wrap">
-					<i class="icon icon-mail">&#xe802;</i>
-					<i class="icon icon-phone">&#xe803;</i>
+						<img src="/contact/phone.jpg" title="Telephone stock photo" alt="Telephone stock photo" />
 					</div>
 				</a>
 				<a href="/about/" class="card">
