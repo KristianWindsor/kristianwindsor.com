@@ -1,5 +1,12 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
+    // font color
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        Chart.defaults.color = "#F5F5F5";
+    } else {
+        Chart.defaults.color = "#5a5959";
+    }
+    
     <?php
         // creates js variable from csv file
         function declareChartDataset($filename, $variable_name) {
