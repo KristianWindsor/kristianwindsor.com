@@ -739,6 +739,9 @@ footer {
 .article-body li {
 	list-style-type: circle;
 }
+.article-body li p {
+	margin: 12px 0;
+}
 .bold-text, p.bold-text {
 	margin: 0 0 9px;
 	font-weight: 600;
