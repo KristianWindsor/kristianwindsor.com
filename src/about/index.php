@@ -25,6 +25,9 @@
 		<div class="body">
 			<div class="section about">
 				<div class="card">
+					<div class="image-wrap">
+						<img src="kristian-windsor-profile-photo.jpg" id="profile-photo" class="image partial nobig" title="Kristian Windsor" alt="Kristian Windsor profile photo" />
+					</div>
 					<div class="text-wrap">
 						<p class="text">
 							Hi, my name is Kristian Windsor and I work as a DevOps engineer in San Francisco.
@@ -35,9 +38,6 @@
 						<p class="text">
 							In the future I would love to start my own software company. One thing at a time though...
 						</p>
-					</div>
-					<div class="image-wrap">
-						<img src="kristian-windsor-profile-photo.jpg" id="profile-photo" class="image partial nobig" title="Kristian Windsor" alt="Kristian Windsor profile photo" />
 					</div>
 				</div>
 				<div class="links">
