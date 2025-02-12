@@ -30,13 +30,16 @@
 					</div>
 					<div class="text-wrap">
 						<p class="text">
-							Hi, my name is Kristian Windsor and I work as a DevOps engineer in San Francisco.
+							Hi, my name is Kristian Windsor, and I work as a DevOps engineer in San Francisco.
 						</p>
 						<p class="text">
-							Apart from building cool software, I enjoy hiking, riding my motorcycle, playing board games, and trying out new restaurants with friends.
+							I’ve always loved building things. Growing up on a small farm just south of San Jose, I had plenty of time and space to explore – whether that meant playing outside in the dirt, building with Lego, designing worlds in Minecraft, or, eventually, writing code. I started programming when I was 12, guided by my brother, <a href="https://kristopherwindsor.com/" target="_blank">Kristopher</a>, who set me up with the tools I needed, helped whenever I got stuck, and even hosted my first websites so I could share them with friends.
 						</p>
 						<p class="text">
-							In the future I would love to start my own software company. One thing at a time though...
+							Outside of coding, I love spending time outdoors – camping under the stars in Joshua Tree, soaking in the coastal air of Big Sur, or unwinding around a campfire in Lake Tahoe. I also enjoy walking through San Francisco’s many scenic streets, playing board games with friends, and indulging in great food (especially ramen, pho, and a good curry).
+						</p>
+						<p class="text">
+							One day, I’d love to start my own technology business. I don’t know exactly what that will look like yet, but I know I want to build something meaningful. Until then, I’ll keep learning, creating, and preparing for whatever comes next.
 						</p>
 					</div>
 				</div>
