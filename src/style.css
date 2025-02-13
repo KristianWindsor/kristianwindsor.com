@@ -206,7 +206,7 @@ a:hover, .a-hovering {
 	}
 }
 
-.home .text-wrap, .about .text-wrap {
+.home .text-wrap {
 	width: 38%;
 	float: left;
 }
@@ -226,6 +226,7 @@ a:hover, .a-hovering {
 		width: 100%;
 	}
 	.home .card img, .about .card img {
+		max-width: 100%;
 		padding: 0;
 	}
 }
