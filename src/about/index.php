@@ -44,6 +44,9 @@
 					</div>
 				</div>
 				<div class="links">
+					<h2>
+						Connect with me
+					</h2>
 					<a href="https://github.com/KristianWindsor" target="_blank" class="icon-link">
 						<p><i class="icon">&#xf300;</i></p>
 						<p>Github</p>
