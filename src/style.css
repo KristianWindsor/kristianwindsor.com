@@ -416,6 +416,9 @@ a.card:hover {
 #about a:hover, #about .a-hovering, #submitted a:hover, #linkedIn a:hover {
 	border-bottom: 0;
 }
+.about .card {
+	margin: 0;
+}
 
 .image-container {
 	position: relative;

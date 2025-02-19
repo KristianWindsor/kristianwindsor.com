@@ -18,12 +18,15 @@
 					About Me
 				</h1>
 				<p>
-					Who is Kristian Windsor?
+					Engineer. Creator. Explorer.
 				</p>
 			</div>
 		</div>
 		<div class="body">
 			<div class="section about">
+				<h2>
+					Hello, I'm Kristian
+				</h2>
 				<div class="card">
 					<div class="image-wrap">
 						<img src="kristian-windsor-profile-photo.jpg" id="profile-photo" class="image partial nobig" title="Kristian Windsor" alt="Kristian Windsor profile photo" />
@@ -43,10 +46,12 @@
 						</p>
 					</div>
 				</div>
+			</div>
+			<div class="section about">
+				<h2>
+					Connect with me
+				</h2>
 				<div class="links">
-					<h2>
-						Connect with me
-					</h2>
 					<a href="https://github.com/KristianWindsor" target="_blank" class="icon-link">
 						<p><i class="icon">&#xf300;</i></p>
 						<p>Github</p>
