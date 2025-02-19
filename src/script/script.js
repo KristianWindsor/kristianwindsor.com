@@ -20,12 +20,12 @@ $("#nav-about").bind('touch mouseup', function(){
   }
   return false
 });
-// portfolio section
-$("#nav-portfolio").bind('touch mouseup', function(){
+// websites section
+$("#nav-websites").bind('touch mouseup', function(){
   if (!flag) {
     flag = true;
     setTimeout(function(){ flag = false; }, 200);
-    scrollTo(".portfolio.section",650)
+    scrollTo(".websites.section",650)
   }
   return false
 });
@@ -48,7 +48,7 @@ $("#nav-contact").bind('touch mouseup', function(){
   return false
 });
 
-// force hover event on mobile for portfolio
+// force hover event on mobile for websites
 var flag2 = false;
  $("body > *").not(".image-container > *").on('touchstart', function () {
 	if (!flag2) {

@@ -9,9 +9,9 @@
 					<p><i class="icon">&#xe809;</i></p>
 					<p><span>Experience</span></p>
 				</a>
-				<a href="/portfolio/" class="icon-link">
+				<a href="/websites/" class="icon-link">
 					<p><i class="icon">&#xe806;</i></p>
-					<p><span>Portfolio</span></p>
+					<p><span>Websites</span></p>
 				</a>
 				<a href="/blog/" class="icon-link">
 					<p><i class="icon">&#xe807;</i></p>

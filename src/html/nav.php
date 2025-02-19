@@ -6,8 +6,8 @@
 				<a id="nav-experience" href="/experience/">
 					Experience
 				</a>
-				<a id="nav-portfolio" href="/portfolio/">
-					Portfolio
+				<a id="nav-websites" href="/websites/">
+					Websites
 				</a>
 				<a id="nav-blog" href="/blog/">
 					Blog

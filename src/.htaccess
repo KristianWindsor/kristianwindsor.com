@@ -7,8 +7,11 @@ Redirect 301 /img/libdib.jpeg /experience/libdib-logo.png
 Redirect 301 /img/pinger-devops-engineer.png /experience/pinger-devops-engineer.png
 Redirect 301 /img/pinger-software-engineer-intern.png /experience/pinger-software-engineer-intern.png
 Redirect 301 /img/pinger-software-engineer.png /experience/pinger-software-engineer.png
-Redirect 301 /img/citethis.png /portfolio/citethis-screenshot.png
-Redirect 301 /img/passgen.png /portfolio/password-generator-screenshot.png
+Redirect 301 /img/citethis.png /websites/citethis-screenshot.png
+Redirect 301 /img/passgen.png /websites/password-generator-screenshot.png
+Redirect 301 /portfolio/ /websites/
+Redirect 301 /portfolio/citethis-screenshot.png /websites/citethis-screenshot.png
+Redirect 301 /portfolio/password-generator-screenshot.png /websites/password-generator-screenshot.png
 Redirect 301 /lexus-kitchen https://kristianwindsor.com/blog/custom-built-kitchen-for-my-lexus/
 
 <IfModule mod_headers.c>

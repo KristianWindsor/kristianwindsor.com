@@ -38,9 +38,9 @@
 						</p>
 					</div>
 				</a>
-				<a href="/portfolio/" class="card">
+				<a href="/websites/" class="card">
 					<div class="image-wrap">
-						<img src="/portfolio/citethis-screenshot.png" title="CiteThis.net" alt="CiteThis.net Citation Generator screenshot" />
+						<img src="/websites/citethis-screenshot.png" title="CiteThis.net" alt="CiteThis.net Citation Generator screenshot" />
 					</div>
 					<div class="text-wrap">
 						<h2>

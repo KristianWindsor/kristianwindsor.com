@@ -1,7 +1,7 @@
 <?php
-	$title = "Portfolio | Kristian Windsor";
+	$title = "Websites | Kristian Windsor";
 	$description = "Websites designed and developed by Kristian Windsor.";
-	$urlPath = "portfolio/"
+	$urlPath = "websites/"
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@
 			?>
 			<div class="title-section">
 				<h1>
-					My Portfolio
+					My Websites
 				</h1>
 				<p>
 					I design, develop, and operate websites in my spare time.
@@ -23,7 +23,7 @@
 			</div>
 		</div>
 		<div class="body">
-			<div class="section portfolio">
+			<div class="section websites">
 				<div class="card">
 					<div class="image-wrap left image-container hoverable big-mobile">
 						<div class="website-image">
