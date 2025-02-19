@@ -287,8 +287,8 @@ a.card {
 	transition: background-color 0.15s ease-in-out;
 }
 a.card:hover {
-	color: #fff;
-	background-color: #59c1ff;
+	background-color: #c0e7ff;
+	color: #5a5959;
 }
 .card img {
 	margin-right: 18px;
@@ -300,6 +300,10 @@ a.card:hover {
 @media (prefers-color-scheme: dark) {
 	.card {
 		background-color: #303030;
+	}
+	a.card:hover {
+		background-color: #364F5D;
+		color: #F5F5F5;
 	}
 }
 
