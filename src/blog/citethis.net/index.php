@@ -17,7 +17,7 @@
 	</header>
 	<section class="article-body">
 		<div class="paragraph">
-			<img src="<?php echo $imageUrl ?>" class="image" alt="CiteThis" />
+			<img src="<?php echo $imageUrl ?>" alt="CiteThis" />
 			<p>
 				You can view this finished project live at <a href="https://citethis.net/" target="_blank">citethis.net</a>.
 			</p>

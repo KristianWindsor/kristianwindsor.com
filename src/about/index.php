@@ -28,8 +28,8 @@
 					Hello, I'm Kristian
 				</h2>
 				<div class="card">
-					<div class="image-wrap">
-						<img src="kristian-windsor-profile-photo.jpg" id="profile-photo" class="image partial nobig" title="Kristian Windsor" alt="Kristian Windsor profile photo" />
+					<div class="image-wrap big">
+						<img src="kristian-windsor-profile-photo.jpg" id="profile-photo" class="partial" title="Kristian Windsor" alt="Kristian Windsor profile photo" />
 					</div>
 					<div class="text-wrap">
 						<p class="text">
@@ -51,7 +51,7 @@
 				<h2>
 					Connect with me
 				</h2>
-				<div class="links">
+				<div class="icon-wrap">
 					<a href="https://github.com/KristianWindsor" target="_blank" class="icon-link">
 						<p><i class="icon">&#xf300;</i></p>
 						<p>Github</p>

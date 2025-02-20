@@ -1,6 +1,6 @@
 
 		<div class="foot">
-			<div class="links">
+			<div class="icon-wrap">
 				<a href="/" class="icon-link">
 					<p><i class="icon">&#xe804;</i></p>
 					<p><span>Home</span></p>

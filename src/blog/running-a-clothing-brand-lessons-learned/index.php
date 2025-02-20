@@ -17,7 +17,7 @@
 	</header>
 	<section class="article-body">
 		<div class="paragraph">
-			<img src="<?php echo $imageUrl ?>" class="image" alt="MOM Clothing 2016" />
+			<img src="<?php echo $imageUrl ?>" alt="MOM Clothing 2016" />
 			<p>
 				You can check out the Instagram page, <a href="https://www.instagram.com/wear.mom/" target="_blank">@wear.mom</a>.
 			</p>

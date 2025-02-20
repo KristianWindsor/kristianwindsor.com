@@ -26,7 +26,7 @@
 		<div class="body">
 			<div class="section home">
 				<a href="/experience/" class="card">
-					<div class="image-wrap">
+					<div class="image-wrap big">
 						<img src="/experience/devops-infinity-loop.png" title="DevOps Infinity Loop" alt="DevOps Infinity Loop" />
 					</div>
 					<div class="text-wrap">
@@ -39,7 +39,7 @@
 					</div>
 				</a>
 				<a href="/websites/" class="card">
-					<div class="image-wrap">
+					<div class="image-wrap big">
 						<img src="/websites/citethis-screenshot.png" title="CiteThis.net" alt="CiteThis.net Citation Generator screenshot" />
 					</div>
 					<div class="text-wrap">
@@ -52,7 +52,7 @@
 					</div>
 				</a>
 				<a href="/blog/" class="card">
-					<div class="image-wrap">
+					<div class="image-wrap big">
 						<img src="/blog/custom-built-kitchen-for-my-lexus/cover.jpg" title="Lexus Kitchen" alt="Camping with my custom-built Lexus Kitchen" />
 					</div>
 					<div class="text-wrap">
@@ -65,7 +65,7 @@
 					</div>
 				</a>
 				<a href="/contact/" class="card">
-					<div class="image-wrap">
+					<div class="image-wrap big">
 						<img src="/contact/phone.png" title="Telephone stock photo" alt="Telephone stock photo" />
 					</div>
 					<div class="text-wrap">
@@ -78,7 +78,7 @@
 					</div>
 				</a>
 				<a href="/about/" class="card">
-					<div class="image-wrap">
+					<div class="image-wrap big">
 						<img src="/about/kristian-windsor-profile-photo.jpg" title="Kristian Windsor" alt="Kristian Windsor profile photo" />
 					</div>
 					<div class="text-wrap">

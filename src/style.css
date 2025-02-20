@@ -35,9 +35,6 @@ body {
 }
 
 /* Element Base Styles */
-img {
-	width: 100%;
-}
 a {
 	text-decoration: none;
 	cursor: pointer;
@@ -121,7 +118,6 @@ td {
 	width: 100%;
 	padding-top: 2vh;
 	text-align: center;
-	box-sizing: initial;
 	position: absolute;
 	top: 0;
 }
@@ -182,6 +178,9 @@ td {
 		margin: 0 2.5vw;
 		font-size: 14px;
 	}
+	.section {
+		padding: 2vh 0;
+	}
 }
 @media (max-width: 475px) {
 	.nav a {
@@ -200,9 +199,17 @@ td {
 	.nav a {
 		margin: 0 0.5vw;
 	}
-	.foot .links {
+	.foot .icon-wrap {
 		width: 38%;
 		margin: 18px auto;
+	}
+	.foot .icon-link {
+		display: block;
+		padding: 9px;
+		max-width: 100%;
+	}
+	.foot .icon-link p {
+		margin: 9px 0;
 	}
 }
 @media (max-width: 350px) {
@@ -288,16 +295,43 @@ a:hover, .a-hovering {
 	width: 23.62%;
 	min-width: 150px;
 }
-.image {
-	display: block;
-	margin: 0 auto;
+.image-wrap.big {
+	width: 62%;
+	padding: 18px;
+	float: left;
+	overflow: hidden;
+	text-align: center;
 }
-.image.partial {
+img {
+	width: 100%;
+	border-radius: 2px;
+}
+img.partial {
 	margin-right: 18px;
 	float: left;
 }
+.gifisgif {
+	display: none;
+}
 
 /* Icons */
+.icon-wrap {
+	width: 100%;
+	text-align: center;
+}
+.icon-link {
+	display: inline-block;
+	padding: 0 18px;
+	border-radius: 4px;
+}
+.icon-link:hover {
+	background-color: #59c1ff;
+	color: #fff;
+}
+.icon-wrap p {
+	margin: 9px 0;
+	text-align: center;
+}
 .icon {
 	display: inline-block;
 	width: 1em;
@@ -315,29 +349,6 @@ a:hover, .a-hovering {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-.icon-link {
-	display: inline-block;
-	padding: 0 18px;
-	border-radius: 4px;
-}
-.icon-link:hover {
-	background-color: #59c1ff;
-	color: #fff;
-}
-.icon-link p {
-	margin: 9px 0;
-	text-align: center;
-}
-.links {
-	width: 100%;
-	text-align: center;
-}
-.links .icon {
-	font-size: 36px;
-}
-.links p {
-	text-align: center;
-}
 
 /* Misc. */
 .left {
@@ -349,33 +360,6 @@ a:hover, .a-hovering {
 	padding: 18px;
 	float: left;
 	text-align: left;
-}
-.container-container {
-	width: 100%;
-	text-align: center;
-}
-.container {
-	display: inline-block;
-	text-align: left;
-}
-.image-container {
-	position: relative;
-	width: 60%;
-	float: left;
-}
-.centered {
-	display: inline-block;
-	vertical-align: middle;
-	width: 61.8%;
-}
-.big {
-	font-size: 36px;
-}
-.green {
-	color: #00f000;
-}
-.gifisgif {
-	display: none;
 }
 
 /* Responsiveness */
@@ -389,14 +373,19 @@ a:hover, .a-hovering {
 		max-width: 66%;
 		display: block;
 		margin: 0 auto;
-		float: none;
 	}
 	.card h3 {
 		margin: 14px 0;
 	}
+	.image-wrap.big {
+		width: 100%;
+	}
 	.image-wrap img {
 		padding: 18px;
 		margin: 0 !important;
+	}
+	.image-wrap.big img {
+		padding: 0;
 	}
 }
 @media (max-width: 600px) {
@@ -443,72 +432,22 @@ a:hover, .a-hovering {
 /****    Page-Specific Styles    ****/
 /************************************/
 
-/* Homepage */
-.home .text-wrap {
-	width: 38%;
-	float: left;
-}
-.home .image-wrap, .about .image-wrap {
-	width: 62%;
-	overflow: hidden;
-	float: left;
-	padding: 18px;
-	text-align: center;
-}
-.home .icon {
-	font-size: 80px;
-}
-.home img {
-	border-radius: 4px;
-}
-.home .icon-link span {
-	padding: 18px 0;
-	font-size: 18px;
-}
-
-/* Experience */
-.experience .left {
-	width: 23.61%;
-	padding: 18px;
-}
-.experience .right {
-	width: 76.39%;
-}
-.experience li {
-	text-align: left;
-}
-.experience .image.partial {
-	padding: 39px 21px 21px;
-}
-
 /* Contact */
-.contact .card {
-	background-color: transparent;
-	box-shadow: none;
-}
 .contact .left {
 	width: 61.8%;
 	padding: 18px;
-	text-align: left;
 }
 .contact .right {
 	width: 38.2%;
-	padding: 18px;
 }
 .contact .icon-link {
-	display: block;
+	padding: 9px 18px;
 }
 .contact .icon-link p {
 	display: inline-block;
 }
 
 /* About */
-#about a, #submitted a, #linkedIn a {
-	border-bottom: 1px solid #5a5959;
-}
-#about a:hover, #about .a-hovering, #submitted a:hover, #linkedIn a:hover {
-	border-bottom: 0;
-}
 .about .card {
 	margin: 0;
 }
@@ -519,6 +458,11 @@ a:hover, .a-hovering {
 }
 .websites .right {
 	width: 38.2%;
+}
+.image-container {
+	position: relative;
+	width: 60%;
+	float: left;
 }
 .website-image {
 	position: relative;
@@ -551,6 +495,11 @@ a:hover, .a-hovering {
 	height: 100%;
 	content: '';
 }
+.centered {
+	display: inline-block;
+	vertical-align: middle;
+	width: 61.8%;
+}
 .website-link {
 	position: relative;
 	display: inline-block;
@@ -577,39 +526,23 @@ a:hover, .a-hovering {
 }
 
 /* Responsiveness */
-@media (max-width: 750px) {
-	.experience .image.partial {
-		padding: 9px;
-	}
-}
-@media (max-width: 700px) {
-	.home .text-wrap, .about .text-wrap {
-		width: 100%;
-	}
-	.home .image-wrap, .about .image-wrap {
-		width: 100%;
-	}
-	.home .card img, .about .card img {
-		max-width: 100%;
-		padding: 0;
-	}
-}
 @media (max-width: 400px) {
-	.contact .icon-link, .foot .icon-link {
-		display: block;
+	.contact .icon-wrap {
+		width: 38%;
+		margin: 18px auto;
+	}
+	.contact .icon-link {
 		padding: 9px;
 		max-width: 100%;
+		text-align: center;
 	}
-	.contact .icon-link p, .foot .icon-link p {
-		margin: 9px 0;
+	.contact .icon-link p {
+		display: block;
 	}
 }
 
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
-	#about a, #submitted a, #linkedIn a {
-		border-bottom: 1px solid #F5F5F5;
-	}
 	.website-link {
 		color: #F5F5F5;
 		background-color: #303030;
@@ -697,12 +630,14 @@ form {
 	display: none;
 	margin-top: -15px;
 	padding: 0 4%;
-}
-#submitted p {
-	padding: 0;
 	font-size: 22px;
 }
-
+#submitted .big {
+	font-size: 36px;
+}
+#submitted .green {
+	color: #00f000;
+}
 
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
@@ -746,13 +681,6 @@ footer {
 	min-height: 40%;
 }
 
-.blog .image-wrap {
-	width: 61.8%;
-}
-.blog .text-wrap {
-	padding: 0 18px;
-}
-
 #body {
 	padding: 15px 0 120px;
 }
@@ -762,11 +690,6 @@ footer {
 	margin: 5% 0 15%;
 	margin: 0 auto;
 	border-radius: 4px;
-}
-@media (max-width: 750px) {
-	#blog-post {
-		padding: 50px;
-	}
 }
 .paragraph {
 	margin: 60px 0;
@@ -848,7 +771,6 @@ footer {
 	text-align: right;
 }
 
-
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
 	body.blog {
@@ -869,9 +791,9 @@ footer {
 }
 
 /* Responsiveness */
-@media (max-width: 700px) {
-	.blog .image-wrap {
-		width: 100%;
+@media (max-width: 750px) {
+	#blog-post {
+		padding: 50px;
 	}
 }
 @media (max-width: 430px) {
@@ -883,18 +805,13 @@ footer {
 		padding: 4%;
 		font-size: 14px;
 	}
-	#title, .article-heading {
-		text-align: left;
-	}
-	#title h1 {
-		padding: 8% 4%;
-	}
 	#blog-post {
 		width: 100%;
 		padding: 4%;
 	}
 	.article-heading {
 		margin-top: 50px;
+		text-align: left;
 	}
 	.article-title{
 		margin: 0 0 4%;

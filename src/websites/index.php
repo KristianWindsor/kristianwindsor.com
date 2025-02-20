@@ -25,7 +25,7 @@
 		<div class="body">
 			<div class="section websites">
 				<div class="card">
-					<div class="image-wrap left image-container hoverable big-mobile">
+					<div class="image-wrap left image-container hoverable">
 						<div class="website-image">
 							<img src="citethis-screenshot.png" title="CiteThis.net" alt="CiteThis.net Citation Generator screenshot" />
 						</div>
@@ -61,7 +61,7 @@
 					</div>
 				</div>
 				<div class="card">
-					<div class="image-wrap left image-container hoverable big-mobile">
+					<div class="image-wrap left image-container hoverable">
 						<div class="website-info">
 							<div class="centered">
 								<div class="website-link-container">

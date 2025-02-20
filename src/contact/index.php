@@ -26,7 +26,7 @@
 			<div class="section contact">
 				<div>
 					<div class="card">
-						<div class="left big-mobile">
+						<div class="left">
 							<form class="contact">
 								<span id="name-label" class="contact-label">Name</span><br>
 								<input type="input" id="name" class="input textbox" placeholder="Bruce Wayne" />
@@ -48,21 +48,23 @@
 							</form>
 						</div>
 						<div class="right">
-							<div class="contact mobile-padding container-container">
-								<div class="container">
-									<a href="mailto:k@wnd.sr" target="_blank" class="icon-link">
-										<p><i class="icon">&#xe802;</i></p>
-										<p>k@wnd.sr</p>
-									</a>
-									<a href="tel:14086834007" class="icon-link">
-										<p><i class="icon">&#xe803;</i></p>
-										<p>(408) 683-4007</p>
-									</a>
-									<a href="https://www.google.com/maps/place/San+Francisco,+CA/" target="_blank" class="icon-link">
-										<p><i class="icon">&#xe801;</i></p>
-										<p>San Francisco, CA</p>
-									</a>
-								</div>
+							<div class="icon-wrap">
+								<a href="mailto:k@wnd.sr" target="_blank" class="icon-link">
+									<p><i class="icon">&#xe802;</i></p>
+									<p>k@wnd.sr</p>
+								</a>
+							</div>
+							<div class="icon-wrap">
+								<a href="tel:14086834007" class="icon-link">
+									<p><i class="icon">&#xe803;</i></p>
+									<p>(408) 683-4007</p>
+								</a>
+							</div>
+							<div class="icon-wrap">
+								<a href="https://www.google.com/maps/place/San+Francisco,+CA/" target="_blank" class="icon-link">
+									<p><i class="icon">&#xe801;</i></p>
+									<p>San Francisco, CA</p>
+								</a>
 							</div>
 						</div>
 					</div>

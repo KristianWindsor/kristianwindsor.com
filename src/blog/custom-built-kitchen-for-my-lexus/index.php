@@ -17,7 +17,7 @@
 	</header>
 	<section class="article-body">
 		<div class="paragraph">
-			<img src="<?php echo $imageUrl ?>" class="image" alt="Lexus Kitchen" />
+			<img src="<?php echo $imageUrl ?>" alt="Lexus Kitchen" />
 		</div>
 		<div class="paragraph">
 			<p>

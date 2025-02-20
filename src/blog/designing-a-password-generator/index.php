@@ -15,7 +15,7 @@
 			By Kristian Windsor on May 8th, 2018
 		</p>
 	</header>
-	<img src="<?php echo $imageUrl; ?>" class="image" alt="Password Generator" />
+	<img src="<?php echo $imageUrl; ?>" alt="Password Generator" />
 	<section class="article-body">
 		<p>
 			You can view this finished project live at <a href="https://passgen.site/" target="_blank">passgen.site</a>.

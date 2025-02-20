@@ -17,7 +17,7 @@
 	</header>
 	<section class="article-body">
 		<div class="paragraph">
-			<img src="<?php echo $imageUrl ?>" class="image" alt="Entering email at Buzz Lightyear ride at Disneyland" />
+			<img src="<?php echo $imageUrl ?>" alt="Entering email at Buzz Lightyear ride at Disneyland" />
 			<p>
 				My email address – k@wnd.sr – is a fully functional, ultra-short version of my name.
 			</p>
