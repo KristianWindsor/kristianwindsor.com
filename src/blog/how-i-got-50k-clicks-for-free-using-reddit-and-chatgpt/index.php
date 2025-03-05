@@ -78,6 +78,30 @@
 			</p>
 			<img src="reddit-curatedtumblr.png" >
 		</div>
+		<div class="paragraph">
+			<h2>
+				The Results: Over 50,000 Clicks
+			</h2>
+			<p>
+				In 2024 alone, Reddit drove 20,978 sessions to CiteThis.net, introducing 9,425 new users to the site. The other 30,000+ sessions accumulated between 2020 and 2023, with consistent YoY growth ranging from 42% to 49%.
+			</p>
+			<p>
+				I'm thrilled with these results – for a niche tool with zero marketing budget, these numbers show incredible organic growth.
+			</p>
+			<canvas id="redditbotChart"></canvas>
+			<p>
+				You might notice a gap in the red line on the chart. Unfortunately, this data is permanently lost – it was stored in the old Google Analytics UA, which Google has since purged completely. The red line picks up in October 2021, which is right after I migrated to GA4.
+			</p>
+			<p>
+				You'll also notice that the blue line flattens to zero for over a year. That line tracks my monthly Reddit comments, and yes, the flatline is accurate. My bot went offline during that period after I started a new job – most likely due to some technical issue that I prioritized below my new responsibilities, so I temporarily shut it down.
+			</p>
+			<p>
+				During this zero-comment period, it's interesting to see traffic continuing to flow in. I don't have a solid explanation for this behavior, other than users discovering my links while browsing through older Reddit threads. I suppose it shows that content on Reddit has a surprisingly long lifespan.
+			</p>
+			<p>
+				Lastly, you can see the upward surge in the red line toward the end. This could be the result of a compound effect after years of posting comments, or because <a href="https://boomcycle.com/blog/reddit-in-google-search-results-2024/" target="_blank">Reddit content began dominating Google Search results in 2024</a>, giving my older comments much more visibility.
+			</p>
+		</div>
 	</section>
 </article>
 <?php
