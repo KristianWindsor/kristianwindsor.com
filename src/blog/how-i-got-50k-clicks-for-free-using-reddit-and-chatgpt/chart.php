@@ -89,7 +89,7 @@
 
     const ctx = document.getElementById('redditbotChart');
 
-    coolerChart = new Chart(ctx, {
+    resultsChart = new Chart(ctx, {
         type: 'line',
         data: {
             labels: chartDataLabels,
@@ -107,7 +107,8 @@
             ]
         },
         options: {
-            aspectRatio: 1.68,
+            // make chart taller for mobile
+            aspectRatio: window.innerWidth < 650 ? 1 : 1.62,
             pointHoverRadius: 5,
             interaction: {
                 mode: 'index',
@@ -126,7 +127,14 @@
                 },
                 y: {
                     ticks: {
-                        count: 7
+                        count: 7,
+                        callback: function(value, index, ticks) {
+                            if (value >= 1000 && window.innerWidth < 650) {
+                                return (value / 1000) + 'k';
+                            } else {
+                                return Chart.Ticks.formatters.numeric.apply(this, [value, index, ticks]);
+                            }
+                        }
                     },
                     title: {
                         display: true,
@@ -174,7 +182,7 @@
     // fix tooltip not quitting on mobile 
     document.addEventListener('touchstart', function (event) {
         if (event.target && event.target.tagName.toLowerCase() !== "canvas") {
-            coolerChart.canvas.dispatchEvent(new Event('mouseout'));
+            resultsChart.canvas.dispatchEvent(new Event('mouseout'));
         }
     });
 </script>

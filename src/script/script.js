@@ -200,6 +200,7 @@ function sendMessage (n,e,m) {
 // Dark Mode
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
 	$('img[src="/contact/phone.png"]').attr('src', '/contact/phone-dark.jpg');
+	$('img[src="slack-redditbot.png"]').attr('src', 'slack-redditbot-dark.png');
 }
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
 	const newColorScheme = event.matches ? "dark" : "light";
