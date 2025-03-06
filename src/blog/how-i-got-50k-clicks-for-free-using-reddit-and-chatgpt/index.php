@@ -102,6 +102,34 @@
 				Lastly, you can see the upward surge in the red line toward the end. This could be the result of a compound effect after years of posting comments, or because <a href="https://boomcycle.com/blog/reddit-in-google-search-results-2024/" target="_blank">Reddit content began dominating Google Search results in 2024</a>, giving my older comments much more visibility.
 			</p>
 		</div>
+		<div class="paragraph">
+			<h2>
+				Reddit Reputation Matters
+			</h2>
+			<p>
+				If you create a fresh Reddit account today and immediately start flooding the platform with ChatGPT-generated comments, you'll almost certainly face swift consequences – either your posts will be automatically filtered out or your account will be banned outright. On Reddit, your account's reputation is everything.
+			</p>
+			<p>
+				Instead of creating a dedicated bot account for this project, I just used my main Reddit account that already had tons of karma from years of regular posting. This credibility almost certainly helped my automated comments fly under Reddit's algorithmic radar.
+			</p>
+			<p>
+				Funny story – <a href="https://old.reddit.com/r/wallstreetbets/comments/l7feld/its_power_to_the_traders_now/" target="_blank">the 10th most upvoted post of all time in /r/wallstreetbets</a> was actually posted through my account. During the historic <a href="https://www.businessinsider.com/wallstreetbets-gamestop-nathaniel-popper-book-excerpt-2024-6" target="_blank">GameStop short-squeeze frenzy of 2021</a>, my friend <a href="https://www.linkedin.com/in/patrickmoranmoran/" target="_blank">Patrick</a> created a hilarious video about the situation, but discovered he couldn't post it himself because the subreddit had temporarily restricted submissions to only high-reputation accounts. When he reached out for help, I let him use my account, and the post absolutely exploded – gathering nearly a quarter million upvotes and likely reaching anywhere from 5 to 20 million viewers
+			</p>
+		</div>
+		<div class="paragraph">
+			<h2>
+				Just a Side Project
+			</h2>
+			<p>
+				Despite driving over 50,000 clicks and helping thousands of students, I never monetized CiteThis. No ads cluttering the interface, no premium subscription tiers, not even a modest donation button. I simply wanted to create and share something useful that solved a real problem.
+			</p>
+			<p>
+				When I first started this project, I wasn't aiming to create an AI agent for Reddit or build a fancy traffic funnel. I was simply exploring the Reddit API out of curiosity, playing around with code to see what I could build. But what started as basic tinkering eventually evolved into something cool enough to warrant its own blog post.
+			</p>
+			<p>
+				Thanks for reading and never stop tinkering!
+			</p>
+		</div>
 	</section>
 </article>
 <?php
