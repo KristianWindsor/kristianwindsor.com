@@ -50,7 +50,7 @@
 				Stage Two: Auto-Reply with Static Responses
 			</h2>
 			<p>
-				Once I figured out which keywords were actually useful and which ones weren’t, I refined my list. Too many broad terms and my Slack would blow up with irrelevant Reddit threads; too specific and I'd miss chances to jump in. I was aiming for that sweet spot where I'd only get notified when there was something worth saying (or at least wouldn't get downvoted to oblivion).
+				Once I figured out which keywords were actually useful and which ones weren’t, I refined my list. Too many broad terms and my Slack would blow up with irrelevant Reddit threads; too specific and I'd miss chances to jump in. I was aiming for that sweet spot where I'd only get notified when there was something worth contributing (or at least wouldn't get downvoted to oblivion).
 			</p>
 			<p>
 				Next, I took things to the next level by setting up automatic replies from a list of pre-written responses. When my script spotted a keyword match, it would post a comment, and I'd get a Slack message so I could verify that it was actually relevant to the conversation.
@@ -104,16 +104,30 @@
 		</div>
 		<div class="paragraph">
 			<h2>
-				Reddit Reputation Matters
+				Why My Reddit Bot Actually Works
 			</h2>
 			<p>
-				If you create a fresh Reddit account today and immediately start flooding the platform with ChatGPT-generated comments, you'll almost certainly face swift consequences – either your posts will be automatically filtered out or your account will be banned outright. On Reddit, your account's reputation is everything.
+				Unlike generic ads that interrupt users, my bot steps in when people actually want help. When someone complains about EasyBib or Citation Machine on Reddit, they're essentially raising their hand and saying "I need a better solution." My bot simply introduces them to one at exactly the right moment. This perfect timing creates relevance that generic advertising can't match.
 			</p>
 			<p>
-				Instead of creating a dedicated bot account for this project, I just used my main Reddit account that already had tons of karma from years of regular posting. This credibility almost certainly helped my automated comments fly under Reddit's algorithmic radar.
+				The responses are meant to feel natural, not promotional. When I was posting manually, I tailored my approach to each subreddit – posing as a professor in /r/professors or a student in /r/college. This authenticity worked far better than blatant ads. People don't want a sales pitch – they want genuine advice from someone who understands their challenges.
+			</p>
+			<p>
+				The bot also benefits from using my long-established Reddit account with plenty of karma. I'm sure that a fresh account spamming AI-generated comments would be automatically filtered out or just outright banned. But by using my main, high-karma account, my bot blended in and avoided detection.
 			</p>
 			<p>
 				Funny story – <a href="https://old.reddit.com/r/wallstreetbets/comments/l7feld/its_power_to_the_traders_now/" target="_blank">the 10th most upvoted post of all time in /r/wallstreetbets</a> was actually posted through my account. During the historic <a href="https://www.businessinsider.com/wallstreetbets-gamestop-nathaniel-popper-book-excerpt-2024-6" target="_blank">GameStop short-squeeze frenzy of 2021</a>, my friend <a href="https://www.linkedin.com/in/patrickmoranmoran/" target="_blank">Patrick</a> created a hilarious video about the situation, but discovered he couldn't post it himself because the subreddit had temporarily restricted submissions to only high-reputation accounts. When he reached out for help, I let him use my account, and the post absolutely exploded – gathering nearly a quarter million upvotes and likely reaching anywhere from 5 to 20 million viewers
+			</p>
+		</div>
+		<div class="paragraph">
+			<h2>
+				Business Idea: AI Agents for Social Media
+			</h2>
+			<p>
+				I could see this project being scaled into a business – offering custom AI agents that help brands promote their products on platforms like Reddit, Instagram, X, and YouTube. Instead of traditional ads, these agents would jump into conversations only at perfect moments – when someone actually needs what you're offering or is annoyed with competitors.
+			</p>
+			<p>
+				With all the AI buzz these days, a company selling "Social Media AI Agents" would probably do well just by riding the hype train. A quick Google search even turned up <a href="https://gizmodo.com/oh-no-this-startup-is-using-ai-agents-to-flood-reddit-with-marketing-slop-2000548827" target="_blank">a startup selling "an AI marketer that works 24/7"</a> – proof that there's real demand for this kind of approach. After all, it worked well for my project!
 			</p>
 		</div>
 		<div class="paragraph">
