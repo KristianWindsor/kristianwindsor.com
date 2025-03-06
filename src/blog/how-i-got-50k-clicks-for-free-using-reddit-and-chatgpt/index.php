@@ -17,7 +17,9 @@
 	</header>
 	<section class="article-body">
 		<div class="paragraph">
-			<img src="<?php echo $imageUrl ?>" >
+			<a href="https://old.reddit.com/r/college/comments/olileh/its_honestly_disgusting_what_happened_to_easybib/h5fbr53/?context=3" target="_blank" class="image-link">
+				<img src="<?php echo $imageUrl ?>" >
+			</a>
 			<p>
 				Rather than spending money on ads, I built a bot to automatically promote my website on Reddit using ChatGPT-generated responses. Over the past few years, this has brought in more than 50,000 visitors.
 			</p>
@@ -43,7 +45,7 @@
 			<p>
 				This approach worked surprisingly well. I had Slack and Reddit on my phone so I could quickly check notifications and post from anywhere, and this only took a few minutes each day.
 			</p>
-			<img src="slack-redditbot.png" style="width: 50%; margin-left: 25%" >
+			<img src="slack-redditbot.png" class="half" >
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -58,7 +60,9 @@
 			<p>
 				Most of these comments were actually super simple – someone would mention EasyBib.com and my bot would reply with nothing more than a link to CiteThis. And it worked beautifully. People saw the link, clicked it, and even upvoted my comments – no fancy sales pitch needed.
 			</p>
-			<img src="reddit-workonline.png" >
+			<a href="https://old.reddit.com/r/WorkOnline/comments/ebe78m/can_someone_please_do_my_works_cited_list_i_have/fb4uqqr/?context=3" target="_blank" class="image-link">
+				<img src="reddit-workonline.png" >
+			</a>
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -76,7 +80,9 @@
 			<p>
 				Despite the challenge, I'm impressed with the API and plan on continuing to tweak the prompts until the responses consistently sound natural – like a real person who wants to help rather than an eager sales pitch.
 			</p>
-			<img src="reddit-curatedtumblr.png" >
+			<a href="https://old.reddit.com/r/CuratedTumblr/comments/1hzrpnh/the_people_who_would_tell_me_not_to_use_wikipedia/m6taqhu/?context=3" target="_blank" class="image-link">
+				<img src="reddit-curatedtumblr.png" >
+			</a>
 		</div>
 		<div class="paragraph">
 			<h2>
@@ -112,6 +118,9 @@
 			<p>
 				The responses are meant to feel natural, not promotional. When I was posting manually, I tailored my approach to each subreddit – posing as a professor in /r/professors or a student in /r/college. This authenticity worked far better than blatant ads. People don't want a sales pitch – they want genuine advice from someone who understands their challenges.
 			</p>
+			<a href="https://old.reddit.com/r/Professors/comments/l90lt1/frustrating_emails/glhtyc2/" target="_blank" class="image-link">
+				<img src="reddit-professors.png" >
+			</a>
 			<p>
 				The bot also benefits from using my long-established Reddit account with plenty of karma. I'm sure that a fresh account spamming AI-generated comments would be automatically filtered out or just outright banned. But by using my main, high-karma account, my bot blended in and avoided detection.
 			</p>

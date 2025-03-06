@@ -310,6 +310,9 @@ img.partial {
 	margin-right: 18px;
 	float: left;
 }
+a.image-link {
+	border-bottom: none !important;
+}
 .gifisgif {
 	display: none;
 }
@@ -729,6 +732,11 @@ footer {
 	max-width: 100%;
 	margin: 20px 0;
 }
+.article-body img.half {
+	display: block;
+	width: 50%;
+	margin: 20px auto;
+}
 .article-body .image-wrap {
 	display: block;
 	text-align: center;
@@ -824,5 +832,8 @@ footer {
 	}
 	.article-body img.small {
 		width: 100%;
+	}
+	.article-body img.half {
+		width: 62%;
 	}
 }
