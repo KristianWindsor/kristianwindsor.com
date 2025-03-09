@@ -110,6 +110,28 @@
 		</div>
 		<div class="paragraph">
 			<h2>
+				How it Works Under the Hood
+			</h2>
+			<p>
+				I built this bot with Python, using libraries like <a href="https://praw.readthedocs.io/en/stable/" target="_blank">PRAW</a> and <a href="https://platform.openai.com/docs/quickstart?language=python" target="_blank">OpenAI</a>. It’s actually relatively simple – just a single 250-line python script!
+			</p>
+			<p>
+				Here's roughly how the logic works:
+			</p>
+			<ol>
+				<li>Stream all comments</li>
+				<li>Check if each comment contains a matching keyword</li>
+				<li>Decide which comment in the thread is best to respond to</li>
+				<li>Generate a response with ChatGPT, providing the entire context</li>
+				<li>Post the response</li>
+				<li>Send a Slack notification with a link to the comment</li>
+			</ol>
+			<p>
+				The script is packaged into a Docker container and deployed in my Kubernetes cluster where all my projects are hosted – including this website you're on now.
+			</p>
+		</div>
+		<div class="paragraph">
+			<h2>
 				Why My Reddit Bot Actually Works
 			</h2>
 			<p>
@@ -126,6 +148,25 @@
 			</p>
 			<p>
 				Funny story – <a href="https://old.reddit.com/r/wallstreetbets/comments/l7feld/its_power_to_the_traders_now/" target="_blank">the 10th most upvoted post of all time in /r/wallstreetbets</a> was actually posted through my account. During the historic <a href="https://www.businessinsider.com/wallstreetbets-gamestop-nathaniel-popper-book-excerpt-2024-6" target="_blank">GameStop short-squeeze frenzy of 2021</a>, my friend <a href="https://www.linkedin.com/in/patrickmoranmoran/" target="_blank">Patrick</a> created a hilarious video about the situation, but discovered he couldn't post it himself because the subreddit had temporarily restricted submissions to only high-reputation accounts. When he reached out for help, I let him use my account, and the post absolutely exploded – gathering nearly a quarter million upvotes and likely reaching anywhere from 5 to 20 million viewers
+			</p>
+		</div>
+		<div class="paragraph">
+			<h2>
+				Could This Work for Your Business?
+			</h2>
+			<p>
+				Absolutely – as long as relevant discussions are taking place somewhere on the platform. For this to work, people need to be naturally discussing a problem that your product solves, giving you an opportunity to jump in.
+			</p>
+			<p>
+				Here are a few examples:
+			</p>
+			<ul>
+				<li>If you’ve built a time management app, you could find opportunities to promote it in subreddits like r/ADHD by looking for discussions about "time blindness" or a "missed appointment".</li>
+				<li>If you're a personal injury lawyer in the Bay Area, you could find potential clients by monitoring r/legaladvice for posts mentioning "car accident" along with a local city name like "San Francisco".</li>
+				<li>If your company developed a cloud cost optimization tool, you could gain visibility in subreddits like r/devops and r/aws by mentioning it in posts containing phrases like "reducing cloud costs" or "huge bill from AWS".</li>
+			</ul>
+			<p>
+				That said, not every business can – or should – try this approach. It worked well for my citation tool because Reddit has a constant stream of students seeking help with citations. But for a local construction company, there might only be a handful of relevant conversations each month, which wouldn't justify the effort. Ultimately, it depends on whether your target audience is active Reddit and how often you’d have a chance to introduce your product or service.
 			</p>
 		</div>
 		<div class="paragraph">
