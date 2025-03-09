@@ -24,6 +24,19 @@
 		</div>
 		<div class="body">
 			<div class="section blog">
+				<a href="how-i-got-50k-clicks-for-free-using-reddit-and-chatgpt" class="card">
+					<div class="image-wrap big">
+						<img src="how-i-got-50k-clicks-for-free-using-reddit-and-chatgpt/reddit-college.png" title="" alt="" />
+					</div>
+					<div class="text-wrap">
+						<h2>
+							How I Got 50,000 Clicks for Free Using Reddit and ChatGPT
+						</h2>
+						<p>
+							You could call it an "AI agent"
+						</p>
+					</div>
+				</a>
 				<a href="the-story-behind-my-unique-email-address" class="card">
 					<div class="image-wrap big">
 						<img src="the-story-behind-my-unique-email-address/buzz-lightyear-disneyland.jpg" title="Buzz Lightyear's ride at Disneyland" alt="Entering email at Buzz Lightyear ride at Disneyland" />

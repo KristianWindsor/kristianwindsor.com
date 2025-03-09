@@ -13,6 +13,7 @@ Redirect 301 /portfolio/ /websites/
 Redirect 301 /portfolio/citethis-screenshot.png /websites/citethis-screenshot.png
 Redirect 301 /portfolio/password-generator-screenshot.png /websites/password-generator-screenshot.png
 Redirect 301 /lexus-kitchen https://kristianwindsor.com/blog/custom-built-kitchen-for-my-lexus/
+Redirect 301 /redditbot https://kristianwindsor.com/blog/how-i-got-50k-clicks-for-free-using-reddit-and-chatgpt/
 
 <IfModule mod_headers.c>
 	<Files index.html>

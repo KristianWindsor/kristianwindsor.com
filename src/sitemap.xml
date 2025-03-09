@@ -71,5 +71,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.33</priority>
   </url>
+  <url>
+    <loc>https://kristianwindsor.com/blog/how-i-got-50k-clicks-for-free-using-reddit-and-chatgpt/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.33</priority>
+  </url>
 
 </urlset>
