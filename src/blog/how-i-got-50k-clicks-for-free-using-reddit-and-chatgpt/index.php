@@ -55,7 +55,7 @@
 				Once I figured out which keywords were actually useful and which ones weren’t, I refined my list. Too many broad terms and my Slack would blow up with irrelevant Reddit threads; too specific and I'd miss chances to jump in. I was aiming for that sweet spot where I'd only get notified when there was something worth contributing (or at least wouldn't get downvoted to oblivion).
 			</p>
 			<p>
-				Next, I took things to the next level by setting up automatic replies from a list of pre-written responses. When my script spotted a keyword match, it would post a comment, and I'd get a Slack message so I could verify that it was actually relevant to the conversation.
+				Next, I took things to the next level by allowing my bot to post autonomously from a list of pre-written responses. When my script spotted a keyword match, it would post a comment, and I'd get a Slack message so I could verify that it was actually relevant to the conversation.
 			</p>
 			<p>
 				Most of these comments were actually super simple – someone would mention EasyBib.com and my bot would reply with nothing more than a link to CiteThis. And it worked beautifully. People saw the link, clicked it, and even upvoted my comments – no fancy sales pitch needed.
@@ -72,13 +72,10 @@
 				I was curious about OpenAI's API and wanted to play around with it, and my Reddit bot was the perfect candidate. It felt like a natural evolution to upgrade from static, pre-written responses to dynamic ones that could adapt to different contexts and conversations.
 			</p>
 			<p>
-				Setting up the OpenAI API was surprisingly straightforward – just a few lines of code to authenticate and send prompts. Even better was the cost – mere pennies per response, which is ideal for a passion project that doesn't generate any revenue.
+				However, I will admit that I'm still figuring this out... I implemented this recently and haven't had time to fine-tune the prompts yet. The AI-generated comments often come across as overzealous, sound like cheesy infomercials, or just feel out of place among the other comments. Reddit users can smell inauthenticity from a mile away, and some of these responses definitely set off some alarms.
 			</p>
 			<p>
-				However, I will admit that fine-tuning the responses has been quite a challenge. The AI-generated comments often come across as overzealous, sound like cheesy infomercials, and just feel out of place among the other comments. Reddit users can smell inauthenticity from a mile away, and some of these responses definitely set off some alarms.
-			</p>
-			<p>
-				Despite the challenge, I'm impressed with the API and plan on continuing to tweak the prompts until the responses consistently sound natural – like a real person who wants to help rather than an eager sales pitch.
+				But so far, I'm impressed with the API and plan on continuing to tweak the prompts until the responses consistently sound natural.
 			</p>
 			<a href="https://old.reddit.com/r/CuratedTumblr/comments/1hzrpnh/the_people_who_would_tell_me_not_to_use_wikipedia/m6taqhu/?context=3" target="_blank" class="image-link">
 				<img src="reddit-curatedtumblr.png" >
@@ -132,7 +129,7 @@
 		</div>
 		<div class="paragraph">
 			<h2>
-				Why My Reddit Bot Actually Works
+				Why My Approach Works
 			</h2>
 			<p>
 				Unlike generic ads that interrupt users, my bot steps in when people actually want help. When someone complains about EasyBib or Citation Machine on Reddit, they're essentially raising their hand and saying "I need a better solution." My bot simply introduces them to one at exactly the right moment. This perfect timing creates relevance that generic advertising can't match.
@@ -147,7 +144,7 @@
 				The bot also benefits from using my long-established Reddit account with plenty of karma. I'm sure that a fresh account spamming AI-generated comments would be automatically filtered out or just outright banned. But by using my main, high-karma account, my bot blended in and avoided detection.
 			</p>
 			<p>
-				Funny story – <a href="https://old.reddit.com/r/wallstreetbets/comments/l7feld/its_power_to_the_traders_now/" target="_blank">the 10th most upvoted post of all time in /r/wallstreetbets</a> was actually posted through my account. During the historic <a href="https://www.businessinsider.com/wallstreetbets-gamestop-nathaniel-popper-book-excerpt-2024-6" target="_blank">GameStop short-squeeze frenzy of 2021</a>, my friend <a href="https://www.linkedin.com/in/patrickmoranmoran/" target="_blank">Patrick</a> created a hilarious video about the situation, but discovered he couldn't post it himself because the subreddit had temporarily restricted submissions to only high-reputation accounts. When he reached out for help, I let him use my account, and the post absolutely exploded – gathering nearly a quarter million upvotes and likely reaching anywhere from 5 to 20 million viewers
+				There's a funny story behind my account having so much karma – <a href="https://old.reddit.com/r/wallstreetbets/comments/l7feld/its_power_to_the_traders_now/" target="_blank">the 10th most upvoted post of all time in r/wallstreetbets</a> was actually posted through my account. During the historic <a href="https://www.businessinsider.com/wallstreetbets-gamestop-nathaniel-popper-book-excerpt-2024-6" target="_blank">GameStop short-squeeze frenzy of 2021</a>, my friend <a href="https://www.linkedin.com/in/patrickmoranmoran/" target="_blank">Patrick</a> created a hilarious video about the situation, but discovered he couldn't post it himself because the subreddit had temporarily restricted submissions to only high-reputation accounts. He ended up posting with my account, and the post absolutely exploded – gathering nearly a quarter million upvotes and likely reaching anywhere from 5 to 20 million viewers
 			</p>
 		</div>
 		<div class="paragraph">
@@ -166,7 +163,7 @@
 				<li>If your company developed a cloud cost optimization tool, you could gain visibility in subreddits like r/devops and r/aws by mentioning it in posts containing phrases like "reducing cloud costs" or "huge bill from AWS".</li>
 			</ul>
 			<p>
-				That said, not every business can – or should – try this approach. It worked well for my citation tool because Reddit has a constant stream of students seeking help with citations. But for a local construction company, there might only be a handful of relevant conversations each month, which wouldn't justify the effort. Ultimately, it depends on whether your target audience is active Reddit and how often you’d have a chance to introduce your product or service.
+				That said, not every business can – or should – try this approach. It worked well for my citation tool because Reddit has a constant stream of students seeking help with citations. But for a local construction company, there might only be a handful of relevant conversations each month, which wouldn't justify the effort. Ultimately, it depends on whether your target audience is active on Reddit and how often you’d have a chance to introduce your product or service.
 			</p>
 		</div>
 		<div class="paragraph">
@@ -174,19 +171,16 @@
 				Business Idea: AI Agents for Social Media
 			</h2>
 			<p>
-				I could see this project being scaled into a business – offering custom AI agents that help brands promote their products on platforms like Reddit, Instagram, X, and YouTube. Instead of traditional ads, these agents would jump into conversations only at perfect moments – when someone actually needs what you're offering or is annoyed with competitors.
+				While this is just a side project, I could see it being scaled into a business – offering custom AI agents that help brands promote their products on platforms like Reddit, Instagram, X, and YouTube. Instead of traditional ads, these agents would jump into conversations only at perfect moments – when someone actually needs what you're offering or is annoyed with competitors.
 			</p>
 			<p>
-				With all the AI buzz these days, a company selling "Social Media AI Agents" would probably do well just by riding the hype train. A quick Google search even turned up <a href="https://gizmodo.com/oh-no-this-startup-is-using-ai-agents-to-flood-reddit-with-marketing-slop-2000548827" target="_blank">a startup selling "an AI marketer that works 24/7"</a> – proof that there's real demand for this kind of approach. After all, it worked well for my project!
+				With all the AI buzz these days, a company selling "Social Media AI Agents" would probably do well just by riding on the industry excitement. A quick Google search even turned up <a href="https://gizmodo.com/oh-no-this-startup-is-using-ai-agents-to-flood-reddit-with-marketing-slop-2000548827" target="_blank">a startup selling "an AI marketer that works 24/7"</a> – proof that there's real demand for this kind of approach.
 			</p>
 		</div>
 		<div class="paragraph">
 			<h2>
-				Just a Side Project
+				Final Thoughts
 			</h2>
-			<p>
-				Despite driving over 50,000 clicks and helping thousands of students, I never monetized CiteThis. No ads cluttering the interface, no premium subscription tiers, not even a modest donation button. I simply wanted to create and share something useful that solved a real problem.
-			</p>
 			<p>
 				When I first started this project, I wasn't aiming to create an AI agent for Reddit or build a fancy traffic funnel. I was simply exploring the Reddit API out of curiosity, playing around with code to see what I could build. But what started as basic tinkering eventually evolved into something cool enough to warrant its own blog post.
 			</p>

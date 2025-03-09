@@ -706,7 +706,7 @@ footer {
 .article-body ul {
 	margin: 5px 0;
 }
-.article-body li {
+.article-body ul li {
 	list-style-type: circle;
 }
 .article-body li p {
