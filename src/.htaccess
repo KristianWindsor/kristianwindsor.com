@@ -15,9 +15,10 @@ Redirect 301 /portfolio/password-generator-screenshot.png /websites/password-gen
 Redirect 301 /lexus-kitchen https://kristianwindsor.com/blog/custom-built-kitchen-for-my-lexus/
 Redirect 301 /redditbot https://kristianwindsor.com/blog/how-i-got-50k-clicks-for-free-using-reddit-and-chatgpt/
 
+# Preload a few files
 <IfModule mod_headers.c>
-	<Files index.html>
+	<Files index.php>
 		Header append Link "</style.css>; rel=preload; as=style"
-		Header append Link "</img/logo.png>; rel=preload; as=image"
+        Header append Link "https://fonts.googleapis.com/css2?family=Assistant:wght@400..700&display=swap; rel=preload; as=style; crossorigin"
 	</Files>
 </IfModule>
