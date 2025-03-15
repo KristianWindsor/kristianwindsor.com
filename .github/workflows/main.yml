@@ -6,7 +6,8 @@ on:
     branches: [ master ]
   workflow_dispatch:
 jobs:
-  build-and-deploy:
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       # dockerhub login
@@ -27,6 +28,12 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: kristianwindsor/kristianwindsor.com:b${{ github.run_number }},kristianwindsor/kristianwindsor.com:latest
+  
+  deploy:
+    name: Deploy
+    needs: [ build ]
+    runs-on: ubuntu-latest
+    steps:
       # deploy
       - name: Deploy to cluster
         uses: steebchen/kubectl@v1.1.0
