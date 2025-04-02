@@ -38,6 +38,25 @@
 				</h2>
 				<div class="card">
 					<div class="image-wrap">
+						<img src="lemurian-labs-logo.png" class="partial" title="Lemurian Labs, Inc." alt="Lemurian Labs logo" />
+					</div>
+					<div class="text-wrap">
+						<h3 class="title">
+							Senior DevOps Engineer
+						</h3>
+						<h4 class="text">
+							Lemurian Labs, Inc.
+						</h4>
+						<p class="text">
+							March 2025 - Present
+						</p>
+						<p class="text">
+							Building out multi-cloud infrastructure at Lemurian Labs to support engineering efforts aimed at significantly reducing the cost and energy requirements of training machine learning models — making AI more efficient and accessible to all.
+						</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="image-wrap">
 						<img src="libdib-logo.png" class="partial" title="LibDib, LLC" alt="LibDib, LLC logo" />
 					</div>
 					<div class="text-wrap">
@@ -48,10 +67,10 @@
 							LibDib, LLC
 						</h4>
 						<p class="text">
-							July 2021 - Present
+							July 2021 - March 2025
 						</p>
 						<p class="text">
-							As the primary DevOps Engineer for LibDib's e-commerce platforms, <a href="https://libdib.com/libtech/" target="_blank">LibTech</a> and eRNDC, which did $1 billion in revenue in 2024, I oversee deployments, manage infrastructure projects, and ensure the site’s uptime.
+							As the primary DevOps Engineer for LibDib's e-commerce platforms, <a href="https://libdib.com/libtech/" target="_blank">LibTech</a> and eRNDC, which did $1 billion in revenue in 2024, I oversaw deployments, managed infrastructure projects, and ensured the site’s uptime.
 						</p>
 						<p class="text">
 							Upon joining LibDib, I inherited a fragile cloud infrastructure originally built by contractors under a tight three-month deadline. I led a comprehensive modernization effort, rewriting the Terraform codebase for greater stability and transitioning LibTech from an EC2-based monolith to a Kubernetes containerized architecture. This transformation reduced our deployment time from 1.5 hours to just 15 minutes.
